@@ -1,30 +1,33 @@
 # Community
 
-An active community is the most valuable asset for an Open Source project. A big
-community can also be hard to keep organized, and keep up with, but following
+An active community is the most valuable asset for an open source project. A big
+community can also be hard to keep organized and keep up with, but following
 certain practices we can maintain a healthy signal-to-noise ratio.
 
 
 ## Communication
 
-Communication is vital. Think about an open source project were the latest
+Communication is vital. Think about an open source project where the latest
 commit is from years ago, or an issue where the last question remains unanswered
-for weeks. You find yourself in a dead end street, nothing to see here or about
-to happen. You go in search of greener pastures. As maintainers we’ll want to
+for weeks.
+You find yourself on a dead-end street. Nothing happens here, and there is no
+indication that anything will happen soon.
+You would leave in search of greener pastures. As maintainers we’ll want to
 avoid conveying that feeling.
 
 Communication, even if to only say “I don’t have the time right now, I’m sorry,
-hopefully next week”, keeps the air flowing. It shows you care about feedback,
+hopefully next week”, keeps things moving. It shows you care about feedback,
 you keep the project in mind, and you are honest about availability. Keep the
 channel always open, even when you can’t invest enough time in the project. It
 goes a long way into building a trusting community.
 
-There are different channels for different needs. We use:
+There are many tools available to open source maintainers, each fulfilling a
+different purpose:
 
-* **Issue trackers** for concrete tasks that need to be done on the source code.
-  This is, keep track of software bugs, desired features for future versions,
-  concrete improvements to the code base, etc.
-* **Wikis** as community maintained documentation, and how-to guides.
+* **Issue trackers** for concrete tasks that need to be done on the source code,
+  such as: tracking software bugs; documenting desired features; and making
+  concrete improvements to the code.
+* **Wikis** as community maintained documentation and how-to guides.
 * **Forums and Q&A websites** (like StackOverflow), for answering specific
   questions users have about usage of the project.
 * **Mailing lists and chat rooms** can be useful if there is activity. Otherwise
@@ -219,7 +222,7 @@ This has proven to be a significant weight on maintainers' shoulders, a feeling
 so hard to deal with that leads to burnout and ultimately the abandonment of the
 project.
 
-In the Open Source world nobody owes anything to anyone. If anything, users owe
+In the open source world nobody owes anything to anyone. If anything, users owe
 maintainers gratitude for publishing something that was and is useful to them.
 Your code is being run in who knows how many computers and servers, you provided
 work to many more companies you can even think of.

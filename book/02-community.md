@@ -50,6 +50,12 @@ where people struggle, why they struggle, and what you could improve in your
 software or documentation to make the onboarding process smoother. In the early
 stages each interaction should be celebrated: your project is getting validated.
 
+Routinely acknowledge contributors to your project. Thank them for their time
+they spend providing feedback and code. Thank them publicly, and be explicit
+about why their contributions were useful to you and to the community. People
+like being appreciated, and are more likely to keep contributing if you show
+appreciation for their work.
+
 When the project gets popular, participation starts to be more of a liability.
 Feature requests, help requests, bug reports, and patches all land in your
 inbox, and it can get tough to manage. You may even feel guilty about not
@@ -127,7 +133,7 @@ again? Meanwhile, adding the question to an FAQ page can prove a good band-aid.
 Being able to link to it will already be helpful.
 
 
-## When is it enough?
+## Enough communication already!
 
 There are two rules we should keep in mind in any discussion:
 
@@ -241,7 +247,7 @@ Wrapping up, while giving feedback it’s good to:
 * Review is of the code, not people. Keep this in mind as a contributor too.
 
 
-## Expectations and guilt
+### Expectations and guilt
 
 Maintaining an open source project can provoke some negative feelings that have
 proven to be a significant weight on many maintainers' shoulders. This can be

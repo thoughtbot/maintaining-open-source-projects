@@ -8,3 +8,5 @@
 \mainmatter
 
 <<[02-community.md]
+
+<<[03-git.md]

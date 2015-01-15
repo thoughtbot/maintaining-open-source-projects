@@ -19,3 +19,13 @@ analyze its own code. They will be naturally biased and will make assumptions
 that an independent reviewer won’t. That would be like me claiming my code
 doesn’t need Q&A because I already did that myself. It just doesn’t work that
 way.
+
+
+# Podcasts on FOSS projects
+
+Ghosts and the Wordpress model of a not for profit organization that employs
+people
+http://thechangelog.com/105/
+
+IO.js (ex Node.js), and on being a dictator vs GNU-open:
+http://thechangelog.com/139/

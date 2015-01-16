@@ -221,9 +221,24 @@ zeros with the popularity of your project).
 
 People can be rude while complaining about errors or lack of features.
 
-This has proven to be a significant weight on maintainers' shoulders, a feeling
-so hard to deal with that leads to burnout and ultimately the abandonment of the
-project.
+This has proven to be a significant weight on many maintainers' shoulders, a
+feeling so hard to deal with that leads to burnout and ultimately the
+abandonment of the project. A few examples follow:
+
+* [GitHub meta-issue to “help open-source maintainers stay
+    sane”](https://github.com/isaacs/github/issues/167)
+* [Fat's talk: What Is Open Source And Why Do I Feel So
+    Guilty?](https://www.youtube.com/watch?v=UIDb6VBO9os)
+* [docpad maintainer quits due to burn
+    out](https://github.com/docpad/docpad/issues/821)
+* [capistrano maintainer quits due to burn
+    out](https://groups.google.com/forum/#!msg/capistrano/nmMaqWR1z84/hdjAGIGbwdYJ)
+* [Google Talk: How Open Source Projects Survive Poisonous People (And You Can
+    Too)](https://www.youtube.com/watch?v=Q52kFL8zVoM)
+* [Phillip Roberts's blog post: Creation and
+    Vulnerability](http://latentflip.com/creation-and-vulnerability/)
+* [Basecamp blog post: Open Source Guilt and
+    Passion](https://signalvnoise.com/posts/3349-open-source-guilt-passion)
 
 In the open source world nobody owes anything to anyone. If anything, users owe
 maintainers gratitude for publishing something that was and is useful to them.

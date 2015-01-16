@@ -163,7 +163,9 @@ This is a description of the “Chameleon Effect” cognitive bias, also called
 “unintentional mirroring”, our tendency to take on characteristics that have
 been arbitrarily assigned to us.
 
-This was studied in a training camp, where officers were about to instruct a
+This was [studied in a training
+camp](http://psycnet.apa.org/journals/apl/67/2/194/) where officers were about
+to instruct a
 leadership development course for junior officers, deciding who would become
 the next batch of leaders. The training officers were informed, based on ratings
 by previous commanders, which trainees presented “high”, “regular” or “unknown”

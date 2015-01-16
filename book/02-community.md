@@ -7,13 +7,12 @@ certain practices we can maintain a healthy signal-to-noise ratio.
 
 ## Communication
 
-Communication is vital. Think about an open source project where the latest
-commit is from years ago, or an issue where the last question remains unanswered
-for weeks.
-You find yourself on a dead-end street. Nothing happens here, and there is no
-indication that anything will happen soon.
-You would leave in search of greener pastures. As maintainers we’ll want to
-avoid conveying that feeling.
+Communication is vital. Think about an open source project where the last
+question in the issue tracker remains unanswered for weeks, and you can’t find
+any activity in the public profiles of the maintainers. You find yourself on a
+dead-end street. Nothing happens here, and there is no indication that anything
+will happen soon. You would leave in search of greener pastures. As maintainers
+we’ll want to avoid conveying that feeling.
 
 Communication, even if to only say “I don’t have the time right now, I’m sorry,
 hopefully next week”, keeps things moving. It shows you care about feedback,
@@ -30,14 +29,16 @@ different purpose:
 * **Wikis** as community maintained documentation and how-to guides.
 * **Forums and Q&A websites** (like StackOverflow), for answering specific
   questions users have about usage of the project.
-* **Mailing lists and chat rooms** can be useful if there is activity. Otherwise
-  they can turn into half empty restaurants, exposing a negative image for your
-  project, they better not exist if that is the case.
+* **Mailing lists and chat rooms** can be useful if there is activity.
+
+If any of these channels have no activity they can seem like half empty
+restaurants, exposing a negative image for your project. The project will be
+better off not having them if that is the case.
 
 
 ## Encourage (the right amount of) participation
 
-The project’s website and/or README file are the landing page for your audience.
+The project’s website or README file are the landing page for your audience.
 Link to resources you use to interact between users and developers, and explain
 how and why to use them. Describe why the project exists and how to use it.
 Show how to contribute to it. Use clear and welcoming language, you are helping
@@ -200,8 +201,8 @@ TODO: Would like to extend this section
 TODO: Extensively quote Paul’s talk in RubyConf Argentina, it was all about this
 -->
 
-This is important for Pull Requests, for giving and receiving feedback in
-general, and _most clearly_ for everyday life as well.
+This is important for Pull Requests and for giving and receiving feedback in
+any other situation too.
 
 
 ## Expectations and guilt

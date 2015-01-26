@@ -27,12 +27,12 @@ each fulfilling a different purpose:
 * **Issue trackers** for concrete tasks that need to be done on the source,
   such as: tracking software bugs; documenting desired features; and making
   concrete improvements to the code.
-* **Wikis** as community maintained documentation and how-to guides.
+* **Wikis** for community maintained documentation and how-to guides.
 * **Forums and Q&A websites** for answering specific questions users have about
   usage of the project.
 * **Mailing lists and chat rooms** for general talk.
 
-If any of these channels have little activity they can seem like half empty
+If any of these channels have little activity, they can seem like half empty
 restaurants, exposing a negative image for your project. The project will be
 better off not having them when that is the case.
 
@@ -46,14 +46,14 @@ Show how to contribute to it. Use clear and welcoming language, you are helping
 your community become users of your projects, and helping them help you.
 
 Any kind of participation is useful to your nascent project. You can see
-where people struggle, why do they struggle, and what you could improve in your
+where people struggle, why they struggle, and what you could improve in your
 software or documentation to make the onboarding process smoother. In the early
 stages each interaction should be celebrated: your project is getting validated.
 
 When the project gets popular, participation starts to be more of a liability.
-Feature requests, help requests, bug reports, and patches land all in your
+Feature requests, help requests, bug reports, and patches all land in your
 inbox, and it can get tough to manage. You may even feel guilty about not
-responding to people timely as before. I believe this is
+responding to people as timely as you could before. I believe this is
 a nice problem to have, a problem nonetheless.
 
 Many users start to use the issue tracker for questions around implementation

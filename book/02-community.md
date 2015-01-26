@@ -28,8 +28,8 @@ each fulfilling a different purpose:
   such as: tracking software bugs; documenting desired features; and making
   concrete improvements to the code.
 * **Wikis** as community maintained documentation and how-to guides.
-* **Forums and Q&A websites** (like StackOverflow), for answering specific
-  questions users have about usage of the project.
+* **Forums and Q&A websites** for answering specific questions users have about
+  usage of the project.
 * **Mailing lists and chat rooms** for general talk.
 
 If any of these channels have little activity they can seem like half empty
@@ -61,7 +61,7 @@ details in their own software, or issues that don’t cut it as software bugs, a
 when that happens your inbox and issue tracker start to suffer. To avoid this,
 politely ask them to move their question where it belongs.
 
-You will decide when to move discussions out of the issue tracker. StackOverflow
+You will decide when to move discussions out of the issue tracker. Stack Overflow
 won’t be helpful when you have a small audience, in that case the issue tracker
 is the right place to ask. When those questions begin to be answered organically
 by members of your community may be a good moment to grow onto other platforms.

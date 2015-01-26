@@ -1,3 +1,5 @@
+# Preface
+
 Maintaining open source projects comes with many responsibilities that are non
 technical. A project leader should feel comfortable shaping the community,
 promoting the library, maintaining good communication with many people, deciding

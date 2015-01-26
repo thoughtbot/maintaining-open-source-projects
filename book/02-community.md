@@ -68,11 +68,11 @@ is the right place to ask. It may be a good moment to grow onto other platforms
 when those questions begin to be answered organically by members of your
 community.
 
-I always suggest to interact “politely” so interaction is smooth and you
+I always suggest you interact “politely” so interaction is smooth and you
 increase the chance they follow your advice. Otherwise they might feel cheated
 because you didn’t solve their problem, whoever problem this is, and they may
-insist you to act. You have no time to waste in these type of arguments, being
-friendly helps.
+insist you act. You have no time to waste in these arguments, being friendly
+helps.
 
 Another problem that commonly results in clutter in the issue tracker is
 irreproducibility. Users may be trying to show a legit problem with your
@@ -83,8 +83,8 @@ provide more information. I personally link to
 
 Steve Klabnik [refers to this work as
 “gardening”](http://words.steveklabnik.com/how-to-be-an-open-source-gardener):
-you often and regularly pull the weeds out to keep it clean, in the particular
-case he describes, the Ruby on Rails issue tracker.
+you often and regularly pull the weeds out to keep it clean, in his particular
+case the Ruby on Rails issue tracker.
 
 Precooked responses for these common interactions can be a huge time saver. Copy
 & paste a paragraph of text, press a button, and you took care of an issue. Some
@@ -99,8 +99,8 @@ examples I use:
 > stackoverflow.com/questions/tagged/factory-girl, which will get attention from
 > more people than in this issue tracker. Thanks!
 
-Some issues get stale, with not even the requester chiming into it anymore. When
-there’s not enough information it’s impossible to solve. An example response for
+Some issues get stale, with not even the requester chiming into it anymore. It’s
+impossible to solve when there’s not enough information. An example response for
 these cases:
 
 > Since it’s been two months, I hope things are working well now for you. I’ll
@@ -112,14 +112,14 @@ together, and rebase on top of upstream’s
 master](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
 
 José Valim, maintainer of devise and elixir among others, uses a browser
-extension that allows to post pre-cooked answers into GitHub Pull Requests with
-the single press of a button. You can find the code in [GitHub: Jose vs
+extension that allows you to post pre-cooked answers into GitHub Pull Requests
+with the single press of a button. You can find the code in [GitHub: Jose vs
 OSS](https://github.com/nashby/jose-vs-oss).
 
-Repeating questions is a good symptom of something in your project that should
-be simplified, documentation that needs a little more attention, better error
-messages awaiting, etc. Before disregarding simple repeating questions with
-variations of RTFM (short for “read the freaking manual” and its variations),
+Repeated questions is a good sign that there is something in your project that
+should be simplified, documentation that needs a little more attention, better
+error messages awaiting, etc. Before disregarding repeated questions with
+variations of RTFM (short for “read the freaking manual”, and variations),
 try to ask for feedback to someone you trust, or to take a step back and look at
 your project with the eyes of a new comer. Do you see anything that is not clear
 enough? What could this project do to lower the odds of this question appearing

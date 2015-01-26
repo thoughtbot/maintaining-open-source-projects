@@ -185,26 +185,57 @@ they are not already.
 
 ## On feedback
 
-Giving quality feedback and receiving feedback in a productive way is paramount.
+I find being aware of cognitive biases to be most useful while giving and
+receiving feedback in a productive manner for both parties. A [cognitive
+bias](https://en.wikipedia.org/wiki/Cognitive_bias) is a pattern of deviation in
+judgment, from which inferences about other people and situations may be drawn
+in an illogical way.
 
-When giving feedback it is good to:
+[Fairness
+bias](http://www.amazon.com/Sway-Irresistible-Pull-Irrational-Behavior/dp/0385530609),
+for example, describes our tendency to seek balance. If a supplier keeps an open
+line of communication with an unhappy customer about a faulty product, the
+customer will respond more favourably regardless of the outcome. The need to be
+heard takes more relevance than the need of the product working correctly. We
+can apply this to code revision. Asking instead of directly commenting makes the
+contributor feel heard and valued. And if we are the authors of the changeset we
+can harness this effect even before conversation starts, by explaining the
+rationale of our work when we send it.
 
-* Keep in mind the review is of the code and never of a person.
-* Phrase ideas in the form of questions. (“What do you think about doing X?”)
+[Loss aversion](https://en.wikipedia.org/wiki/Loss_aversion) describes people’s
+tendency to strongly prefer avoiding losses to acquiring gains. More concretely,
+giving you 5 dollars won’t make you extremely happy but if I take 5 from you you
+will get upset. This relates with saying “no” to a Pull Request. As a
+contributor you should know that however strongly you feel your patch should be
+merged in, if you were the reviewer or another external party you would probably
+not feel so strongly about it. As a reviewer, giving a clear explanation of the
+reasons of your rejection will probably help avoiding a longer discussion on the
+reasons why the patch should or should not be merged.
+
+Daniel Goleman identifies an [online negative
+bias](https://www.youtube.com/watch?v=TBCiSAJ20Wc): what you thought was a
+neutral message can be read as hostile, and what you thought was positive can be
+assumed to be neutral. You can avoid this by using positive language instead of
+neutral. Written discussions have less bandwidth, they need to be more explicit
+and include more context than conversations over the phone or in person.
+
+We already covered the [Chameleon
+Effect](https://en.wikipedia.org/wiki/Pygmalion_effect). Remembering everyone
+knows something you don’t yet know will help you treating everyone with care,
+making them feel valuable to your project.
+
+Wrapping up, while giving feedback:
+
+* Start with appreciation for the contributions.
 * Be explicit. Discussions over the wire have less bandwidth than in person, and
   need more context.
+* Ask, don’t tell. Phrase ideas as questions.
 * Try to respond to every question and comment.
-* Avoid flamewars (unless it’s your jam).
+* If you disagree strongly, consider giving it a few moments before responding.
 * Don’t assume the audience shares your experience or context. Avoid words like
   “basically”, “simply”, “clearly”, etc.
-
-<!--
-TODO: Would like to extend this section
-TODO: Extensively quote Paul’s talk in RubyConf Argentina, it was all about this
--->
-
-This is important for Pull Requests and for giving and receiving feedback in
-any other situation too.
+* Avoid flamewars (unless it’s your thing).
+* Review is of the code, not people. Keep this in mind as a contributor too.
 
 
 ## Expectations and guilt

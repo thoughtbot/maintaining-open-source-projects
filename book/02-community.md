@@ -59,12 +59,14 @@ a nice problem to have, a problem nonetheless.
 Many users start to use the issue tracker for questions around implementation
 details in their own software, or issues that don’t cut it as software bugs, and
 when that happens your inbox and issue tracker start to suffer. To avoid this,
-politely ask them to move their question where it belongs.
+politely ask users to move their questions and non-related issues where they
+belong.
 
 You will decide when to move discussions out of the issue tracker. Stack Overflow
-won’t be helpful when you have a small audience, in that case the issue tracker
-is the right place to ask. When those questions begin to be answered organically
-by members of your community may be a good moment to grow onto other platforms.
+won’t be helpful when you have a small audience. In that case the issue tracker
+is the right place to ask. It may be a good moment to grow onto other platforms
+when those questions begin to be answered organically by members of your
+community.
 
 I always suggest to interact “politely” so interaction is smooth and you
 increase the chance they follow your advice. Otherwise they might feel cheated

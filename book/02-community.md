@@ -123,18 +123,18 @@ variations of RTFM (short for “read the freaking manual”, and variations),
 try to ask for feedback to someone you trust, or to take a step back and look at
 your project with the eyes of a new comer. Do you see anything that is not clear
 enough? What could this project do to lower the odds of this question appearing
-again?  Meanwhile, adding the question to an FAQ page can prove a good band aid.
+again?  Meanwhile, adding the question to an FAQ page can prove a good band-aid.
 Being able to link to it will already be helpful.
 
 
 ## When is it enough?
 
-There are two rules we should keep in mind in any discussion.
+There are two rules we should keep in mind in any discussion:
 
 **The bike-shed effect** (also called “Parkinson’s law of triviality”) states
 that groups give disproportionate weight to trivial issues. For example, a
 committee whose job is to approve plans for a nuclear power plant spends the
-majority of its time on relatively trivial and unimportant but easy-to-grasp
+majority of its time on relatively unimportant but easy-to-grasp
 issues, such as what materials to use for the staff bike-shed, while neglecting
 the less-trivial proposed design of the nuclear power plant itself, which is far
 more important but also a far more difficult and complex task to criticize

@@ -1,9 +1,9 @@
 # Community
 
-An active community is the most valuable asset for an open source project. A big
-community can also be hard to keep organized and keep up with, but following
-certain practices we can maintain a healthy signal-to-noise ratio across the
-wire.
+An active community is the most valuable asset for an open source project. If
+the community is also big it can be hard to keep organized and keep up with, but
+following certain practices will help you maintain a healthy signal-to-noise
+ratio across the wires.
 
 
 ## Communication

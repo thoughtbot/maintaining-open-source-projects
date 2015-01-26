@@ -12,7 +12,7 @@ teams to make a project succeed. If you want to learn how open source
 contributors are organized and the ways they develop software to apply those
 practices in your team, this book is for you.
 
-As Software Developers we are used to thinking about software projects, but
+As software developers we are used to thinking about software projects, but
 there are also different kinds of collaborative projects such as
 [libraries](https://github.com/GITenberg), [government
 data](https://github.com/project-open-data), [geographical

@@ -2,38 +2,39 @@
 
 An active community is the most valuable asset for an open source project. A big
 community can also be hard to keep organized and keep up with, but following
-certain practices we can maintain a healthy signal-to-noise ratio.
+certain practices we can maintain a healthy signal-to-noise ratio across the
+wire.
 
 
 ## Communication
 
 Communication is vital. Think about an open source project where the last
-question in the issue tracker remains unanswered for weeks, and you can’t find
+question remains unanswered for weeks in the issue tracker, and you can’t find
 any activity in the public profiles of the maintainers. You find yourself on a
 dead-end street. Nothing happens here, and there is no indication that anything
 will happen soon. You would leave in search of greener pastures. As maintainers
-we’ll want to avoid conveying that feeling.
+we’ll want to avoid conveying that feeling to keep the userbase centralized.
 
-Communication, even if to only say “I don’t have the time right now, I’m sorry,
+Communication, even if to only say “I don’t have the time right now,
 hopefully next week”, keeps things moving. It shows you care about feedback,
 you keep the project in mind, and you are honest about availability. Keep the
 channel always open, even when you can’t invest enough time in the project. It
 goes a long way into building a trusting community.
 
-There are many tools available to open source maintainers, each fulfilling a
-different purpose:
+There are many tools available to open source maintainers for communication,
+each fulfilling a different purpose:
 
-* **Issue trackers** for concrete tasks that need to be done on the source code,
+* **Issue trackers** for concrete tasks that need to be done on the source,
   such as: tracking software bugs; documenting desired features; and making
   concrete improvements to the code.
 * **Wikis** as community maintained documentation and how-to guides.
 * **Forums and Q&A websites** (like StackOverflow), for answering specific
   questions users have about usage of the project.
-* **Mailing lists and chat rooms** can be useful if there is activity.
+* **Mailing lists and chat rooms** for general talk.
 
-If any of these channels have no activity they can seem like half empty
+If any of these channels have little activity they can seem like half empty
 restaurants, exposing a negative image for your project. The project will be
-better off not having them if that is the case.
+better off not having them when that is the case.
 
 
 ## Encourage (the right amount of) participation

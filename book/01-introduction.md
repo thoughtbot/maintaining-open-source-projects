@@ -1,7 +1,7 @@
 # Preface
 
-Maintaining open source projects comes with many responsibilities that are non
-technical. A project leader should feel comfortable shaping the community,
+Maintaining open source projects comes with many responsibilities that are
+nontechnical. A project leader should feel comfortable shaping the community,
 promoting the library, maintaining good communication with many people, deciding
 when to release new versions, etc. If you want to learn the soft skills needed
 to grow and maintain an open source project, this book is for you.

@@ -45,39 +45,41 @@ how and why to use them. Describe why the project exists and how to use it.
 Show how to contribute to it. Use clear and welcoming language, you are helping
 your community become users of your projects, and helping them help you.
 
-When the project is nascent, any kind of participation is useful. You can see
-where people struggle, why does that happen, and what you could improve in your
-software or documentation to make the on-boarding process smoother. When the
-project is small one should celebrate each interaction: it is getting validated.
+Any kind of participation is useful to your nascent project. You can see
+where people struggle, why do they struggle, and what you could improve in your
+software or documentation to make the onboarding process smoother. In the early
+stages each interaction should be celebrated: your project is getting validated.
 
 When the project gets popular, participation starts to be more of a liability.
 Feature requests, help requests, bug reports, and patches land all in your
-inbox, and it can get hard to manage. You may even feel guilty about not
-curating that list/responding to the people timely as before. I believe this is
+inbox, and it can get tough to manage. You may even feel guilty about not
+responding to people timely as before. I believe this is
 a nice problem to have, a problem nonetheless.
 
-The most typical way of losing control of the issue tracker is when users use it
-for questions on implementation details in their own software, or issues that
-don’t cut it as software bugs. When that happens, politely ask them to move
-their question where it belongs (StackOverflow for example).
+Many users start to use the issue tracker for questions around implementation
+details in their own software, or issues that don’t cut it as software bugs, and
+when that happens your inbox and issue tracker start to suffer. To avoid this,
+politely ask them to move their question where it belongs.
 
-I say “politely” so interaction is smooth and you increase the chance they
-follow your advice; otherwise they might feel cheated because you didn’t solve
-their problem, whoever problem this is, and they may insist you to act. You have
-no time to waste in these type of arguments, being friendly helps.
+You will decide when to move discussions out of the issue tracker. StackOverflow
+won’t be helpful when you have a small audience, in that case the issue tracker
+is the right place to ask. When those questions begin to be answered organically
+by members of your community may be a good moment to grow onto other platforms.
 
-Another common problem that results in clutter in the issue tracker is
+I always suggest to interact “politely” so interaction is smooth and you
+increase the chance they follow your advice. Otherwise they might feel cheated
+because you didn’t solve their problem, whoever problem this is, and they may
+insist you to act. You have no time to waste in these type of arguments, being
+friendly helps.
+
+Another problem that commonly results in clutter in the issue tracker is
 irreproducibility. Users may be trying to show a legit problem with your
-project, but with so little information it’s impossible to reproduce, or to
-decide if it is actually a problem with your project at all or not. In this
-case, ask them to provide more information. I personally link to
+project, but with so little information it’s impossible to reproduce or decide
+if it is actually a problem with your project at all. In this case, ask them to
+provide more information. I personally link to
 [yourbugreportneedsmore.info](http://yourbugreportneedsmore.info).
 
-Twitter Bootstrap author Fat [draws an analogy with
-puppies](https://www.youtube.com/watch?v=UIDb6VBO9os#t=1193): fun to grow and
-play with while they are new and small, but more of a chore when they grow
-bigger (watch out as they may grow bigger than your whole home). Steve Klabnik
-[refers to this work as
+Steve Klabnik [refers to this work as
 “gardening”](http://words.steveklabnik.com/how-to-be-an-open-source-gardener):
 you often and regularly pull the weeds out to keep it clean, in the particular
 case he describes, the Ruby on Rails issue tracker.
@@ -96,8 +98,8 @@ examples I use:
 > more people than in this issue tracker. Thanks!
 
 Some issues get stale, with not even the requester chiming into it anymore. When
-there’s not enough information it’s impossible to solve the issue. An example of
-a response for these issues:
+there’s not enough information it’s impossible to solve. An example response for
+these cases:
 
 > Since it’s been two months, I hope things are working well now for you. I’ll
 > close the issue until we can confirm it’s still happening. Happy to continue
@@ -115,12 +117,12 @@ OSS](https://github.com/nashby/jose-vs-oss).
 Repeating questions is a good symptom of something in your project that should
 be simplified, documentation that needs a little more attention, better error
 messages awaiting, etc. Before disregarding simple repeating questions with
-variations of [RTFM](https://en.wikipedia.org/wiki/RTFM), try to ask for
-feedback to someone you trust, or to take a step back and look at your project
-with the eyes of a new comer. Do you see anything that is not clear enough? What
-could this project do so that the odds of this question reappearing are lower?
-Meanwhile, adding the question to a FAQ page can prove a good band aid. Being
-able to link to it will already be helpful.
+variations of RTFM (short for “read the freaking manual” and its variations),
+try to ask for feedback to someone you trust, or to take a step back and look at
+your project with the eyes of a new comer. Do you see anything that is not clear
+enough? What could this project do to lower the odds of this question appearing
+again?  Meanwhile, adding the question to an FAQ page can prove a good band aid.
+Being able to link to it will already be helpful.
 
 
 ## When is it enough?

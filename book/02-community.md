@@ -178,7 +178,7 @@ command potential. Something neither trainers nor trainees knew was that
 Four months later all trainees took a test based on the materials they learned
 during the program, and it was found that trainees whom the training officers
 thought had high potential, scored better on the test than their “unknown” and
-“regular” counterparts. Being *labeled* as leaders resulted in improved exam
+“regular” counterparts. Being *labeled* as leaders resulted in actual improved exam
 results.
 
 Do your project a favor and treat all your contributors as if they are the most
@@ -200,24 +200,24 @@ for example, describes our tendency to seek balance. If a supplier keeps an open
 line of communication with an unhappy customer about a faulty product, the
 customer will respond more favourably regardless of the outcome. The need to be
 heard takes more relevance than the need of the product working correctly. We
-can apply this to code revision. Asking instead of directly commenting makes the
-contributor feel heard and valued. And if we are the authors of the changeset we
-can harness this effect even before conversation starts, by explaining the
-rationale of our work when we send it.
+can apply this to code revision. Asking instead of asserting makes the
+contributor feel heard and valued. If we are the authors we can harness this
+effect even before conversation starts, by explaining beforehand the rationale
+behind our work.
 
 [Loss aversion](https://en.wikipedia.org/wiki/Loss_aversion) describes people’s
 tendency to strongly prefer avoiding losses to acquiring gains. More concretely,
-giving you 5 dollars won’t make you extremely happy but if I take 5 from you you
-will get upset. This relates with saying “no” to a Pull Request. As a
-contributor you should know that however strongly you feel your patch should be
-merged in, if you were the reviewer or another external party you would probably
-not feel so strongly about it. As a reviewer, giving a clear explanation of the
-reasons of your rejection will probably help avoiding a longer discussion on the
-reasons why the patch should or should not be merged.
+giving you 5 dollars won’t make you extremely happy but if I take $5 from you
+you will get upset. This relates with saying “no” to a Pull Request. As a
+reviewer, giving a clear explanation of the reasons of your rejection will
+probably help avoiding a longer discussion on the reasons why the patch should
+or should not be merged. As a contributor you should know that however strongly
+you feel your patch should be merged in, if you were the reviewer or another
+external party you would probably not feel so strongly about it.
 
 Daniel Goleman identifies an [online negative
 bias](https://www.youtube.com/watch?v=TBCiSAJ20Wc): what you thought was a
-neutral message can be read as hostile, and what you thought was positive can be
+neutral message can be read as hostile, and what you thought was positive may be
 assumed to be neutral. You can avoid this by using positive language instead of
 neutral. Written discussions have less bandwidth, they need to be more explicit
 and include more context than conversations over the phone or in person.
@@ -225,14 +225,14 @@ and include more context than conversations over the phone or in person.
 We already covered the [Chameleon
 Effect](https://en.wikipedia.org/wiki/Pygmalion_effect). Remembering everyone
 knows something you don’t yet know will help you treating everyone with care,
-making them feel valuable to your project.
+making them feel valuable to your project and inspiring further contributions.
 
-Wrapping up, while giving feedback:
+Wrapping up, while giving feedback it’s good to:
 
-* Start with appreciation for the contributions.
+* Start with appreciation for the work and input.
+* Ask, don’t tell. Phrase ideas as questions.
 * Be explicit. Discussions over the wire have less bandwidth than in person, and
   need more context.
-* Ask, don’t tell. Phrase ideas as questions.
 * Try to respond to every question and comment.
 * If you disagree strongly, consider giving it a few moments before responding.
 * Don’t assume the audience shares your experience or context. Avoid words like

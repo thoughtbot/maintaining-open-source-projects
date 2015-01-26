@@ -139,10 +139,10 @@ more important but also a far more difficult and complex task to criticize
 constructively.
 
 When you see more activity than normal in a discussion over a superficial matter
-(according to a threshold that works for you and your project), take one
+(according to a threshold that works for you), take one
 decision and call it resolved. You will be saving everyone’s time. Everyone’s
 but the time of the trolls, they’ll now have to search for another thread where
-to continue their work. I’m personally ok with that.
+to continue their work. I call that a success.
 
 **Goldwin’s law** states that as an online discussion grows longer (regardless
 of topic or scope), sooner or later someone will compare someone or something to
@@ -151,7 +151,7 @@ Hitler or Nazism. You may find yourself in the unhappy need to quote it.
 When it happens, it’s a reliable red flag of a low signal-to-noise ratio, this
 is the miner’s canary of a conversation that went too far, a good moment to jump
 out. Call the thread finished and whoever mentioned the Nazis automatically
-loses the debate. Done! Link to [the Wikipedia
+loses the debate. Link to [the Wikipedia
 article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun.
 
 
@@ -261,7 +261,7 @@ abandonment of the project. A few examples follow:
 
 * [GitHub meta-issue to “help open-source maintainers stay
     sane”](https://github.com/isaacs/github/issues/167)
-* [Fat's talk: What Is Open Source And Why Do I Feel So
+* [Jacob “Fat” Thornton’s talk: What Is Open Source And Why Do I Feel So
     Guilty?](https://www.youtube.com/watch?v=UIDb6VBO9os)
 * [docpad maintainer quits due to burn
     out](https://github.com/docpad/docpad/issues/821)

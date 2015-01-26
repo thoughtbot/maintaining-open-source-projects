@@ -244,20 +244,20 @@ Wrapping up, while giving feedback it’s good to:
 ## Expectations and guilt
 
 Businesses rely on your project. Software projects rely on it. People rely on
-it. They ultimately rely on you, as the project’s owner/maintainer.
+it. They ultimately rely on you, the project owner.
 
 You are aware that if you put in three more hours of work you may be saving ten
 people’s time next week, not to mention through the future, and that makes you
-feel somehow responsible for that potential save.
+feel somehow responsible for the potential save.
 
 An unintended regression could directly affect hundreds of people (add or remove
 zeros with the popularity of your project).
 
 People can be rude while complaining about errors or lack of features.
 
-This has proven to be a significant weight on many maintainers' shoulders, a
+These situations have proven to be a significant weight on many maintainers' shoulders, a
 feeling so hard to deal with that leads to burnout and ultimately the
-abandonment of the project. A few examples follow:
+abandonment of the project. Here is a list of a few examples:
 
 * [GitHub meta-issue to “help open-source maintainers stay
     sane”](https://github.com/isaacs/github/issues/167)
@@ -267,8 +267,8 @@ abandonment of the project. A few examples follow:
     out](https://github.com/docpad/docpad/issues/821)
 * [capistrano maintainer quits due to burn
     out](https://groups.google.com/forum/#!msg/capistrano/nmMaqWR1z84/hdjAGIGbwdYJ)
-* [Google Talk: How Open Source Projects Survive Poisonous People (And You Can
-    Too)](https://www.youtube.com/watch?v=Q52kFL8zVoM)
+* [Google Talk: How Open Source Projects Survive Poisonous
+    People](https://www.youtube.com/watch?v=Q52kFL8zVoM)
 * [Phillip Roberts's blog post: Creation and
     Vulnerability](http://latentflip.com/creation-and-vulnerability/)
 * [Basecamp blog post: Open Source Guilt and
@@ -276,7 +276,7 @@ abandonment of the project. A few examples follow:
 
 In the open source world nobody owes anything to anyone. If anything, users owe
 maintainers gratitude for publishing something that was and is useful to them.
-Your code is being run in who knows how many computers and servers, you provided
+Your code is being run in who-knows how many computers and servers, you provided
 work to many more companies you can even think of.
 
 Let’s say you actually wasted your and people’s time by making a mistake, say,
@@ -286,14 +286,14 @@ and gained time on the left side (from your work on the project until this
 hypothetical mistake) chances are it is still uneven, looking straight up. A
 mistake today doesn’t undo all your previous help and successes.
 
-People’s expectations and needs will be different than what you set for yourself
-and your project. You can try to channel and intersect that but never control or
-absolutely agree on them.
-
 We’ll be better maintainers if we are energetic. Negative feelings won’t help on
 that, positive ones will. How to change how we feel is not topic for this book,
 I hope at least to raise awareness of the feelings that may sprout from leading
 an OSS project, as that in itself should help.
+
+People’s expectations and needs will be different than what you set for yourself
+and your project. You can try to channel and intersect that but never control or
+absolutely agree on them.
 
 At the end of the day we should not worry about things that are out of our
 control. And feel amazing about contributing value to the world.

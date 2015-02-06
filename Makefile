@@ -1,4 +1,5 @@
 rebuild:
+	clear
 	paperback build
 
 proof:

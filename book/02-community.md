@@ -21,8 +21,8 @@ you keep the project in mind, and you are honest about availability. Keep the
 channel always open, even when you can’t invest enough time in the project. It
 goes a long way into building a trusting community.
 
-There are many tools available to open source maintainers for communication,
-each fulfilling a different purpose:
+The following communication channels are available, each fulfilling a different
+purpose:
 
 * **Issue trackers** for concrete tasks that need to be done on the source,
   such as: tracking software bugs; documenting desired features; and making
@@ -32,7 +32,7 @@ each fulfilling a different purpose:
   usage of the project.
 * **Mailing lists and chat rooms** for general talk.
 
-If any of these channels have little activity, they can seem like half empty
+If any of them have little activity, they can seem like half empty
 restaurants, exposing a negative image for your project. The project will be
 better off not having them when that is the case.
 
@@ -48,7 +48,7 @@ your community become users of your projects, and helping them help you.
 Any kind of participation is useful to your nascent project. You can see
 where people struggle, why they struggle, and what you could improve in your
 software or documentation to make the onboarding process smoother. In the early
-stages each interaction should be celebrated: your project is getting validated.
+stages we should celebrate each interaction: your project is getting validated.
 
 Routinely acknowledge contributors to your project. Thank them for their time
 they spend providing feedback and code. Thank them publicly, and be explicit
@@ -59,10 +59,10 @@ appreciation for their work.
 When the project gets popular, participation starts to be more of a liability.
 Feature requests, help requests, bug reports, and patches all land in your
 inbox, and it can get tough to manage. You may even feel guilty about not
-responding to people as timely as you could before. I believe this is
+responding as timely as you could before. I believe this is
 a nice problem to have, a problem nonetheless.
 
-Many users start to use the issue tracker for questions around implementation
+It is common that people use the issue tracker for questions around implementation
 details in their own software, or issues that don’t cut it as software bugs, and
 when that happens your inbox and issue tracker start to suffer. To avoid this,
 politely ask users to move their questions and non-related issues where they
@@ -71,8 +71,7 @@ belong.
 You will decide when to move discussions out of the issue tracker. Stack Overflow
 won’t be helpful when you have a small audience. In that case the issue tracker
 is the right place to ask. It may be a good moment to grow onto other platforms
-when those questions begin to be answered organically by members of your
-community.
+when members of your community organically start answering questions.
 
 I always suggest you interact “politely” so interaction is smooth and you
 increase the chance they follow your advice. Otherwise they might feel cheated
@@ -92,7 +91,7 @@ Steve Klabnik [refers to this work as
 you often and regularly pull the weeds out to keep it clean, in his particular
 case the Ruby on Rails issue tracker.
 
-Precooked responses for these common interactions can be a huge time saver. Copy
+Precooked responses for these common interactions is a time saver. Copy
 & paste a paragraph of text, press a button, and you took care of an issue. Some
 examples I use:
 
@@ -100,7 +99,7 @@ examples I use:
 > with factory_girl itself. Please post it in
 > stackoverflow.com/questions/tagged/factory-girl. Closing this issue for now.
 
-> This issue seems very specific to your application rather than with
+> This issue seems specific to your application rather than with
 > factory_girl itself. I suggest you ask about it in
 > stackoverflow.com/questions/tagged/factory-girl, which will get attention from
 > more people than in this issue tracker. Thanks!
@@ -182,7 +181,7 @@ were informed, based on ratings by previous commanders, which trainees presented
 trainees knew was that “command potential” scores were randomly assigned.
 
 Four months later all trainees took a test based on the materials they learned
-during the program, and it was found that trainees whom the training officers
+during the program, and researchers found that trainees whom the training officers
 thought had high potential scored better on the test than their “unknown” and
 “regular” counterparts. Being *labeled* as leaders resulted in actual improved
 exam results.
@@ -213,8 +212,8 @@ behind our work.
 
 [Loss aversion](https://en.wikipedia.org/wiki/Loss_aversion) describes people’s
 tendency to strongly prefer avoiding losses to acquiring gains. More concretely,
-giving you 5 dollars won’t make you extremely happy but if I take $5 from you
-you will get upset. This can be related to saying “no” on a Pull Request. As a
+giving you 5 dollars won’t make you extra happy but if I take $5 from you, you
+will get upset. This relates with saying “no” on a Pull Request. As a
 reviewer, giving a clear explanation of the reasons of your rejection will
 probably help avoiding a longer discussion on the reasons why the patch should
 or should not be merged. As a contributor you should know that however strongly
@@ -240,7 +239,7 @@ Wrapping up, while giving feedback it’s good to:
 * Be explicit. Discussions over the wire have less bandwidth than in person and
   need more context.
 * Try to respond to every question and comment.
-* If you disagree strongly, consider giving it a few moments before responding.
+* If you disagree strongly, consider giving it a moment before responding.
 * Don’t assume the audience shares your experience or context. Avoid words like
   “basically”, “simply”, “clearly”, etc.
 * Avoid flamewars (unless it’s your thing).
@@ -250,9 +249,9 @@ Wrapping up, while giving feedback it’s good to:
 ### Expectations and guilt
 
 Maintaining an open source project can provoke some negative feelings that have
-proven to be a significant weight on many maintainers' shoulders. This can be
+proven to be a significant weight on some maintainers' shoulders. This can be
 so hard to deal with that it may leads to burnout and ultimately the
-abandonment of the project. Here are a few examples:
+abandonment of the project. Some examples follow:
 
 * [GitHub meta-issue to “help open-source maintainers stay
     sane”](https://github.com/isaacs/github/issues/167)
@@ -284,7 +283,7 @@ People can be rude while complaining about errors or lack of features.
 In the open source world nobody owes anything to anyone. If anything, users owe
 maintainers gratitude for publishing something that was and is useful to them.
 Your code is being run in who-knows how many computers and servers, you provided
-work to many more companies than you can even think of.
+work to more companies than you can even think of.
 
 Let’s say you actually wasted your and people’s time by making a mistake, say,
 by setting the wrong expectations or introducing a bug you could have spotted.

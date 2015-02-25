@@ -1,28 +1,36 @@
 # Community
 
-An active community is the most valuable asset for an open source project. If
-the community is also big it can be hard to keep organized and keep up with, but
-following certain practices will help you maintain a healthy signal-to-noise
-ratio across the wires.
+An active community is the most valuable asset for an open source project, but,
+like code itself, it can also be its biggest liability. A community that grows
+quickly can get out of hand, making it harder for you to keep organized and keep
+up with. Questions and feature requests will start queueing up, and while you
+participate in a thread you lose track of what is being discussed in the next
+one, where soon they will start demanding your attention.
+
+In this chapter we describe practices that will help maintain a healthy
+signal-to-noise ratio across the wires, while keeping everyone’s expectations
+in check.
 
 
-## Communication
+## Communication channels
 
-Communication is vital. Think about an open source project where the last
-question remains unanswered for weeks in the issue tracker, and you can’t find
-any activity in the public profiles of the maintainers. You find yourself on a
-dead-end street. Nothing happens here, and there is no indication that anything
-will happen soon. You would leave in search of greener pastures. As maintainers
-we’ll want to avoid conveying that feeling to keep the userbase centralized.
+Let’s think of an open source project where the last question remains unanswered
+for weeks in the issue tracker. You think how else can you contact people who
+respond for the project and search for maintainers’ public profiles, but find no
+activity either. You find yourself on a dead-end street, nothing is happening
+and there is no indication that anything will happen soon. You would leave this
+place in search of greener pastures, trying to find another project that, even
+if’s not as useful for you as this one, has an active community sustaining it.
 
-Communication, even if to only say “I don’t have the time right now,
-hopefully next week”, keeps things moving. It shows you care about feedback,
-you keep the project in mind, and you are honest about availability. Keep the
-channel always open, even when you can’t invest enough time in the project. It
-goes a long way into building a trusting community.
+As maintainers we want to avoid this feeling of abandonment. Communication is
+vital to keep air fresh , even if to say only “I don’t have the time right now,
+hopefully next week”. It shows you keep the project in mind, you care about
+feedback, and you are honest about availability. Keep the channel always open,
+even when you can’t invest enough time to move forward any issue that’s being
+treated. It goes a long way into building a community who trusts you and your
+project.
 
-The following communication channels are available, each fulfilling a different
-purpose:
+There’s different communication channels for different needs:
 
 * **Issue trackers** for concrete tasks that need to be done on the source,
   such as: tracking software bugs; documenting desired features; and making
@@ -32,67 +40,72 @@ purpose:
   usage of the project.
 * **Mailing lists and chat rooms** for general talk.
 
-If any of them have little activity, they can seem like half empty
-restaurants, exposing a negative image for your project. The project will be
-better off not having them when that is the case.
+If any of these channels present little activity, they can seem like half empty
+restaurants, exposing a negative image. The project will be better off not
+having them when that is the case.
 
 
-## Encourage (the right amount of) participation
+## Answering questions
 
-The project’s website or README file are the landing page for your audience.
-Link to resources you use to interact between users and developers, and explain
-how and why to use them. Describe why the project exists and how to use it.
-Show how to contribute to it. Use clear and welcoming language, you are helping
-your community become users of your projects, and helping them help you.
+The project’s website (or the README file for GitHub hosted projects) are the
+landing page. As the first encounter between your audience and your project it
+should be clear and welcoming. This is a good place to link to the communication
+channels of the project, and to explain how and why to use them. Describe why
+the project exists and how to use each. Remember you are helping your community
+become users of your project, and helping them help you.
 
-Any kind of participation is useful to your nascent project. You can see
-where people struggle, why they struggle, and what you could improve in your
-software or documentation to make the onboarding process smoother. In the early
-stages we should celebrate each interaction: your project is getting validated.
+Any kind of participation is useful to a nascent project. You can see where
+people struggle, why they struggle, and how could the software or documentation
+improve to make the onboarding process smoother. In the early stages we should
+celebrate each interaction: the project is getting validated.
 
-Routinely acknowledge contributors to your project. Thank them for their time
-they spend providing feedback and code. Thank them publicly, and be explicit
-about why their contributions were useful to you and to the community. People
-like being appreciated, and are more likely to keep contributing if you show
+It’s good to routinely acknowledge contributors. Thank them for the time they
+spend providing feedback and code. Thank them publicly, and be explicit about
+how their contributions are useful to you, the project and the community. People
+like being appreciated, and are more likely to continue contributing if you show
 appreciation for their work.
 
 When the project gets popular, participation starts to be more of a liability.
 Feature requests, help requests, bug reports, and patches all land in your
-inbox, and it can get tough to manage. You may even feel guilty about not
-responding as timely as you could before. I believe this is
-a nice problem to have, a problem nonetheless.
+email, and it gets tougher to manage. You might even feel guilty about not
+responding as timely as you used to. This is a problem (a nice one, in my
+opinion). When there’s more input than we can go through in a timely fashion,
+how do we handle it?
 
-It is common that people use the issue tracker for questions around implementation
-details in their own software, or issues that don’t cut it as software bugs, and
-when that happens your inbox and issue tracker start to suffer. To avoid this,
-politely ask users to move their questions and non-related issues where they
-belong.
+One of the first causes of a quickly growing inbox is people using the issue
+tracker for questions around implementation details in their own software or
+issues that don’t cut it as software bugs. You can avoid this politely asking
+users to move their messages where they belong, for example to Q&A websites or
+mailing lists.
 
-You will decide when to move discussions out of the issue tracker. Stack Overflow
-won’t be helpful when you have a small audience. In that case the issue tracker
-is the right place to ask. It may be a good moment to grow onto other platforms
-when members of your community organically start answering questions.
+Not always is a good moment to move discussions out of the issue tracker though.
+StackOverflow won’t be helpful when you have a small audience. In that case the
+issue tracker is the right place to ask. It may be a good moment to grow onto
+other platforms when members of your community organically start answering
+questions. There’s a better chance that questions in other channels will get
+responses as well.
 
-I always suggest you interact “politely” so interaction is smooth and you
-increase the chance they follow your advice. Otherwise they might feel cheated
-because you didn’t solve their problem, whoever problem this is, and they may
-insist you act. You have no time to waste in these arguments, being friendly
-helps.
+I suggest you always interact “politely” so interaction is smooth, and you
+increase the chance they follow your suggestions. Otherwise users might feel you
+didn’t solve a problem you could have solved (whoever problem it is) and they
+may insist you act. Arguing where does a question belong is not productive, and
+being friendly helps getting this points across the wire.
 
-Another problem that commonly results in clutter in the issue tracker is
-irreproducibility. Users may be trying to show a legit problem with your
-project, but with so little information it’s impossible to reproduce or decide
-if it is actually a problem with your project at all. In this case, ask them to
-provide more information. I personally link to
+Another problem that results in clutter in the issue tracker is
+irreproducibility. Users may be trying to show a legit issue with your project,
+but with not enough information to reproduce it, or to even decide if it is
+actually a problem with your project. In this case, ask them to provide more
+information. I personally link to
 [yourbugreportneedsmore.info](http://yourbugreportneedsmore.info).
 
-Steve Klabnik [refers to this work as
-“gardening”](http://words.steveklabnik.com/how-to-be-an-open-source-gardener):
-you often and regularly pull the weeds out to keep it clean, in his particular
-case the Ruby on Rails issue tracker.
+Steve Klabnik [refers to this type of work as “gardening”]: you regularly pull
+out the weeds to keep it clean, in the particular case he describes, the Ruby on
+Rails issue tracker.
 
-Precooked responses for these common interactions is a time saver. Copy
-& paste a paragraph of text, press a button, and you took care of an issue. Some
+[refers to this type of work as “gardening”]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener
+
+Precooked responses for common interactions is a time saver. Copy & paste a
+paragraph of text, press a button, and you took good care of an issue. Some
 examples I use:
 
 > This question doesn’t belong in this issue tracker, as this is not an issue
@@ -105,72 +118,122 @@ examples I use:
 > more people than in this issue tracker. Thanks!
 
 Some issues get stale, with not even the requester chiming into it anymore. It’s
-impossible to solve when there’s not enough information. An example response for
-these cases:
+impossible to solve a bug report when there’s not enough information, or someone
+who has seen it to answer question. An example response I use for these cases
+follows:
 
 > Since it’s been two months, I hope things are working well now for you. I’ll
 > close the issue until we can confirm it’s still happening. Happy to continue
 > further discussion.
 
-I also frequently paste a snippet of git commands to show [how to squash commits
-together, and rebase on top of upstream’s
+Many people submit issues which are so well detailed that they need only a
+pat on their backs to convert it into a pull request:
+
+> Thanks for reporting. That would be a good addition to the docs indeed. It
+> would be really helpful if you could add it and submit a pull request. Thanks!
+
+Many pull request acquire cruft in their git history, in the form of many
+different commits doing and undoing work, while implementing feedback. As we’ll
+see in a later chapter, it is healthy to keep a clean git history, so I ask
+contributors to do so, pasting a snippet of git commands that show how to do it,
+or linking to [a blog post that explains how to squash commits together, and
+rebase on top of upstream’s
 master](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
 
-José Valim, maintainer of devise and elixir among others, uses a browser
-extension that allows you to post pre-cooked answers into GitHub Pull Requests
+José Valim, maintainer of devise and elixir among other successful open source
+projects, uses a browser extension to post pre-cooked answers into pull requests
 with the single press of a button. You can find the code in [GitHub: Jose vs
 OSS](https://github.com/nashby/jose-vs-oss).
 
-Repeated questions is a good sign that there is something in your project that
-should be simplified, documentation that needs a little more attention, better
-error messages awaiting, etc. Before disregarding repeated questions with
-variations of RTFM (short for “read the freaking manual”, and variations),
-try to ask for feedback to someone you trust, or to take a step back and look at
-your project with the eyes of a new comer. Do you see anything that is not clear
-enough? What could this project do to lower the odds of this question appearing
-again? Meanwhile, adding the question to an FAQ page can prove a good band-aid.
-Being able to link to it will already be helpful.
+If you see the same questions being asked over and over, it may be a good sign
+that there is something in your project that should be simplified, documentation
+that needs some more attention, better error messages, etc. Before disregarding
+repeated questions with variations of RTFM (short for “read the freaking
+manual”), ask for feedback to someone you trust, or try to take a step back and
+see the project with the eyes of a new comer. Do you see anything that is not
+clear enough? What could this project do to lower the odds of this question
+appearing again? Meanwhile, adding the question to a FAQ section is a good
+band-aid. Being able to link to it will save you time when the question
+reappears.
 
 
 ## Enough communication already!
 
-There are two rules we should keep in mind in any discussion:
+There are two rules to keep in mind during any discussion:
 
 **The bike shed effect** (also called “Parkinson’s law of triviality”) states
 that groups give disproportionate weight to trivial issues. For example, a
 committee whose job is to approve plans for a nuclear power plant spends the
-majority of its time on relatively unimportant but easy-to-grasp
-issues, such as what materials to use for the staff bike shed, while neglecting
-the less trivial proposed design of the nuclear power plant itself, which is far
-more important but also a far more difficult and complex task to criticize
-constructively.
+majority of its time on relatively unimportant but easy-to-grasp issues, such as
+what materials to use for the staff bike shed, while neglecting the less trivial
+proposed design of the nuclear power plant itself, which is far more important
+but also a far more difficult and complex task to criticize constructively.
 
 When you see more activity than normal in a discussion over a superficial matter
-(according to a threshold that works for you), take one decision and call it
-resolved. You will be saving everyone’s time. Everyone’s time but the trolls’,
-that is.
+(according to a threshold you define), take one decision (even if arbitrary) and
+call it resolved. You will be saving everyone’s time. Everyone’s time but the
+trolls’, that is.
 
 **Goldwin’s law** states that as an online discussion grows longer (regardless
 of topic or scope), sooner or later someone will compare someone or something to
 Hitler or Nazism. You may find yourself in the unhappy need to quote it.
 
-When it happens, it’s a reliable red flag of a low signal-to-noise ratio, this
+When it happens, it’s a reliable red flag of a low signal-to-noise ratio. This
 is the miner’s canary of a conversation that went too far, a good moment to jump
 out. Call the thread finished and whoever mentioned the Nazis automatically
 loses the debate. Link to [the Wikipedia
-article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun.
+article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun!
 
 
-## Harness the Chameleon Effect
+## On feedback
+
+I find awareness of cognitive biases to be most useful while giving and
+receiving feedback in a productive manner, for both the reviewer and the
+reviewed. A [cognitive bias] is a pattern of deviation in judgment from which
+inferences about other people and situations may be drawn in an illogical way.
+
+[Fairness bias] for example describes our tendency to seek balance. If a
+supplier keeps an open line of communication with an unhappy customer about a
+faulty product, the customer will respond more favourably regardless of the
+outcome. The need to be heard takes precedence over the need of the product
+working correctly for this customer.
+
+This can be applied to code revision. Framing an idea as a question instead of
+as an assertion makes the contributor feel heard and valued. If we are the
+authors of the code being reviewed we can harness this effect even before
+conversation starts, by explaining beforehand the rationale behind our work.
+
+[Loss aversion] describes people’s tendency to strongly prefer avoiding losses
+to acquiring gains. More concretely, giving you 5 dollars won’t make you extra
+happy but if I take $5 from you, you will get upset. This relates with saying
+“no” on a pull request. As a reviewer, giving a clear explanation of the reasons
+of your rejection will probably help avoiding a longer discussion on the reasons
+why the patch should or should not be merged, helping authors see the value
+of their contribution more objectively. As a contributor you should know that
+however strongly you feel your patch should be merged in, if you were the
+reviewer or another external party, you would probably be a bit more skeptic.
+
+Daniel Goleman identifies an [online negative bias]: what you thought was a
+positive message may be assumed to be neutral, and what seemed neutral to you
+can be read as hostile. You can avoid this by using positive language instead of
+neutral. Written discussions have less bandwidth, and they need to be more
+explicit and include more context than conversations over the phone or in
+person.
 
 “The Cathedral and the Bazaar” states in its 10th lesson:
 
 > Treat all your contributors as if they are the most valuable resource, and
 > they will respond by becoming your most valuable resource.
 
-This is a description of the “Chameleon Effect” cognitive bias, also called
-“unintentional mirroring”. The effect explains our tendency to take on
+This is a description of the “[Chameleon Effect]” cognitive bias, also called
+“unintentional mirroring”, which describes our tendency to take on
 characteristics that have been arbitrarily assigned to us.
+
+[cognitive bias]: https://en.wikipedia.org/wiki/Cognitive_bias
+[Fairness bias]: http://www.amazon.com/Sway-Irresistible-Pull-Irrational-Behavior/dp/0385530609
+[Loss aversion]: https://en.wikipedia.org/wiki/Loss_aversion
+[online negative bias]: https://www.youtube.com/watch?v=TBCiSAJ20Wc
+[Chameleon Effect]: https://en.wikipedia.org/wiki/Pygmalion_effect
 
 The Pygmalion Effect was [studied in a training
 camp](http://psycnet.apa.org/journals/apl/67/2/194/) where officers were about
@@ -190,48 +253,6 @@ Do your project a favor and treat all your contributors as if they are the most
 valuable resource. They will respond by becoming your most valuable resource, if
 they are not already.
 
-
-## On feedback
-
-I find being aware of cognitive biases to be most useful while giving and
-receiving feedback in a productive manner for both parties. A [cognitive
-bias](https://en.wikipedia.org/wiki/Cognitive_bias) is a pattern of deviation in
-judgment from which inferences about other people and situations may be drawn
-in an illogical way.
-
-[Fairness
-bias](http://www.amazon.com/Sway-Irresistible-Pull-Irrational-Behavior/dp/0385530609),
-for example, describes our tendency to seek balance. If a supplier keeps an open
-line of communication with an unhappy customer about a faulty product, the
-customer will respond more favourably regardless of the outcome. The need to be
-heard takes precedence over the need of the product working correctly. We
-can apply this to code revision. Asking instead of asserting makes the
-contributor feel heard and valued. If we are the authors we can harness this
-effect even before conversation starts, by explaining beforehand the rationale
-behind our work.
-
-[Loss aversion](https://en.wikipedia.org/wiki/Loss_aversion) describes people’s
-tendency to strongly prefer avoiding losses to acquiring gains. More concretely,
-giving you 5 dollars won’t make you extra happy but if I take $5 from you, you
-will get upset. This relates with saying “no” on a Pull Request. As a
-reviewer, giving a clear explanation of the reasons of your rejection will
-probably help avoiding a longer discussion on the reasons why the patch should
-or should not be merged. As a contributor you should know that however strongly
-you feel your patch should be merged in, if you were the reviewer or another
-external party, you would probably not feel so strongly about it.
-
-Daniel Goleman identifies an [online negative
-bias](https://www.youtube.com/watch?v=TBCiSAJ20Wc): what you thought was a
-neutral message can be read as hostile, and what you thought was positive may be
-assumed to be neutral. You can avoid this by using positive language instead of
-neutral. Written discussions have less bandwidth. They need to be more explicit
-and include more context than conversations over the phone or in person.
-
-We already covered the [Chameleon
-Effect](https://en.wikipedia.org/wiki/Pygmalion_effect). Remembering everyone
-knows something you don’t yet know will help you treat everyone with care,
-making them feel valuable to your project, and inspire further contributions.
-
 Wrapping up, while giving feedback it’s good to:
 
 * Start with appreciation for the work and input.
@@ -245,13 +266,17 @@ Wrapping up, while giving feedback it’s good to:
 * Avoid flamewars (unless it’s your thing).
 * Review is of the code, not people. Keep this in mind as a contributor too.
 
+Remembering every person knows something you don’t know yet will help you treat
+everyone with care, making them feel valuable to your project, and inspiring
+further contributions.
 
-### Expectations and guilt
+
+## Expectations and guilt
 
 Maintaining an open source project can provoke some negative feelings that have
-proven to be a significant weight on some maintainers' shoulders. This can be
-so hard to deal with that it may leads to burnout and ultimately the
-abandonment of the project. Some examples follow:
+proven to be a weight on some maintainers' shoulders. This can be so hard to
+deal with that it may leads to burnout and ultimately the abandonment of the
+project. Some examples:
 
 * [GitHub meta-issue to “help open-source maintainers stay
     sane”](https://github.com/isaacs/github/issues/167)
@@ -269,21 +294,17 @@ abandonment of the project. Some examples follow:
     Passion](https://signalvnoise.com/posts/3349-open-source-guilt-passion)
 
 Businesses rely on your project. Software projects rely on it. People rely on
-it. They ultimately rely on you, the project owner.
-
-You are aware that if you put in three more hours of work you may be saving ten
-people’s time next week, not to mention through the future, and that makes you
-feel somehow responsible for the potential save.
-
-An unintended regression could directly affect hundreds of people (or dozens, or
-thousands or millions).
-
-People can be rude while complaining about errors or lack of features.
+it. They ultimately rely on you, the project owner. You are aware that if you
+put in three more hours of work you may be saving ten people’s time next week,
+not to mention through the future, and that makes you feel somehow responsible
+for the potential save. An unintended regression could directly affect hundreds
+of people (or dozens, or thousands or millions). People can be rude while
+complaining about errors or lack of features.
 
 In the open source world nobody owes anything to anyone. If anything, users owe
 maintainers gratitude for publishing something that was and is useful to them.
-Your code is being run in who-knows how many computers and servers, you provided
-work to more companies than you can even think of.
+Your code is being run in who-knows how many computers and servers, more
+companies are using your code than you can even think of.
 
 Let’s say you actually wasted your and people’s time by making a mistake, say,
 by setting the wrong expectations or introducing a bug you could have spotted.
@@ -291,13 +312,13 @@ A mistake today doesn’t undo your previous productivity gains, help and
 successes.
 
 We are better maintainers if we are energetic. Negative feelings won’t help on
-that, positive ones will. How to change how we feel is not topic for this book,
-I hope at least to raise awareness of the feelings that may sprout from leading
-an OSS project, as that in itself should help.
+that, positive ones will. How to change how we feel is indeed not topic for this
+book, I hope at least to raise awareness of the feelings that may sprout from
+leading an OSS project, as that in itself should help.
 
 People’s expectations and needs will be different than what you set for yourself
 and your project. You can try to channel and intersect that but sometimes it is
-best to accept differences. Agree to disagree.
+best to accept differences, and agree to disagree.
 
 At the end of the day, we should not worry about things that are out of our
 control. And instead feel great about having contributed valuable software to

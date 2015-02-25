@@ -121,6 +121,37 @@ enough space and your regular toolset for writing what is as relevant as code
 itself: your commit message.
 
 
+## Request good git history
+
+Over the course of a single bug fix one may create several commits with
+improvements found while working through it and with feedback from code reviews.
+Once merged the code may look tidy, but better don’t look at the sausage factory
+that’s in the git log!
+
+It’s good to make sure that history is tidy before merging a pull request. This
+entails:
+
+* Each commit should be a single logical change. If it has more code changes it
+    should be split, if it has less it should get squashed with other commits.
+* Each commit message should explain the problem and the solution without using
+    connectors. If they use connectors, there’s probably  more than one logical
+    change.
+* If history got polluted with messages like “cleanup whitespace”, “more style
+    changes”, “wip”, etc., commits should be [squashed together into meaningful
+    parts](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
+* Pull requests that are small in scope should fit into a single commit. Some
+    may contain more, with each commit being independent from one another.
+    Similar rules apply to merging or splitting pull requests as you see fit.
+
+It is better to squash commits together right before merging and not before.
+That way, discussion and follow-up commits addressing feedback stay
+synchronized, anyone can see how the feature came up to be across the different
+revisions, and reviewer always knows what was changed and addressed and what
+not.
+
+Be a nice person, floss every day and keep your git history clean.
+
+
 ## Reject pull requests
 
 According to
@@ -176,34 +207,3 @@ Creator of Ruby Yukihiro “Matz” Matsumoto is one of the nicest people in thi
 planet. Ruby was unheard of until DHH published Rails. While I personally prefer
 to follow Matz’s style, I count with a few noteworthy sources of inspiration for
 when I want to say “no”.
-
-
-## Request good git history
-
-Over the course of a single bug fix one may create several commits with
-improvements found while working through it and with feedback from code reviews.
-Once merged the code may look tidy, but better don’t look at the sausage factory
-that’s in the git log!
-
-It’s good to make sure that history is tidy before merging a pull request. This
-entails:
-
-* Each commit should be a single logical change. If it has more code changes it
-    should be split, if it has less it should get squashed with other commits.
-* Each commit message should explain the problem and the solution without using
-    connectors. If they use connectors, there’s probably  more than one logical
-    change.
-* If history got polluted with messages like “cleanup whitespace”, “more style
-    changes”, “wip”, etc., commits should be [squashed together into meaningful
-    parts](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
-* Pull requests that are small in scope should fit into a single commit. Some
-    may contain more, with each commit being independent from one another.
-    Similar rules apply to merging or splitting pull requests as you see fit.
-
-It is better to squash commits together right before merging and not before.
-That way, discussion and follow-up commits addressing feedback stay
-synchronized, anyone can see how the feature came up to be across the different
-revisions, and reviewer always knows what was changed and addressed and what
-not.
-
-Be a nice person, floss every day and keep your git history clean.

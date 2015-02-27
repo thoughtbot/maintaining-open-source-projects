@@ -13,7 +13,7 @@ and efficient collaboration. The best open source teams also have clear
 documentation, regular releases, and predictable versioning. This book explores
 all of the above.
 
-Other kinds of collaborative projects, such us
+Other kinds of collaborative projects, such as
 [libraries](https://github.com/GITenberg),
 [government data](https://github.com/project-open-data),
 [geographical data](https://openmundi.github.io/),

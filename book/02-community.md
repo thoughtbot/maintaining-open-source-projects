@@ -3,8 +3,8 @@
 An active community is the most valuable asset for an open source project, but,
 like code itself, it can also be its biggest liability. A community that grows
 quickly can get out of hand, making it harder for you to keep organized and keep
-up with. Questions and feature requests will start queueing up, and while you
-participate in a thread you lose track of what is being discussed in the next
+up with. Questions and feature requests will start queueing up. While you
+participate in one thread, you lose track of what is being discussed in the other
 one, where soon they will start demanding your attention.
 
 In this chapter we describe practices that will help maintain a healthy
@@ -14,10 +14,10 @@ in check.
 
 ## Communication channels
 
-Let’s think of an open source project where the last question remains unanswered
-for weeks in the issue tracker. You think how else can you contact people who
-respond for the project and search for maintainers’ public profiles, but find no
-activity either. You find yourself on a dead-end street, nothing is happening
+Imagine an open source project where the most recent question remains unanswered
+for weeks in the issue tracker. You think how else you can contact people who
+are responsible for the project, search for maintainers’ public profiles, but find no
+activity either. You find yourself on a dead-end street: nothing is happening
 and there is no indication that anything will happen soon. You would leave this
 place in search of greener pastures, trying to find another project that, even
 if’s not as useful for you as this one, has an active community sustaining it.

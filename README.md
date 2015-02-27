@@ -1,6 +1,5 @@
 # Maintaining Open Source Projects
 
-
 ### Pitch
 
 There are many aspects to fostering an open source project: building community,
@@ -46,21 +45,10 @@ contributors, what to automate.
 You want to get your project more attention and grow its user base.
 
 
-# Keep always in mind
+### Building a release
 
-* Other languages and communities than what we are used to
-* Think if ideas make sense both for small and huge communities and projects
+Run `make release`. It will update the release branch with latest build from
+master.
 
-
-# Resources to review
-
-## Blog posts
-
-* http://www.codesimplicity.com/post/open-source-community-simplified/
-* https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code/
-* http://www.drdobbs.com/open-source/building-and-maintaining-an-open-source/240168415
-
-## Talks
-
-* https://www.youtube.com/watch?v=xgWFTrXn0_U
-* http://www.confreaks.com/videos/4166-gogaruco2014-taking-over-someone-else-s-open-source-projects
+See latest releases in
+https://github.com/thoughtbot/maintaining-open-source-projects/tree/release/release.

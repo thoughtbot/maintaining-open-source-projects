@@ -1,4 +1,4 @@
-# Licenses
+# Documentation
 
 (Upcoming.)
 

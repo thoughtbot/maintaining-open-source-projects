@@ -13,10 +13,12 @@
 
 <<[04-quality.md]
 
-<<[05-licenses.md]
+<<[05-documentation.md]
 
-<<[06-versioning.md]
+<<[06-licenses.md]
 
-<<[07-organization.md]
+<<[07-versioning.md]
 
-<<[08-marketing.md]
+<<[08-organization.md]
+
+<<[09-marketing.md]

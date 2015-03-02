@@ -21,6 +21,7 @@ There are two rules that help with all of the above:
 * Keep commits cohesive
 * Keep commits as small as possible
 
+A Pull Request is a collection of commits, that you should review as well.
 A good commit may be as small as a one-line change and as big as a
 change in every file of the entire project, provided it contains no more than
 one logical change. If it contains more, split it.

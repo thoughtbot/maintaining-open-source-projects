@@ -23,14 +23,14 @@ place in search of greener pastures, trying to find another project that, even
 if’s not as useful for you as this one, has an active community sustaining it.
 
 As maintainers we want to avoid this feeling of abandonment. Communication is
-vital to keep air fresh , even if to say only “I don’t have the time right now,
+vital to keep the air fresh, even if to say only “I don’t have the time right now,
 hopefully next week”. It shows you keep the project in mind, you care about
-feedback, and you are honest about availability. Keep the channel always open,
+feedback, and you are honest about availability. Always keep the channel open,
 even when you can’t invest enough time to move forward any issue that’s being
 treated. It goes a long way into building a community who trusts you and your
 project.
 
-There’s different communication channels for different needs:
+There are different communication channels for different needs:
 
 * **Issue trackers** for concrete tasks that need to be done on the source,
   such as: tracking software bugs; documenting desired features; and making
@@ -50,9 +50,9 @@ having them when that is the case.
 The project’s website (or the README file for GitHub hosted projects) are the
 landing page. As the first encounter between your audience and your project it
 should be clear and welcoming. This is a good place to link to the communication
-channels of the project, and to explain how and why to use them. Describe why
-the project exists and how to use each. Remember you are helping your community
-become users of your project, and helping them help you.
+channels of the project, and to explain how and why to use them. Remember, you
+are helping your community become users of your project, and helping them help
+you.
 
 Any kind of participation is useful to a nascent project. You can see where
 people struggle, why they struggle, and how could the software or documentation
@@ -69,29 +69,32 @@ When the project gets popular, participation starts to be more of a liability.
 Feature requests, help requests, bug reports, and patches all land in your
 email, and it gets tougher to manage. You might even feel guilty about not
 responding as timely as you used to. This is a problem (a nice one, in my
-opinion). When there’s more input than we can go through in a timely fashion,
+opinion). When there is more input than we can go through in a timely fashion,
 how do we handle it?
 
 One of the first causes of a quickly growing inbox is people using the issue
 tracker for questions around implementation details in their own software or
-issues that don’t cut it as software bugs. You can avoid this politely asking
+issues that don’t cut it as software bugs. You can avoid this by politely asking
 users to move their messages where they belong, for example to Q&A websites or
 mailing lists.
 
-Not always is a good moment to move discussions out of the issue tracker though.
+It is not always good to move discussions out of the issue tracker, though.
 StackOverflow won’t be helpful when you have a small audience. In that case the
-issue tracker is the right place to ask. It may be a good moment to grow onto
+issue tracker is the right place to ask. It may be good to grow onto
 other platforms when members of your community organically start answering
 questions. There’s a better chance that questions in other channels will get
 responses as well.
 
-I suggest you always interact “politely” so interaction is smooth, and you
+By always interacting politely interaction remains smooth, and you
 increase the chance they follow your suggestions. Otherwise users might feel you
-didn’t solve a problem you could have solved (whoever problem it is) and they
+didn’t solve a problem you could have solved and they
 may insist you act. Arguing where does a question belong is not productive, and
-being friendly helps getting this points across the wire.
+being friendly helps avoid it.
 
-Another problem that results in clutter in the issue tracker is
+
+## Issue tracker gardening
+
+A problem that results in clutter in the issue tracker is
 irreproducibility. Users may be trying to show a legit issue with your project,
 but with not enough information to reproduce it, or to even decide if it is
 actually a problem with your project. In this case, ask them to provide more
@@ -118,7 +121,7 @@ examples I use:
 > more people than in this issue tracker. Thanks!
 
 Some issues get stale, with not even the requester chiming into it anymore. It’s
-impossible to solve a bug report when there’s not enough information, or someone
+impossible to solve a bug report when there is not enough information, or someone
 who has seen it to answer question. An example response I use for these cases
 follows:
 
@@ -132,14 +135,6 @@ pat on their backs to convert it into a pull request:
 > Thanks for reporting. That would be a good addition to the docs indeed. It
 > would be really helpful if you could add it and submit a pull request. Thanks!
 
-Many pull request acquire cruft in their git history, in the form of many
-different commits doing and undoing work, while implementing feedback. As we’ll
-see in a later chapter, it is healthy to keep a clean git history, so I ask
-contributors to do so, pasting a snippet of git commands that show how to do it,
-or linking to [a blog post that explains how to squash commits together, and
-rebase on top of upstream’s
-master](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
-
 José Valim, maintainer of devise and elixir among other successful open source
 projects, uses a browser extension to post pre-cooked answers into pull requests
 with the single press of a button. You can find the code in [GitHub: Jose vs
@@ -148,7 +143,7 @@ OSS](https://github.com/nashby/jose-vs-oss).
 If you see the same questions being asked over and over, it may be a good sign
 that there is something in your project that should be simplified, documentation
 that needs some more attention, better error messages, etc. Before disregarding
-repeated questions with variations of RTFM (short for “read the freaking
+repeated questions with variations of RTFM (“read the freaking
 manual”), ask for feedback to someone you trust, or try to take a step back and
 see the project with the eyes of a new comer. Do you see anything that is not
 clear enough? What could this project do to lower the odds of this question
@@ -185,14 +180,15 @@ loses the debate. Link to [the Wikipedia
 article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun!
 
 
-## On feedback
+## On effective feedback
 
 I find awareness of cognitive biases to be most useful while giving and
 receiving feedback in a productive manner, for both the reviewer and the
 reviewed. A [cognitive bias] is a pattern of deviation in judgment from which
 inferences about other people and situations may be drawn in an illogical way.
+Some examples follow:
 
-[Fairness bias] for example describes our tendency to seek balance. If a
+[Fairness bias] describes our tendency to seek balance. If a
 supplier keeps an open line of communication with an unhappy customer about a
 faulty product, the customer will respond more favourably regardless of the
 outcome. The need to be heard takes precedence over the need of the product
@@ -220,7 +216,8 @@ neutral. Written discussions have less bandwidth, and they need to be more
 explicit and include more context than conversations over the phone or in
 person.
 
-“The Cathedral and the Bazaar” states in its 10th lesson:
+“The Cathedral and the Bazaar”, an essay by Eric Raymond on software engineering
+methods, states in its 10th lesson:
 
 > Treat all your contributors as if they are the most valuable resource, and
 > they will respond by becoming your most valuable resource.
@@ -266,7 +263,7 @@ Wrapping up, while giving feedback it’s good to:
 * Avoid flamewars (unless it’s your thing).
 * Review is of the code, not people. Keep this in mind as a contributor too.
 
-Remembering every person knows something you don’t know yet will help you treat
+Remember: every person knows something you don’t yet know. This will help you treat
 everyone with care, making them feel valuable to your project, and inspiring
 further contributions.
 
@@ -274,9 +271,8 @@ further contributions.
 ## Expectations and guilt
 
 Maintaining an open source project can provoke some negative feelings that have
-proven to be a weight on some maintainers' shoulders. This can be so hard to
-deal with that it may leads to burnout and ultimately the abandonment of the
-project. Some examples:
+proven to be a weight on some maintainers' shoulders. This difficulty may lead
+to burnout and ultimately the abandonment of the project. Some examples:
 
 * [GitHub meta-issue to “help open-source maintainers stay
     sane”](https://github.com/isaacs/github/issues/167)
@@ -294,32 +290,23 @@ project. Some examples:
     Passion](https://signalvnoise.com/posts/3349-open-source-guilt-passion)
 
 Businesses rely on your project. Software projects rely on it. People rely on
-it. They ultimately rely on you, the project owner. You are aware that if you
-put in three more hours of work you may be saving ten people’s time next week,
-not to mention through the future, and that makes you feel somehow responsible
-for the potential save. An unintended regression could directly affect hundreds
-of people (or dozens, or thousands or millions). People can be rude while
-complaining about errors or lack of features.
+it. They ultimately rely on you, the project owner. If you put in three more
+hours of work you may save ten people three hours each today, compounding into
+the future, and that potentially makes you feel responsible. An unintended
+regression could directly affect hundreds of people (or dozens, or thousands or
+millions!). People can complain about errors or lack of features in a curt way.
 
 In the open source world nobody owes anything to anyone. If anything, users owe
 maintainers gratitude for publishing something that was and is useful to them.
 Your code is being run in who-knows how many computers and servers, more
-companies are using your code than you can even think of.
-
-Let’s say you actually wasted your and people’s time by making a mistake, say,
-by setting the wrong expectations or introducing a bug you could have spotted.
-A mistake today doesn’t undo your previous productivity gains, help and
-successes.
-
-We are better maintainers if we are energetic. Negative feelings won’t help on
-that, positive ones will. How to change how we feel is indeed not topic for this
-book, I hope at least to raise awareness of the feelings that may sprout from
-leading an OSS project, as that in itself should help.
+companies are using your code than you can even think of. A mistake today
+doesn’t undo your previous productivity gains, help and successes. How to manage
+your emotions is indeed not a topic for this book, but it is important to be
+aware of the feelings that may sprout from leading an OSS project, as that in
+itself should help.
 
 People’s expectations and needs will be different than what you set for yourself
-and your project. You can try to channel and intersect that but sometimes it is
-best to accept differences, and agree to disagree.
-
-At the end of the day, we should not worry about things that are out of our
-control. And instead feel great about having contributed valuable software to
-the world.
+and your project. You can try to channel them, and they may intersect. Yet
+sometimes it is best to accept differences, and agree to disagree. At the end of
+the day, we should not worry about things that are out of our control. And
+instead feel good about having contributed valuable software to the world.

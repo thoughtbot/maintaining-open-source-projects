@@ -15,9 +15,9 @@ in check.
 ## Communication channels
 
 Imagine an open source project where the most recent question remains unanswered
-for weeks in the issue tracker. You think how else you can contact people who
-are responsible for the project, search for maintainers’ public profiles, but find no
-activity either. You find yourself on a dead-end street: nothing is happening
+for weeks in the issue tracker. You think of how else to contact people but even
+a search for the maintainer’s public profiles finds no activity.
+You find yourself on a dead-end street: nothing is happening
 and there is no indication that anything will happen soon. You would leave this
 place in search of greener pastures, trying to find another project that, even
 if’s not as useful for you as this one, has an active community sustaining it.
@@ -35,7 +35,7 @@ There are different communication channels for different needs:
 * **Issue trackers** for concrete tasks that need to be done on the source,
   such as: tracking software bugs; documenting desired features; and making
   concrete improvements to the code.
-* **Wikis** for community maintained documentation and how-to guides.
+* **Wikis** for community-maintained documentation and how-to guides.
 * **Forums and Q&A websites** for answering specific questions users have about
   usage of the project.
 * **Mailing lists and chat rooms** for general talk.
@@ -47,15 +47,15 @@ having them when that is the case.
 
 ## Answering questions
 
-The project’s website (or the README file for GitHub hosted projects) are the
-landing page. As the first encounter between your audience and your project it
+The project’s website or README are the landing page for your users.
+As the first encounter between your audience and your project it
 should be clear and welcoming. This is a good place to link to the communication
 channels of the project, and to explain how and why to use them. Remember, you
 are helping your community become users of your project, and helping them help
 you.
 
 Any kind of participation is useful to a nascent project. You can see where
-people struggle, why they struggle, and how could the software or documentation
+people struggle, why they struggle, and how the software or documentation could
 improve to make the onboarding process smoother. In the early stages we should
 celebrate each interaction: the project is getting validated.
 
@@ -68,9 +68,9 @@ appreciation for their work.
 When the project gets popular, participation starts to be more of a liability.
 Feature requests, help requests, bug reports, and patches all land in your
 email, and it gets tougher to manage. You might even feel guilty about not
-responding as timely as you used to. This is a problem (a nice one, in my
-opinion). When there is more input than we can go through in a timely fashion,
-how do we handle it?
+responding as timely as you used to. This is a problem, though a nice one to
+have.  When there is more input than we can go through in a timely fashion, how
+do we handle it?
 
 One of the first causes of a quickly growing inbox is people using the issue
 tracker for questions around implementation details in their own software or
@@ -78,18 +78,17 @@ issues that don’t cut it as software bugs. You can avoid this by politely aski
 users to move their messages where they belong, for example to Q&A websites or
 mailing lists.
 
-It is not always good to move discussions out of the issue tracker, though.
+It is not always better to move discussions out of the issue tracker, though.
 StackOverflow won’t be helpful when you have a small audience. In that case the
 issue tracker is the right place to ask. It may be good to grow onto
 other platforms when members of your community organically start answering
 questions. There’s a better chance that questions in other channels will get
 responses as well.
 
-By always interacting politely interaction remains smooth, and you
-increase the chance they follow your suggestions. Otherwise users might feel you
-didn’t solve a problem you could have solved and they
-may insist you act. Arguing where does a question belong is not productive, and
-being friendly helps avoid it.
+By always interacting politely interaction remains smooth, and you increase the
+chance they follow your suggestions. Otherwise users might feel you didn’t solve
+a problem you could have solved and they may insist you act. Arguing where a
+question belongs is not productive, and being friendly helps avoid it.
 
 
 ## Issue tracker gardening
@@ -101,9 +100,8 @@ actually a problem with your project. In this case, ask them to provide more
 information. I personally link to
 [yourbugreportneedsmore.info](http://yourbugreportneedsmore.info).
 
-Steve Klabnik [refers to this type of work as “gardening”]: you regularly pull
-out the weeds to keep it clean, in the particular case he describes, the Ruby on
-Rails issue tracker.
+Steve Klabnik, who helps tend to the Ruby on Rails issue tracker, [refers to this
+type of work as “gardening”]: you regularly pull out the weeds to keep it clean.
 
 [refers to this type of work as “gardening”]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener
 
@@ -120,7 +118,7 @@ examples I use:
 > stackoverflow.com/questions/tagged/factory-girl, which will get attention from
 > more people than in this issue tracker. Thanks!
 
-Some issues get stale, with not even the requester chiming into it anymore. It’s
+Some issues get stale, with not even the requester chiming in it anymore. It’s
 impossible to solve a bug report when there is not enough information, or someone
 who has seen it to answer question. An example response I use for these cases
 follows:
@@ -143,9 +141,9 @@ OSS](https://github.com/nashby/jose-vs-oss).
 If you see the same questions being asked over and over, it may be a good sign
 that there is something in your project that should be simplified, documentation
 that needs some more attention, better error messages, etc. Before disregarding
-repeated questions with variations of RTFM (“read the freaking
+repeated questions with variations of RTFM (“read the fucking
 manual”), ask for feedback to someone you trust, or try to take a step back and
-see the project with the eyes of a new comer. Do you see anything that is not
+see the project with the eyes of a newcomer. Do you see anything that is not
 clear enough? What could this project do to lower the odds of this question
 appearing again? Meanwhile, adding the question to a FAQ section is a good
 band-aid. Being able to link to it will save you time when the question
@@ -260,10 +258,10 @@ Wrapping up, while giving feedback it’s good to:
 * If you disagree strongly, consider giving it a moment before responding.
 * Don’t assume the audience shares your experience or context. Avoid words like
   “basically”, “simply”, “clearly”, etc.
-* Avoid flamewars (unless it’s your thing).
+* Avoid flamewars unless it’s your thing.
 * Review is of the code, not people. Keep this in mind as a contributor too.
 
-Remember: every person knows something you don’t yet know. This will help you treat
+Every person knows something you don’t yet know; remember this and it will help you treat
 everyone with care, making them feel valuable to your project, and inspiring
 further contributions.
 
@@ -293,7 +291,7 @@ Businesses rely on your project. Software projects rely on it. People rely on
 it. They ultimately rely on you, the project owner. If you put in three more
 hours of work you may save ten people three hours each today, compounding into
 the future, and that potentially makes you feel responsible. An unintended
-regression could directly affect hundreds of people (or dozens, or thousands or
+regression could directly affect tens of people (or hundreds, or thousands, or
 millions!). People can complain about errors or lack of features in a curt way.
 
 In the open source world nobody owes anything to anyone. If anything, users owe

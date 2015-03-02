@@ -23,4 +23,5 @@ release:
 	git add release/
 	git commit -m "Update latest release"
 	git push origin release -f
+	zip maintaining-open-source-projects.zip release/*
 	git checkout master

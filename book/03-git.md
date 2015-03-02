@@ -126,7 +126,7 @@ itself: your commit message.
 
 Over the course of a single bug fix one may create several commits with
 improvements found while working through it and with feedback from code reviews.
-Once merged the code may look tidy, but better don’t look at the sausage factory
+Once merged the code may look tidy, but better not look at the sausage factory
 that’s in the git log!
 
 It’s good to make sure that history is tidy before merging a pull request. This
@@ -137,8 +137,8 @@ entails:
 * Each commit message should explain the problem and the solution without using
     connectors. If they use connectors, there’s probably  more than one logical
     change.
-* If history got polluted with messages like “cleanup whitespace”, “more style
-    changes”, “wip”, etc., commits should be [squashed together into meaningful
+* If the branch history is polluted with messages like “cleanup whitespace”, “more style
+    changes”, “wip”, etc., the commits should be [squashed together into meaningful
     parts](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
 * Pull requests that are small in scope should fit into a single commit. Some
     may contain more, with each commit being independent from one another.
@@ -161,9 +161,9 @@ legacy code is source code inherited from someone else and source code inherited
 from an older version of the software. Which means that any code that lands into
 master is legacy code. We ourselves are effectively someone else after
 forgetting the details of this code in two weeks, and any commit that’s behind
-`HEAD` is quite literally an older version of the Software. Code is a liability
+`HEAD` is quite literally an older version of the software. Code is a liability
 and solving problems with as little code as possible is almost always a good
-decision. It doesn’t matter how exciting it feels like to receie a pull request,
+decision. It doesn’t matter how exciting it feels like to receive a pull request,
 a PR is also a potential new feature in our project that we’ll need to take care
 of over the course of its lifetime. You will have to keep in mind one more state
 the software can be in for every new feature or modification that gets merged.

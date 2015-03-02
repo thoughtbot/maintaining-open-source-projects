@@ -2,8 +2,15 @@
 
 (Upcoming.)
 
-## Free software licences
-
-## Permissive free software licences
 
 ## Copyleft licenses
+
+### GPL
+
+### LGPL
+
+## Permissive licences
+
+### Other permissive licenses
+
+## Free Software and Open Source Software

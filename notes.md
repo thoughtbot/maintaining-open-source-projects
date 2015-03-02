@@ -1,8 +1,3 @@
-# Documentation
-
-https://github.com/contribute-md/contribute-md-template/blob/master/contribute.md
-
-
 # SemVer is hard and why blogposts:
 
 http://gilesbowkett.blogspot.com/2015/01/versioning-is-nuanced-social-fiction.html?m=1

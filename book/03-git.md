@@ -1,12 +1,12 @@
 # Git & GitHub
 
-You check your emails in the morning and you happily find a pull request waiting
+You check your emails in the morning, and you happily find a pull request waiting
 for your consideration. You open it and start building a mental picture of what
-is proposed. Your have to:
+is proposed. You have to:
 
 * Study what is changing and why.
 * See if it might have repercussions with other parts of the system.
-* Think if it should be backported to previous releases.
+* Think if you should backport it to previous releases.
 * Make it easily reversible for future you (just in case).
 * Make it easy (for future you when debugging related functionality) to remember
   and understand the context and discussion in this PR.
@@ -21,7 +21,7 @@ There are two rules that help with all of the above:
 * Keep commits cohesive
 * Keep commits as small as possible
 
-A Pull Request is a collection of commits, that you should review as well.
+A Pull Request is a collection of commits that you should review as well.
 A good commit may be as small as a one-line change and as big as a
 change in every file of the entire project, provided it contains no more than
 one logical change. If it contains more, split it.
@@ -29,7 +29,7 @@ one logical change. If it contains more, split it.
 A small and cohesive commit is easier to review and grasp. Git’s `annotate` and
 `blame` commands will be more clear about the origin and reason of each line of
 the entire source code. If you find the need to revert the changeset, it is
-possible to `revert` that single commit, the same as if we have to backport it
+possible to `revert` that single commit. The same applies if you have to backport it
 (in git terms, `cherry-pick`) to previous releases.
 
 Always keep commits as small and cohesive as possible and ask your contributors
@@ -38,7 +38,7 @@ to do the same, and you will stay on the right path.
 
 ## Request good commit messages
 
-Imagine you are investigating a bug that was reported to your project. After
+Imagine you are investigating a bug reported to your project. After
 some debugging you narrow the bug down to an `if` for which the condition
 changed from a “less than” to a “less or equal than” comparison:
 
@@ -53,7 +53,7 @@ to avoid introducing a regression.
 
 You decide to go back in the history of the project in search of the origin of
 that line, to learn why was the `<` operator replaced by `<=`. You find the
-change happened around a year ago, that there were no other changes in that
+change happened around a year ago, there were no other changes in that
 commit, and the commit message reads:
 
 > allow `a` to be equal to `THRESHOLD`
@@ -62,7 +62,7 @@ Such a discovery! You were successful in finding the origin of the change, but
 that doesn’t get you any closer to understanding why that change (and this bug)
 exists.
 
-The author of that change is luckily in the same room as you, in fact it is you!
+The author of that change is luckily in the same room as you. In fact, it is you!
 Having such a close relationship doesn’t help you understand why did the
 programmer find the need to change this past year, and what repercussions it
 has or could have.
@@ -72,7 +72,7 @@ was born a year ago, and into the future) has to find out what the patch does
 and how it affects the software. A more informative message could spare that
 effort for *everyone*. Any commit message can be a potential time sink or serve
 as never-too-verbose documentation. An informative commit message lets anyone
-decide if the solution still applies, and if it’s a good solution for the
+decide if the solution still applies, and if it’s a good solution to the
 problem at hand or we can find better alternatives.
 
 A good commit message should answer three questions:
@@ -82,7 +82,7 @@ A good commit message should answer three questions:
 * What effects does the patch have?
 
 Note the absence of a “what is” type of question. We have the git log for that
-already, it speaks for itself.
+already; it speaks for itself.
 
 Tim Pope meta-describes [a good
 message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
@@ -113,7 +113,7 @@ Further paragraphs come after blank lines.
 ```
 
 `git commit` accepts a `--message=` flag (`-m` for short) that allows writing
-the message right from the command line. This is convenient for quick “work in
+the message right from the command line. The option is convenient for quick “work in
 progress” type of commits, but the CLI is comfortable for temporary one-liner
 commands rather than for writing a page in history. Instead of using that flag
 it’s better to [hook your favorite text editor to
@@ -124,7 +124,7 @@ itself: your commit message.
 
 ## Request good git history
 
-Over the course of a single bug fix one may create several commits with
+Over the course of a single bug fix, one may create several commits with
 improvements found while working through it and with feedback from code reviews.
 Once merged the code may look tidy, but better not look at the sausage factory
 that’s in the git log!
@@ -135,19 +135,19 @@ entails:
 * Each commit should be a single logical change. If it has more code changes it
     should be split, if it has less it should get squashed with other commits.
 * Each commit message should explain the problem and the solution without using
-    connectors. If they use connectors, there’s probably  more than one logical
+    connectors. If they use connectors, there’s probably more than one logical
     change.
 * If the branch history is polluted with messages like “cleanup whitespace”, “more style
-    changes”, “wip”, etc., the commits should be [squashed together into meaningful
+    changes”, “wip”, etc., commits should be [squashed together into meaningful
     parts](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
 * Pull requests that are small in scope should fit into a single commit. Some
-    may contain more, with each commit being independent from one another.
+    may contain more, with each commit being independent of one another.
     Similar rules apply to merging or splitting pull requests as you see fit.
 
-It is better to squash commits together right before merging and not before.
-That way, discussion and follow-up commits addressing feedback stay
+It is better to squash commits together right before merging and not earlier.
+That way, discussion and follow-up commits addressing the feedback stay
 synchronized, anyone can see how the feature came up to be across the different
-revisions, and reviewer always knows what was changed and addressed and what
+revisions, and the reviewer always knows what you addressed and what
 not.
 
 Be a nice person, floss every day and keep your git history clean.
@@ -163,7 +163,7 @@ master is legacy code. We ourselves are effectively someone else after
 forgetting the details of this code in two weeks, and any commit that’s behind
 `HEAD` is quite literally an older version of the software. Code is a liability
 and solving problems with as little code as possible is almost always a good
-decision. It doesn’t matter how exciting it feels like to receive a pull request,
+decision. It doesn’t matter how exciting it feels like to receive a pull request:
 a PR is also a potential new feature in our project that we’ll need to take care
 of over the course of its lifetime. You will have to keep in mind one more state
 the software can be in for every new feature or modification that gets merged.
@@ -182,7 +182,7 @@ questions:
 * Will you like maintaining that piece of software?
 * Do you see it bringing in more value than cost?
 
-Say “no” when you believe the addition will not actually be of help to the
+Say “no” when you believe the addition will not be helpful to the
 project, the team maintaining it, and by extension the users.
 
 If you internally feel like saying “no” but you can’t find the way to do it,
@@ -199,12 +199,12 @@ remember how leaders of popular open source projects and organizations work:
 
 These people are highly opinionated, decisive, even dominant. They are the
 “benevolent dictators” of their projects, and many times they take decisions
-based solely on their taste, without the need to foster or reach concensus.
+based solely on their taste, without the need to foster or reach consensus.
 They don’t ignore what other people say, they have strong opinions and stand for
 them, and they are open to change those opinions provided relevant facts
 (mostly!).
 
 Creator of Ruby Yukihiro “Matz” Matsumoto is one of the nicest people in this
-planet. Ruby was unheard of until DHH published Rails. While I personally prefer
+planet. Ruby was unheard of until DHH published Rails. While I try
 to follow Matz’s style, I count with a few noteworthy sources of inspiration for
 when I want to say “no”.

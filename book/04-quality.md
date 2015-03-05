@@ -1,19 +1,19 @@
 # Maintaining Quality
 
-As a maintainer you spend a significant amount of your open source time doing
-code review. There’s two types of feedback you provide:
+As a maintainer, you spend a significant amount of your open source time doing
+code review. There are two types of feedback you provide:
 
 * High level: about software design, design patterns, anti-patterns,
     architecture, suggestion of alternative implementations.
 * Low level: details like matching coding style with the surroundings of the
     file or project, indentation, and naming conventions.
 
-A high level plan is key for the success of the project. Weak foundations can
+A high-level plan is key to the success of the project. Weak foundations can
 complicate updating or extending the software, which as time goes by can stall
 development altogether.
 
 It might seem that style feedback is less relevant, as an unnecessary comma or a
-misspelled name won’t break any feature, but small discrepancies give the
+misspelled name won’t break any feature. But small discrepancies give the
 impression of individual developers working without purpose rather than a team
 working together towards a common goal. Lack of attention to detail conveys an
 attitude that might permeate other aspects like readability, dependency
@@ -22,10 +22,10 @@ that people don’t care much about quality.
 
 Kees Keizer and colleagues from the University of Groningen [conducted
 experiments] showing that if people observe a certain social norm or legitimate
-rule was violated, they are more likely to violate other norms or rules, which
-causes disorder to spread. This effect is also described as “broken windows
-theory”: one broken window in a building is enough for increasing the chances
-that more will appear.
+rule was violated, they are more likely to violate other norms or rules, causing
+disorder to spread. This effect is also known as “broken windows theory”:
+one broken window in a building is enough for increasing the chances that more
+will appear.
 
 [conducted experiments]:
 http://www.sciencemag.org/content/322/5908/1681.abstract
@@ -56,17 +56,17 @@ https://web.archive.org/web/20120313070806/http://users.jyu.fi/~koskinen/smcosts
 Programming style is a set of rules used while writing code. A style guide
 establishes and enforces style to improve communication, helping programmers
 read and understand source code. It ensures consistency within a file and across
-multiple files, and enforces best practices. When a group of people adhere to
-the same guidelines all the files feel familiar for everyone.
+multiple files, and enforces best practices. When a group of people adheres to
+the same guidelines, all the files feel familiar to everyone.
 
 You may write the coding standard for your project or adopt an existing one, and
 follow it. Any guideline will be useful, as any one of them will take a myriad
 of little decisions for you and your team so you don’t need to think about them
-too. It doesn’t matter what decisions these are, the point is to not have to
+too. It doesn’t matter what decisions these are; the point is to not have to
 discuss them frequently. Code can either conform or not with the guideline,
-there’s little room for opinions and bike-shed type of discussions. This frees
-time for us to focus on the deeper concepts of a given changeset, the high level
-overview of the code in review.
+there’s little room for opinions and bikeshed type of discussions. Guidelines save
+time for us to focus on the deeper concepts of a given changeset, the high-level
+overview of the code under review.
 
 Here is a list of three sample style guides and coding standards:
 
@@ -75,17 +75,17 @@ Here is a list of three sample style guides and coding standards:
 * [thoughtbot style guides for different languages and
     frameworks](https://github.com/thoughtbot/guides/tree/master/style#style)
 
-Because these standards are shaped through public discussions in pull requests
-they decide not only on superficial style but also foster best practices
-whenever possible. For example, in Ruby it is better to avoid rescuing the
+Public discussions in pull requests shape these standards, deciding not only
+on superficial style but also fostering best practices
+whenever possible. For example, in Ruby it’s better to avoid rescuing the
 general `Exception` class, as it traps OS signals to exit a process, requiring
-to do a non catchable `KILL` to end execution of the script, and thoughtbot
-guidelines advice against that practice. By following a popular guideline we
+to do a non-catchable `KILL` to end execution of the script. thoughtbot
+guidelines advise against that practice. Following a popular guideline we
 avoid rough edges even when we are not aware they could exist.
 
-If you work on your own side projects though, you might be better off throwing
-away any conventions and ignore everything anyone has ever said. Because as
-[Harrison Shoff answers in a critique to his guidelines], the lack of process is
+If you are working on side projects though, you might be better off throwing
+away any conventions and ignore everything anyone has ever said. Because, as
+[Harrison Shoff answers in a critique of his guidelines], the lack of process is
 what gets us to new discoveries. Not everything has to feel cookie cut,
 particularly for explorations.
 
@@ -103,7 +103,7 @@ sense for you any longer.
 
 ## Use static analysis tools
 
-The existence of a document that specifies process is not enough for people to
+The existence of a document that specifies a process is not enough for people to
 follow it. You might be surprised. Take a moment to sink that in. You will
 continue receiving contributions in the most _creative_ styles you have ever
 seen, and you might not be happiest about the originality contributors show.
@@ -116,18 +116,18 @@ followed, you can do any of these four options:
 
 2. Ignore the guidelines. Merge, which leads to sloppy looking code.
 
-3. Merge and apply style changes yourself. This is time consuming and will
+3. Merge and apply style changes yourself. This is time-consuming and will
    clutter the git history with stylistic rather than functional changes.
 
 4. Comment on every violation, working with the author until the changeset is
-   good. This is both time consuming and it can get socially awkward.
+   good. This is time-consuming, and it can get socially awkward.
 
 Or you can do nothing, and let a robot do the job! A bot will comment on every
 style violation, in virtually no time, with no emotions, consistently. Meet
 static analysis tools.
 
-For example Ruby has a tool called rubocop that exposes style violations.
-Running rubocop in a project that wasn’t following any styleguide can be
+For example, Ruby has a tool called rubocop that exposes style violations.
+Running rubocop in a project that wasn’t following any style guide can be
 daunting as there could be hundreds of violations.
 
 Hound CI is a product that uses rubocop, and it comments in the lines of pull
@@ -137,8 +137,7 @@ it a robot it avoids the potentially awkward situation of nitpicking style
 violations over a contribution. People rarely get offended by a robot dog. It is
 indeed waiting to criticize your style, but it does so always, with the same
 speed, consistency and lack of passion each time. People can handle Hound items
-ahead of your review, leaving code that reads as if it has been written by
-anyone at your team.
+ahead of your review, leaving code that reads as if anyone on your team wrote it.
 
 Other useful static analysis tools are:
 
@@ -178,7 +177,7 @@ that the project:
 Testing cannot establish that a product functions well under any condition, but
 can determine that it does not function properly under specific conditions. A
 failing test is the most specific description of an issue a project can get. The
-issue is indeed encoded in running software. In an ideal world we would have a
+issue is indeed encoded in running software. In an ideal world, we would have a
 failing test accompanying the natural language description of every issue. If an
 issue has no accompanying failing test in describes malfunctioning of the
 software, it should be a priority to get to a failing test before introducing
@@ -207,9 +206,8 @@ aims to improve visibility over the quality of software.
 
 [Travis CI] is an open-source continuous integration service used to build and
 test projects hosted on GitHub, and it’s free for open source projects. As other
-similar services, Travis CI automatically detects when a commit has been pushed,
-tries to build the project and run its tests. This includes commits to all
-branches, not only to the master branch. When that process has completed, it
+similar services, Travis CI automatically detects when a commit to any branch has been pushed,
+tries to build the project and run its tests. When that process has completed, it
 notifies the developer about the success or failure of the run.
 
 Travis CI is configured by adding a YAML file named `.travis.yml` to the root
@@ -245,16 +243,16 @@ gemfile:
 ```
 
 This results in a 3×3×4 build matrix that will validate your project runs in the
-many combinations of rails version, ORM and Ruby your users may have.
+many combinations of rails version, ORM, and Ruby your users may have.
 
-By automating as many quality controls as possible in a CI environment you will
+By automating as many quality controls as possible in a CI environment, you will
 make sure there is visibility into the project’s different quality measures,
 helping your team and community take care of them.
 
 
 ## Choose your own priorities
 
-When you start a new project you more or less consciously follow a set of values
+When you start a new project, more or less consciously you follow a set of values
 and priorities. You have a belief, taste or decision on what is most important
 for your project and community, and take care of those areas.
 

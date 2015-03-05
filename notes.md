@@ -1,3 +1,8 @@
+# On commits
+
+http://rakeroutes.com/blog/deliberate-git/
+
+
 # SemVer is hard and why blogposts:
 
 http://gilesbowkett.blogspot.com/2015/01/versioning-is-nuanced-social-fiction.html?m=1

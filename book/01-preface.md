@@ -22,5 +22,5 @@ and others, will find the workflows described here useful as well.
 
 Whether you lead open source, agile or other forms of collaborative projects, in
 this book you will find guidelines to make your work more effective. This is
-what we have learned about creating, maintaining and growing our open source
+what we learned about creating, maintaining and growing our open source
 projects.

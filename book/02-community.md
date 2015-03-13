@@ -20,14 +20,14 @@ a search for the maintainer’s public profiles finds no activity.
 You find yourself on a dead-end street: nothing is happening,
 and there is no indication that anything will happen soon. You would leave this
 place in search of greener pastures, trying to find another project that, even
-if not as useful for you as this one, has an active community sustaining it.
+if not as useful for you as this one looks like, has an active community sustaining it.
 
 As maintainers, we want to avoid this feeling of abandonment. Communication is
-vital to keep the air fresh, even if to say only “I don’t have the time right now,
+vital to keep the air fresh, even if to only say “I don’t have the time right now,
 hopefully next week.” It shows you keep the project in mind, you care about
 feedback, and you are honest about availability. Always keep the channel open,
 even when you can’t invest enough time to move forward any issue that’s being
-treated. It goes a long way into building a community who trusts you and your
+treated. It goes a long way into building a community that trusts you and your
 project.
 
 There are different communication channels for different needs:
@@ -47,19 +47,12 @@ having them when that is the case.
 
 ## Answering questions
 
-The project’s website or README are the landing page for your users.
-As the first encounter between your audience and your project, it
-should be clear and welcoming. The README is a good place to link to the communication
-channels of the project and to explain how and why to use them, as noted above. Remember, you
-are helping your community become users of your project, and helping them help
-you.
-
-Any participation is useful to a nascent project. You can see where
+Any participation is useful to a nascent project. Through users' questions you can see where
 people struggle, why they struggle, and how the software or documentation could
-improve to make the onboarding process smoother. In the early stages, we should
+improve to make the onboarding process smoother. In the early stages you should
 celebrate each interaction: the project is getting validated.
 
-It’s good to acknowledge contributors routinely. Thank them for the time they
+To foster participation acknowledge contributors routinely. Thank them for the time they
 spend providing feedback and code. Thank them publicly and be explicit about
 how their contributions are useful to you, the project and the community. People
 like being appreciated, and are more likely to continue contributing if you show
@@ -77,14 +70,14 @@ issues that don’t cut it as software bugs. You can avoid this by politely aski
 users to move their messages where they belong, for example to Q&A websites or
 mailing lists.
 
-It is not always better to move discussions out of the issue tracker.
+It is not always better to move discussions out of the issue tracker though.
 StackOverflow won’t be helpful when you have a small audience. In that case, the
-issue tracker is the right place to ask. It may be good to grow onto
-other platforms when members of your community organically start responding
-to issues. There’s a better chance that questions in other channels will get
+issue tracker is the right place to ask. A good sign that the project is ready to grow onto
+other platforms is when members of your community organically start responding to issues.
+There’s a better chance that questions in other channels will get
 responses as well.
 
-By always interacting politely interaction remains smooth, and you increase the
+By always interacting politely communication flows smoothly, and you increase the
 chance they follow your suggestions. Otherwise, users might feel you didn’t solve
 a problem you could have solved, and may insist you act. Arguing where a
 question belongs is not productive, and being friendly helps avoid it.
@@ -96,8 +89,9 @@ A problem that results in clutter in the issue tracker is
 irreproducibility. Users may be trying to show a legit issue with your project,
 but with not enough information to reproduce it, or to even decide if it is
 indeed a problem with your project. In this case, ask them to provide more
-information, you might link to
-[yourbugreportneedsmore.info](http://yourbugreportneedsmore.info) for a better explanation.
+information. You might link to
+[yourbugreportneedsmore.info](http://yourbugreportneedsmore.info) for a better
+explanation than what fits in a typical comment.
 
 Steve Klabnik, who helps tend to the Ruby on Rails issue tracker, [refers to this
 type of work as “gardening”]: you regularly pull out the weeds to keep it clean.
@@ -118,7 +112,7 @@ examples I use:
 > more people than in this issue tracker. Thanks!
 
 Some issues get stale, with not even the requester chiming in it anymore. It’s
-impossible to solve a bug report when there is not enough information, or someone
+impossible to solve a bug report when there is not enough information, or when there's nobody
 who has seen the problem to answer any question. An example response I use for these cases
 follows:
 
@@ -148,7 +142,7 @@ from reappearing? Meanwhile, adding the question to an FAQ section you can link
 to later is a good band-aid.
 
 
-## Enough communication already!
+## How much communication is enough?
 
 There are two rules to keep in mind during any discussion:
 
@@ -200,13 +194,13 @@ to acquiring gains. More concretely, giving you 5 dollars won’t make you extra
 happy but if I take $5 from you, you will get upset. Loss aversion relates with saying
 “no” on a pull request. As a reviewer, giving a clear explanation of the reasons
 for your rejection helps avoiding a longer discussion on
-why the patch should or should not be merged, helping authors see more
+whether the patch should or should not be merged, helping authors see more
 objectively the value of their contributions. As a contributor, remember
 that if you were the reviewer or another external party, you would probably be a
 bit more skeptic than you currently are about the value of your patch.
 
-Daniel Goleman identifies an [online negative bias]: what you thought was a
-positive message may be assumed to be neutral, and what seemed indifferent to you
+Daniel Goleman identifies an [online negative bias]: the positive message you wrote
+may be assumed to be neutral, and what seemed indifferent to you
 can be read as hostile. You can avoid this by using positive language instead of
 neutral. Written discussions have less bandwidth and need to include more context
 than conversations over the phone or in person.
@@ -256,7 +250,6 @@ Wrapping up, while giving feedback it’s good to:
 * If you disagree strongly, consider giving it a moment before responding.
 * Don’t assume the audience shares your experience or context. Avoid words like
   “basically”, “simply”, “clearly”, etc.
-* Avoid flame wars unless it’s your thing.
 * Review is of the code, not people. Keep this in mind as a contributor too.
 
 Remember: every person knows something you don’t yet know. It will help you treat

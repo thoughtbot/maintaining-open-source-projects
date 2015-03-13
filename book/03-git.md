@@ -1,6 +1,6 @@
 # Git & GitHub
 
-You check your emails in the morning, and you happily find a pull request waiting
+You check your emails in the morning, and you happily find a pull request (PR) waiting
 for your consideration. You open it and start building a mental picture of what
 is proposed. You have to:
 
@@ -30,7 +30,7 @@ A small and cohesive commit is easier to review and grasp. Git’s `annotate` an
 `blame` commands will be more clear about the origin and reason of each line of
 the entire source code. If you find the need to revert the changeset, it is
 possible to `revert` that single commit. The same applies if you have to backport it
-(in git terms, `cherry-pick`) to previous releases.
+(in git terms, `cherry-pick` it) to previous releases.
 
 Always keep commits as small and cohesive as possible and ask your contributors
 to do the same, and you will stay on the right path.

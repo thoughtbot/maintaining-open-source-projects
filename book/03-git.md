@@ -67,15 +67,15 @@ Having such a close relationship doesn’t help you understand why did the
 programmer find the need to change this past year, and what repercussions it
 has or could have.
 
-With such an irrelevant commit message, any reviewer (starting since the commit
-was born a year ago, and into the future) has to find out what the patch does
-and how it affects the software. A more informative message could spare that
+With such an irrelevant commit message, any reviewer (since the commit
+happened a year ago, and into the future) has to find out what the patch does
+and how it affects the software. A more informative message spares that
 effort for *everyone*. Any commit message can be a potential time sink or serve
 as never-too-verbose documentation. An informative commit message lets anyone
 decide if the solution still applies, and if it’s a good solution to the
 problem at hand or we can find better alternatives.
 
-A good commit message should answer three questions:
+A good commit message answers three questions:
 
 * Why is this change necessary?
 * How does it address the issue?
@@ -114,8 +114,8 @@ Further paragraphs come after blank lines.
 
 `git commit` accepts a `--message=` flag (`-m` for short) that allows writing
 the message right from the command line. The option is convenient for quick “work in
-progress” type of commits, but the CLI is comfortable for temporary one-liner
-commands rather than for writing a page in history. Instead of using that flag
+progress” type of commits, but the CLI is only comfortable for temporary one-liner
+commands, not for writing the page we are about to leave in history. Instead of using that flag
 it’s better to [hook your favorite text editor to
 git](http://stackoverflow.com/a/2596835/356060). That way you’ll always have
 enough space and your regular toolset for writing what is as relevant as code
@@ -142,7 +142,7 @@ entails:
     parts](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
 * Pull requests that are small in scope should fit into a single commit. Some
     may contain more, with each commit being independent of one another.
-    Similar rules apply to merging or splitting pull requests as you see fit.
+* Similar rules apply to merging or splitting pull requests as you see fit.
 
 It is better to squash commits together right before merging and not earlier.
 That way, discussion and follow-up commits addressing the feedback stay
@@ -150,7 +150,7 @@ synchronized, anyone can see how the feature came up to be across the different
 revisions, and the reviewer always knows what you addressed and what
 not.
 
-Be a nice person, floss every day and keep your git history clean.
+Be nice, floss every day and keep your git history clean.
 
 
 ## Reject pull requests
@@ -164,7 +164,7 @@ forgetting the details of this code in two weeks, and any commit that’s behind
 `HEAD` is quite literally an older version of the software. Code is a liability
 and solving problems with as little code as possible is almost always a good
 decision. It doesn’t matter how exciting it feels like to receive a pull request:
-a PR is also a potential new feature in our project that we’ll need to take care
+a PR is also a potential new feature in your project that you will need to take care
 of over the course of its lifetime. You will have to keep in mind one more state
 the software can be in for every new feature or modification that gets merged.
 
@@ -173,7 +173,7 @@ awkward to say “no” to a legitimate use case or idea. We may think of adding
 configuration options to the software so we can take everyone into account, but
 that brings complexity.
 
-To make sure merging a given PR is a good idea, you can ask these following
+To make sure merging a given PR is a good idea, you can ask the following
 questions:
 
 * Will you or your team want to maintain it?
@@ -199,7 +199,7 @@ remember how leaders of popular open source projects and organizations work:
 
 These people are highly opinionated, decisive, even dominant. They are the
 “benevolent dictators” of their projects, and many times they take decisions
-based solely on their taste, without the need to foster or reach consensus.
+based solely on their taste, without the need to reach consensus.
 They don’t ignore what other people say, they have strong opinions and stand for
 them, and they are open to change those opinions provided relevant facts
 (mostly!).

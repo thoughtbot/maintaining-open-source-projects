@@ -12,7 +12,7 @@ A high-level plan is key to the success of the project. Weak foundations can
 complicate updating or extending the software, which as time goes by can stall
 development altogether.
 
-It might seem that style feedback is less relevant, as an unnecessary comma or a
+It might seem that style feedback on style is less relevant, as an unnecessary comma or a
 misspelled name won’t break any feature. But small discrepancies give the
 impression of individual developers working without purpose rather than a team
 working together towards a common goal. Lack of attention to detail conveys an
@@ -23,7 +23,7 @@ that people don’t care much about quality.
 Kees Keizer and colleagues from the University of Groningen [conducted
 experiments] showing that if people observe a certain social norm or legitimate
 rule was violated, they are more likely to violate other norms or rules, causing
-disorder to spread. This effect is also known as “broken windows theory”:
+disorder to spread. This effect is also known as “broken windows”:
 one broken window in a building is enough for increasing the chances that more
 will appear.
 
@@ -80,36 +80,35 @@ on superficial style but also fostering best practices
 whenever possible. For example, in Ruby it’s better to avoid rescuing the
 general `Exception` class, as it traps OS signals to exit a process, requiring
 to do a non-catchable `KILL` to end execution of the script. thoughtbot
-guidelines advise against that practice. Following a popular guideline we
-avoid rough edges even when we are not aware they could exist.
+guidelines advise against that practice. People who follow a popular guideline
+might avoid rough edges even when they are not conscious of them.
 
-If you are working on side projects though, you might be better off throwing
+If you are working on side projects though, you may throw
 away any conventions and ignore everything anyone has ever said. Because, as
-[Harrison Shoff answers in a critique of his guidelines], the lack of process is
+[Harrison Shoff delightfully answers in a critique of his guidelines], lack of process is
 what gets us to new discoveries. Not everything has to feel cookie cut,
 particularly for explorations.
 
-[Harrison Shoff answers in a critique to his guidelines]:
+[Harrison Shoff delightfully answers in a critique of his guidelines]:
 https://github.com/airbnb/javascript/issues/102#issuecomment-28157738
 
 Style guides can help polish reliability, performance, security, maintainability
-and size of your software. It is your choice to research the reasoning behind
-each rule, and to check if they apply to you and your team. Even without the
-need of learning all this context and becoming an erudite in software metrics
-you can achieve healthy results. Follow the rules that were discussed and shaped
-by hundreds of people from your community, and break them when they don’t make
-sense for you any longer.
+and size of your software. You can research the reasoning behind
+each rule, and analyze if they apply to you and your team. But even without the
+need of learning all this context you can achieve healthy results. Follow the
+rules that hundreds of people from your community have discussed and shaped, and
+break them when they don’t make sense any longer for you.
 
 
 ## Use static analysis tools
 
 The existence of a document that specifies a process is not enough for people to
-follow it. You might be surprised. Take a moment to sink that in. You will
-continue receiving contributions in the most _creative_ styles you have ever
+follow it. You might be surprised, take a moment to sink that in. You will
+continue receiving contributions in the most creative styles you have ever
 seen, and you might not be happiest about the originality contributors show.
 
 If you receive a contribution with guidelines violations that you’d rather see
-followed, you can do any of these four options:
+followed, you are left with these options:
 
 1. Ignore the changes. Don’t merge, which is rude to the contributor(s). It also
    doesn’t help the project if the code changes are functionally useful.
@@ -120,24 +119,21 @@ followed, you can do any of these four options:
    clutter the git history with stylistic rather than functional changes.
 
 4. Comment on every violation, working with the author until the changeset is
-   good. This is time-consuming, and it can get socially awkward.
+   good. This is time-consuming and can get socially awkward.
 
-Or you can do nothing, and let a robot do the job! A bot will comment on every
-style violation, in virtually no time, with no emotions, consistently. Meet
-static analysis tools.
+5. Do nothing, and let a robot comment on every style violation in virtually no
+   time, consistently, with no emotions.
 
-For example, Ruby has a tool called rubocop that exposes style violations.
-Running rubocop in a project that wasn’t following any style guide can be
-daunting as there could be hundreds of violations.
-
-Hound CI is a product that uses rubocop, and it comments in the lines of pull
-requests that are changed and do not conform to the style guides. Hound is
-consistently the first reviewer of any PR in the projects that set it up. Being
-it a robot it avoids the potentially awkward situation of nitpicking style
+Ruby has a tool called rubocop that exposes style violations. Hound CI is a
+product that uses rubocop, and it comments in the changed lines of pull
+requests that do not conform to the style guides. Hound is
+consistently the first reviewer of any PR in the projects that set it up. It being
+a robot, it avoids the potentially awkward situation of nitpicking style
 violations over a contribution. People rarely get offended by a robot dog. It is
 indeed waiting to criticize your style, but it does so always, with the same
 speed, consistency and lack of passion each time. People can handle Hound items
-ahead of your review, leaving code that reads as if anyone on your team wrote it.
+ahead of your review, leaving code that reads as if anyone on your team wrote
+it.
 
 Other useful static analysis tools are:
 
@@ -176,51 +172,43 @@ that the project:
 
 Testing cannot establish that a product functions well under any condition, but
 can determine that it does not function properly under specific conditions. A
-failing test is the most specific description of an issue a project can get. The
-issue is indeed encoded in running software. In an ideal world, we would have a
-failing test accompanying the natural language description of every issue. If an
-issue has no accompanying failing test in describes malfunctioning of the
-software, it should be a priority to get to a failing test before introducing
-any change in the software.
+failing test is the most specific description of an issue a project can get. In
+an ideal world, we would have a failing test accompanying the natural language
+description of every issue.
 
-These tests will in turn serve as regression tests. We get a regression if a
-change that fixes an issue or enhances the project has unintended consequences
-over other parts of it. Having tests covering each bug fix protect us from these
-bugs reappearing, making the software more predictable and maintainable.
+These tests will in turn serve as regression tests. A regression happens if a
+change has unintended consequences over other parts of the project. Having tests
+covering each bug fix protect us in an automated way from reappearing bugs,
+making the software more predictable.
 
 
 ## Run tests on every commit
 
 Running tests before committing to master helps avoid one developer’s work
-breaking another developer’s copy. Continuous Integration originally described a
+breaking another copy of the software. Continuous Integration originally described a
 workflow in which every developer would run all unit tests in their local
-environment and verify they passed before sharing her commits.
+environment and verify they passed before sharing changes.
 
 Nowadays build servers automatically run all tests after every commit, and
-report results to the authors closing a feedback loop. In addition to automated
-tests, CI environments can implement continuous processes of general quality
+report results to the authors closing a tight feedback loop. In addition to automated
+tests, CI environments can implement continuous processes for general quality
 control. Such processes run additional static and dynamic tests, measure and
 profile performance, extract and format documentation from the source code, and
 facilitate manual QA processes. This continuous application of quality control
-aims to improve visibility over the quality of software.
+aims to improve visibility over the project’s quality.
 
-[Travis CI] is an open-source continuous integration service used to build and
-test projects hosted on GitHub, and it’s free for open source projects. As other
-similar services, Travis CI automatically detects when a commit to any branch has been pushed,
-tries to build the project and run its tests. When that process has completed, it
-notifies the developer about the success or failure of the run.
-
-Travis CI is configured by adding a YAML file named `.travis.yml` to the root
-directory of the GitHub repository. It will test all combinations you specify
-of:
-
-* Runtimes to test against
-* Environment variables you can use to configure scripts
-* Allowed failures
+[Travis CI] is an open-source continuous integration service for projects hosted
+on GitHub. It’s free for open source projects. As other similar services, it
+automatically detects new commits in any branch, tries to build the project and
+run its tests. It notifies the developer about the success or failure of the run
+upon completion.
 
 [Travis CI]: https://travis-ci.com/
 
-An example file for a ruby library might be:
+Travis CI will test all combinations you specify of runtimes to test against,
+dependency versions, and environment variables.
+
+An example configuration file for a ruby library might be:
 
 ```
 language: ruby
@@ -231,9 +219,9 @@ rvm:
   - 2.2
 
 env:
-  - DB=mongodb
-  - DB=redis
-  - DB=mysql
+  - DATABASE=mongodb
+  - DATABASE=postgresql
+  - DATABASE=redis
 
 gemfile:
   - Gemfile
@@ -243,20 +231,21 @@ gemfile:
 ```
 
 This results in a 3×3×4 build matrix that will validate your project runs in the
-many combinations of rails version, ORM, and Ruby your users may have.
+many combinations of rails and ruby version, and database your users may have.
 
 By automating as many quality controls as possible in a CI environment, you will
-make sure there is visibility into the project’s different quality measures,
+make sure there is visibility into the project’s different quality measurements,
 helping your team and community take care of them.
 
 
 ## Choose your own priorities
 
-When you start a new project, more or less consciously you follow a set of values
-and priorities. You have a belief, taste or decision on what is most important
-for your project and community, and take care of those areas.
+When you start a new project you follow a set of values and priorities, whether
+you are conscious about it or not. You produce work with a belief, taste or
+deliberate decision on what is most important for your project and community,
+and take decisions based on that.
 
-An incomplete list of values one might prioritize are:
+An (incomplete) list of values one might prioritize are:
 
 * Reliability
 * Security
@@ -295,13 +284,13 @@ A developer will like it if the object model is close to the real world domain
 model and code is loosely coupled. A customer may think a product is good if it
 can be understood and used in less than a minute. A product owner will find the
 software healthy if it’s profitable. Different people see the same product
-through their different lenses. What’s irrelevant to one project is essential to
+through different lenses. What’s irrelevant to one project is essential to
 another.
 
 As the project’s maintainer, you’re in a unique position to define the values of
 your project’s community. In this chapter we’ve mainly discussed values related
 to code quality: adhering to a style guide, maintaining test coverage, using CI,
 and so on. A project that doesn’t honor these values is less likely to succeed,
-but a project certainly won’t succeed if no one wants to work on it! Make sure
+but a project certainly won’t succeed if no one wants to work on it. Make sure
 that the values you choose to cultivate resonate with potential contributors and
 help make the project something you can be proud of.

@@ -131,7 +131,7 @@ projects, uses a browser extension to post pre-cooked answers into pull requests
 with the single press of a button. You can find the code in [GitHub: Jose vs.
 OSS](https://github.com/nashby/jose-vs-oss).
 
-If you see the same questions being asked over and over, it may be a good sign
+If you see the same questions asked over and over, it may be a good sign
 that there is something in your project that should be simpler. Better error
 messages could help, documentation might need more attention, code might need
 some refactoring. Before disregarding repeated questions with variations of RTFM

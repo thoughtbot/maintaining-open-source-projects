@@ -121,6 +121,9 @@ git](http://stackoverflow.com/a/2596835/356060). That way you’ll always have
 enough space and your regular toolset for writing what is as relevant as code
 itself: your commit message.
 
+Summing up, always write commit messages as if you are explaining the change to
+a colleague sitting next to you who has no idea of what is going on.
+
 
 ## Request good git history
 
@@ -129,18 +132,31 @@ improvements found while working through it and with feedback from code reviews.
 Once merged the code may look tidy, but better not look at the sausage factory
 that’s in the git log!
 
-It’s good to make sure that history is tidy before merging a pull request. This
-entails:
+Some people see value in keeping the evolution of the code unchanged, commit
+after commit, having the whole messy (but complete) changeset. Assuming each
+commit includes an explanation of the rationale behind of it, then history is
+complete, but that doesn’t mean clear. If the author takes the time to send a
+curated history rather than the raw version, it’s easier for everyone in the
+team to understand this change. For a programmer at work, it’s more useful to
+understand what the code does and why, than a given contributor’s development
+and learning process.
 
-* Each commit should be a single logical change. If it has more code changes it
+A repository has every version of the project since it was born indeed, and that
+doesn’t necessarily include discussions that happen in chat rooms, hallways, or
+GitHub pull requests. From those discussions, decisions arise on what should the
+software do and how, and that context is lost unless we explicitly write it into
+each commit message. You can encourage this before merging code by requesting
+that:
+
+* Each commit contains a single logical change. If it has more code changes it
     should be split, if it has less it should get squashed with other commits.
-* Each commit message should explain the problem and the solution without using
+* Each commit message explains the problem and the solution without using
     connectors. If they use connectors, there’s probably more than one logical
     change.
 * If the branch history is polluted with messages like “cleanup whitespace”, “more style
-    changes”, “wip”, etc., commits should be [squashed together into meaningful
+    changes”, “wip”, etc., commits are [squashed together into meaningful
     parts](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
-* Pull requests that are small in scope should fit into a single commit. Some
+* Pull requests that are small in scope fit into a single commit. Some
     may contain more, with each commit being independent of one another.
 * Similar rules apply to merging or splitting pull requests as you see fit.
 

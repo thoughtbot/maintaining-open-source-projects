@@ -131,7 +131,19 @@ projects, uses a browser extension to post pre-cooked answers into pull requests
 with the single press of a button. You can find the code in [GitHub: Jose vs.
 OSS](https://github.com/nashby/jose-vs-oss).
 
-If you see the same questions asked over and over, it may be a good sign
+To an issue with an unclear description you can ask for a spike. If the
+requester implements even part of the needed feature you can now discuss over a
+concrete implementation, description couldn’t get more precise, and you can even
+start working together. Another possibility is that while working on it the
+contributor might find that it’s not a great idea after all and close the issue
+as invalid.
+
+If you believe the issue doesn’t describe something good for the project, ask
+further questions and take the time to learn what is being proposed before
+asking for sample code. Otherwise, you run the risk of having to say “no” to
+work you have asked for, potentially wasting time for both parties.
+
+Some questions appear over and over again in the issue tracker. That’s a good sign
 that there is something in your project that should be simpler. Better error
 messages could help, documentation might need more attention, code might need
 some refactoring. Before disregarding repeated questions with variations of RTFM

@@ -20,3 +20,19 @@ http://who-t.blogspot.de/2009/12/on-commit-messages.html
 http://confreaks.com/videos/4823-RubyConf2014-the-social-coding-contract
 
 http://robots.thoughtbot.com/handling-security-issues-in-open-source-projects
+
+---
+
+The Changelog
+
+Ghosts and the Wordpress model of a not for profit organization that employs
+people
+http://thechangelog.com/105/
+
+IO.js (ex Node.js), and on being a dictator vs GNU-open:
+http://thechangelog.com/139/
+
+DHH on Rails as an API Server in Rails 5
+“We’re not blowing up the community just because there are different opinions on
+the value of client-side MVC...”
+http://thechangelog.com/dhh-on-rails-as-an-api-server-rails-5

@@ -1,25 +1,27 @@
 # Notes that might go into the book
 
-On versioning:
-http://jeremyckahn.github.io/blog/2013/12/29/the-fear-of-1-dot-0-0/
-
-http://tomayko.com/writings/adopt-an-open-source-process-constraints
-
----
-
 Explain in "nobody owes anything to anyone" that thats what almost every OSI
 license says:
 http://opensource.org/licenses/
-
-Open source vs free software definition
-http://jeremyckahn.github.com/blog/2014/10/19/open-source-does-not-mean-free-labor/
 
 ---
 
 Bikeshed example ("pedantic PR"): https://github.com/twbs/bootstrap/pull/15909
 
-On responsibility as maintainers, and more
-http://devchat.tv/ruby-rogues/197-rr-the-social-coding-contract-with-justin-searls
+---
+
+It’s better to contribute upstream than to fork:
+http://blog.steveklabnik.com/posts/2011-08-12-we-forget-that-open-source-is-made-of-people
+
+Vim creator on NeoVim fork:
+
+> Some of the basic choices seem odd and irrelevant for the main goals.
+> Such as dropping support for some systems and not being backwards compatible.
+> The goals could just as well been implemented without that.
+I do hope that the nice things that NeoVim comes up with can be added back to
+Vim. I mean, who doesn’t want better plugin support, a better GUI and embedding?
+The big question is how to do that, and who is going to implement it properly.
+http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/
 
 ---
 
@@ -40,12 +42,6 @@ http://rakeroutes.com/blog/deliberate-git/
 
 ---
 
-SemVer is hard and why blogposts:
-http://gilesbowkett.blogspot.com/2015/01/versioning-is-nuanced-social-fiction.html?m=1
-https://gist.github.com/jashkenas/cbd2b088e20279ae2c8e also
-
----
-
 Bazaar vs Cathedral
 http://forums.macrumors.com/showthread.php?t=884726
 
@@ -63,16 +59,28 @@ way.
 
 ---
 
-The Changelog
+On community
 
-Ghosts and the Wordpress model of a not for profit organization that employs
-people
-http://thechangelog.com/105/
+“Thanks - I agree, that would be a good addition to the docs. It would be really
+helpful if you could add that and submit a pull request. Thanks!” en lugar de lo
+que escribí yo, que estuvo mal.
+https://github.com/haml/haml/issues/832#issuecomment-74946229
 
-IO.js (ex Node.js), and on being a dictator vs GNU-open:
-http://thechangelog.com/139/
+Justin Searls on how to say no to a lot of work in a nice PR:
+https://twitter.com/searls/status/568497014897577984 on
+https://github.com/linemanjs/rails-lineman/pull/15#issuecomment-75122029
 
-DHH on Rails as an API Server in Rails 5
-“We’re not blowing up the community just because there are different opinions on
-the value of client-side MVC...”
-http://thechangelog.com/dhh-on-rails-as-an-api-server-rails-5
+---
+
+# Resources to review
+
+## Blog posts
+
+* http://www.codesimplicity.com/post/open-source-community-simplified/
+* https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code/
+* http://www.drdobbs.com/open-source/building-and-maintaining-an-open-source/240168415
+* See references in https://speakerdeck.com/bf4/maintaining-open-source-projects-1
+
+## Talks
+
+* http://confreaks.tv/videos/rubyconf2013-maintaining-sanity

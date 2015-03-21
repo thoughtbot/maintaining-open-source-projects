@@ -65,15 +65,17 @@ exists.
 The author of that change is luckily in the same room as you. In fact, it is you!
 Having such a close relationship doesn’t help you understand why did the
 programmer find the need to change this past year, and what repercussions it
-has or could have.
-
-With such an irrelevant commit message, any reviewer (since the commit
+has or could have. With such an irrelevant commit message, any reviewer (since the commit
 happened a year ago, and into the future) has to find out what the patch does
-and how it affects the software. A more informative message spares that
+and how it affects the software.
+
+A more informative message spares that
 effort for *everyone*. Any commit message can be a potential time sink or serve
 as never-too-verbose documentation. An informative commit message lets anyone
 decide if the solution still applies, and if it’s a good solution to the
 problem at hand or we can find better alternatives.
+Understanding why something happened months or years ago becomes possible and
+efficient.
 
 A good commit message answers three questions:
 
@@ -82,7 +84,16 @@ A good commit message answers three questions:
 * What effects does the patch have?
 
 Note the absence of a “what is” type of question. We have the git log for that
-already; it speaks for itself.
+already; it speaks for itself. Other useful notes to add to the end of the
+commit message are issue tracking IDs, pull request numbers, etc.
+
+There are style practices that help keeping a consistent and more readable log:
+
+* Separate subject from body with a blank line
+* Limit the subject line to 50 characters
+* Capitalize the subject line, and don’t end it with a period
+* Use imperative form in the subject line
+* Wrap the body at 72 characters
 
 Tim Pope meta-describes [a good
 message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
@@ -112,14 +123,18 @@ Further paragraphs come after blank lines.
 - Use a hanging indent
 ```
 
-`git commit` accepts a `--message=` flag (`-m` for short) that allows writing
-the message right from the command line. The option is convenient for quick “work in
-progress” type of commits, but the CLI is only comfortable for temporary one-liner
-commands, not for writing the page we are about to leave in history. Instead of using that flag
-it’s better to [hook your favorite text editor to
-git](http://stackoverflow.com/a/2596835/356060). That way you’ll always have
-enough space and your regular toolset for writing what is as relevant as code
-itself: your commit message.
+Not every commit requires both a subject and a body. Sometimes a single line is
+fine, specially when the change is so simple that no further context is
+necessary. For example: “fix typo in README”. For these cases you can use the
+`--message=` flag (`-m` for short) to `git commit`, which allows writing the
+message right from the command line.
+
+When you need a longer explanation, instead of using that flag it’s better to
+[hook your favorite text editor to git]. That way you’ll always have enough
+space and your regular toolset for writing what is as relevant as code itself:
+your commit message.
+
+[hook your favorite text editor to git]: http://stackoverflow.com/a/2596835/356060
 
 Summing up, always write commit messages as if you are explaining the change to
 a colleague sitting next to you who has no idea of what is going on.

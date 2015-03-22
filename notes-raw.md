@@ -1,5 +1,27 @@
 # Notes that might go into the book
 
+Regarding terminology, might be better to use patch instead of PR to avoid
+assuming GitHub for the reader’s projects:
+
+book/02-community.md:up with. Questions and feature requests will start queueing up. While you
+book/02-community.md:Feature requests, help requests, bug reports, and patches all land in your
+book/02-community.md:projects, uses a browser extension to post pre-cooked answers into pull requests
+book/03-git.md:GitHub pull requests. From those discussions, decisions arise on what should the
+book/03-git.md:* Pull requests that are small in scope fit into a single commit. Some
+book/03-git.md:* Similar rules apply to merging or splitting pull requests as you see fit.
+book/03-git.md:## Reject pull requests
+book/04-quality.md:Public discussions in pull requests shape these standards, deciding not only
+book/04-quality.md:requests that do not conform to the style guides. Hound is
+book/05-documentation.md:* Submitting Pull Requests
+maintaining-an-open-source-project documentation % grep -r PR book
+book/03-git.md:You check your emails in the morning, and you happily find a pull request (PR) waiting
+book/03-git.md:  and understand the context and discussion in this PR.
+book/03-git.md:a PR is also a potential new feature in your project that you will need to take care
+book/03-git.md:To make sure merging a given PR is a good idea, you can ask the following
+book/04-quality.md:consistently the first reviewer of any PR in the projects that set it up. It being
+
+---
+
 Explain in "nobody owes anything to anyone" that thats what almost every OSI
 license says:
 http://opensource.org/licenses/
@@ -26,6 +48,8 @@ http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/
 ---
 
 Ask Paul for feedback on the cognitive biases part
+
+Add excellent talk on avoiding burnout: https://vimeo.com/106232256
 
 ---
 
@@ -60,11 +84,6 @@ way.
 ---
 
 On community
-
-“Thanks - I agree, that would be a good addition to the docs. It would be really
-helpful if you could add that and submit a pull request. Thanks!” en lugar de lo
-que escribí yo, que estuvo mal.
-https://github.com/haml/haml/issues/832#issuecomment-74946229
 
 Justin Searls on how to say no to a lot of work in a nice PR:
 https://twitter.com/searls/status/568497014897577984 on

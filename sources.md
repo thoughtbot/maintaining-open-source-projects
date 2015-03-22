@@ -10,6 +10,7 @@ http://css-tricks.com/words-avoid-educational-writing/
 http://robots.thoughtbot.com/inbox-zero-github-issues-edition
 http://robots.thoughtbot.com/moving-open-source-project-mailing-lists-to-stack-overflow
 http://robots.thoughtbot.com/how-to-write-a-great-readme
+http://calebthompson.io/how-to-write-a-readme/
 http://robots.thoughtbot.com/every-two-weeks
 
 http://srawlins.ruhoh.com/checklist-for-the-benevolent-open-source-maintainer/

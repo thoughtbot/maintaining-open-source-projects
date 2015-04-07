@@ -18,9 +18,30 @@ Sources that we reviewed while writing this book.
 
 ## Licenses
 
+* https://en.wikipedia.org/wiki/Berkeley_Software_Distribution
+* https://en.wikipedia.org/wiki/Copyleft
 * https://en.wikipedia.org/wiki/Copyright
 * https://en.wikipedia.org/wiki/Free_license
+* https://en.wikipedia.org/wiki/Free_software_license
+* https://en.wikipedia.org/wiki/GNU_General_Public_License
+* https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License
+* https://en.wikipedia.org/wiki/ISC_license
+* https://en.wikipedia.org/wiki/Open-source_license
 * https://en.wikipedia.org/wiki/Open_source
+* https://en.wikipedia.org/wiki/Permissive_free_software_licence
+* https://en.wikipedia.org/wiki/Software_patent
+* https://en.wikipedia.org/wiki/The_Open_Source_Definition
+* https://www.gnu.org/licenses/license-list.html
+* https://www.gnu.org/licenses/license-recommendations.html
+* https://www.gnu.org/copyleft/copyleft.html
+* http://choosealicense.com/licenses/
+* http://opensource.org/faq
+* http://opensource.org/licenses
+* http://stackoverflow.com/questions/40100/apache-license-vs-bsd-vs-mit
+* http://wiki.civiccommons.org/Choosing_a_License
+* http://www.everything2.com/index.pl?node=BSD%20Code%20in%20Windows
+* http://www.kuro5hin.org/?op=displaystory;sid=2001/6/19/05641/7357
+* http://www.linuxjournal.com/article/5935
 
 ## Documentation
 

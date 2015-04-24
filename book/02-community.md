@@ -107,9 +107,11 @@ examples I use:
 > stackoverflow.com/questions/tagged/factory-girl. Closing this issue for now.
 
 > This issue seems specific to your application rather than with
-> factory_girl itself. I suggest you ask about it in
-> stackoverflow.com/questions/tagged/factory-girl, which will get attention from
-> more people than in this issue tracker. Thanks!
+> factory_girl itself. I suggest you ask about it in:
+>
+> stackoverflow.com/questions/tagged/factory-girl
+>
+> It will get attention from more people than in this issue tracker. Thanks!
 
 Some issues get stale, with not even the requester chiming in it anymore. It’s
 impossible to solve a bug report when there is not enough information, or when there's nobody

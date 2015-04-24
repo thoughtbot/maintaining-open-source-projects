@@ -34,6 +34,4 @@ IO.js (ex Node.js), and on being a dictator vs GNU-open:
 http://thechangelog.com/139/
 
 DHH on Rails as an API Server in Rails 5
-“We’re not blowing up the community just because there are different opinions on
-the value of client-side MVC...”
-http://thechangelog.com/dhh-on-rails-as-an-api-server-rails-5
+https://thechangelog.com/145/

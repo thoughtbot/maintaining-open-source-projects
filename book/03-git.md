@@ -1,6 +1,6 @@
 # Git & GitHub
 
-You check your emails in the morning, and you happily find a pull request (PR) waiting
+You check your emails in the morning, and you happily find a patch waiting
 for your consideration. You open it and start building a mental picture of what
 is proposed. You have to:
 
@@ -9,7 +9,7 @@ is proposed. You have to:
 * Think if you should backport it to previous releases.
 * Make it easily reversible for future you (just in case).
 * Make it easy (for future you when debugging related functionality) to remember
-  and understand the context and discussion in this PR.
+  and understand the context and discussion around this patch.
 
 Let’s see how good usage of Git can help with these goals.
 
@@ -91,7 +91,7 @@ A good commit message answers three questions:
 Note the absence of a “what is” type of question. We have the git log for that
 already; you can leave a short summary of the “what”, but elaborate on the
 “why”. Other useful notes to add to the end of the commit message are issue
-tracking IDs, pull request numbers, etc.
+tracker IDs, link to other commits or patches, etc.
 
 There are style practices that help keeping a consistent and more readable log:
 
@@ -100,8 +100,9 @@ There are style practices that help keeping a consistent and more readable log:
 * Capitalize the subject line, and don’t end it with a period
 * Use imperative form in the subject line
 * Wrap the body at 72 characters
+* The subject tells what the commits does, the body explains why
 
-Tim Pope meta-describes [a good
+Tim Pope, renowned creator of several Vim plugins, meta-describes [a good
 message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 in a hypothetical commit message:
 
@@ -177,7 +178,7 @@ that:
 * If the branch history is polluted with messages like “cleanup whitespace”, “more style
     changes”, “wip”, etc., commits are [squashed together into meaningful
     parts](http://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history).
-* Pull requests that are small in scope fit into a single commit. Some
+* Changesets that are small in scope fit into a single commit. Some
     may contain more, with each commit being independent of one another.
 * Similar rules apply to merging or splitting pull requests as you see fit.
 
@@ -190,7 +191,7 @@ not.
 Be nice, floss every day and keep your git history clean.
 
 
-## Reject pull requests
+## Reject patches
 
 According to
 [Wikipedia](https://en.wikipedia.org/wiki/Legacy_code#Modern_interpretations),
@@ -200,8 +201,8 @@ master is legacy code. We ourselves are effectively someone else after
 forgetting the details of this code in two weeks, and any commit that’s behind
 `HEAD` is quite literally an older version of the software. Code is a liability
 and solving problems with as little code as possible is almost always a good
-decision. It doesn’t matter how exciting it feels like to receive a pull request:
-a PR is also a potential new feature in your project that you will need to take care
+decision. It doesn’t matter how exciting it feels like to receive a patch:
+the potential new feature in your project will need to be taken care
 of over the course of its lifetime. You will have to keep in mind one more state
 the software can be in for every new feature or modification that gets merged.
 
@@ -210,7 +211,7 @@ awkward to say “no” to a legitimate use case or idea. We may think of adding
 configuration options to the software so we can take everyone into account, but
 that brings complexity.
 
-To make sure merging a given PR is a good idea, you can ask the following
+To make sure merging a given patch is a good idea, you can ask the following
 questions:
 
 * Will you or your team want to maintain it?

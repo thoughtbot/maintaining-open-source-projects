@@ -41,8 +41,8 @@ suggests maintainers to set a precedent:
 One reason it’s good to take care of code quality at every level is that good
 software quality keeps maintenance costs low. Poor application structural
 quality in business applications results in cost and schedule overruns and
-creates waste in the form of rework. Jussi Koskinen in [_Software Maintenance
-Costs_] cites studies that show the relative cost of maintaining software and
+creates waste in the form of rework. Jussi Koskinen, Engineering Researcher,
+cites studies in [_Software Maintenance Costs_] that show the relative cost of maintaining software and
 managing its evolution represents more than 50% of its total cost.
 
 Let’s see how we can control these costs.
@@ -125,9 +125,9 @@ followed, you are left with these options:
    time, consistently, with no emotions.
 
 Ruby has a tool called rubocop that exposes style violations. Hound CI is a
-product that uses rubocop, and it comments in the changed lines of pull
-requests that do not conform to the style guides. Hound is
-consistently the first reviewer of any PR in the projects that set it up. It being
+product that uses rubocop, and it comments in the changed lines of patches
+that do not conform to the style guides. Hound is consistently the
+first reviewer of any patch in the projects that set it up. It being
 a robot, it avoids the potentially awkward situation of nitpicking style
 violations over a contribution. People rarely get offended by a robot dog. It is
 indeed waiting to criticize your style, but it does so always, with the same
@@ -268,7 +268,7 @@ A prioritization of values you might like in your community can be:
 <!--
 As a maintainer, each decision you take and each interaction you have with the
 community sets a tone. You might show happiness about certain things, anger or
-indifference about others. Each issue you close, each Pull Request you merge,
+indifference about others. Each issue you close, each patch you merge,
 each thread you participate in shows your values, and that will probably grow a
 following of people who share them. See examples of how maintainers set the
 priorities of their projects in these threads:

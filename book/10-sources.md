@@ -7,11 +7,14 @@ Sources that we reviewed while writing this book.
 * http://robots.thoughtbot.com/inbox-zero-github-issues-edition
 * http://robots.thoughtbot.com/moving-open-source-project-mailing-lists-to-stack-overflow
 * http://srawlins.ruhoh.com/checklist-for-the-benevolent-open-source-maintainer/
+* Avoiding Burnout, and Other Essentials of Open Source Self-Care — Kathleen
+    Danielson https://vimeo.com/106232256
 
 ## Git
 
 * https://stackoverflow.com/questions/6543913/git-commit-best-practices
 * http://who-t.blogspot.de/2009/12/on-commit-messages.html
+* http://rakeroutes.com/blog/deliberate-git
 
 ## Licenses
 
@@ -40,7 +43,20 @@ Sources that we reviewed while writing this book.
 
 ## TODO: To review
 
+### Blog posts
+
+* http://www.codesimplicity.com/post/open-source-community-simplified/
+* https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code/
+* http://www.drdobbs.com/open-source/building-and-maintaining-an-open-source/240168415
+* See references in https://speakerdeck.com/bf4/maintaining-open-source-projects-1
 * http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/
+
+### Talks
+
+* http://confreaks.tv/videos/rubyconf2013-maintaining-sanity
+
+### Podcasts
+
 * Ghosts and the Wordpress model of a not for profit organization that employs
     people http://thechangelog.com/105/
 * IO.js (ex Node.js), and on being a dictator vs GNU-open:

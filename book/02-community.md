@@ -123,13 +123,13 @@ follows:
 > further discussion.
 
 Many people submit very detailed issues. They need only a little encouragement
-to convert their work into a pull request.
+to convert their work into a patch.
 
 > Thanks for reporting. That would be a useful addition to the docs indeed. Can
 > you please send a pull request with your proposed changes? Thanks!
 
 José Valim, maintainer of Devise and Elixir among other successful open source
-projects, uses a browser extension to post pre-cooked answers into pull requests
+projects, uses a browser extension to post pre-cooked answers into issues
 with the single press of a button. You can find the code in [GitHub: Jose vs.
 OSS](https://github.com/nashby/jose-vs-oss).
 
@@ -206,14 +206,15 @@ conversation starts, by explaining the rationale behind our work beforehand.
 [Loss aversion] describes people’s tendency to strongly prefer avoiding losses
 to acquiring gains. More concretely, giving you 5 dollars won’t make you extra
 happy but if I take $5 from you, you will get upset. Loss aversion relates with saying
-“no” on a pull request. As a reviewer, giving a clear explanation of the reasons
+“no” on a patch. As a reviewer, giving a clear explanation of the reasons
 for your rejection helps avoiding a longer discussion on
 whether the patch should or should not be merged, helping authors see more
 objectively the value of their contributions. As a contributor, remember
 that if you were the reviewer or another external party, you would probably be a
 bit more skeptic than you currently are about the value of your patch.
 
-Daniel Goleman identifies an [online negative bias]: the positive message you wrote
+Daniel Goleman, psychologist, author and science journalist, identifies an
+[online negative bias]: the positive message you wrote
 may be assumed to be neutral, and what seemed indifferent to you
 can be read as hostile. You can avoid this by using positive language instead of
 neutral. Written discussions have less bandwidth and need to include more context

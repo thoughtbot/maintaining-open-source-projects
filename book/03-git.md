@@ -26,6 +26,11 @@ A good commit may be as small as a one-line change and as big as a
 change in every file of the entire project, provided it contains no more than
 one logical change. If it contains more, split it.
 
+For example, if a patch fixes a bug and optimizes the performance of a feature,
+split it into two separate commits. But don’t split a single logical change into
+several commits. For example, the implementation of a feature and the
+corresponding tests belong in the same commit.
+
 A small and cohesive commit is easier to review and grasp. Git’s `annotate` and
 `blame` commands will be more clear about the origin and reason of each line of
 the entire source code. If you find the need to revert the changeset, it is
@@ -84,8 +89,9 @@ A good commit message answers three questions:
 * What effects does the patch have?
 
 Note the absence of a “what is” type of question. We have the git log for that
-already; it speaks for itself. Other useful notes to add to the end of the
-commit message are issue tracking IDs, pull request numbers, etc.
+already; you can leave a short summary of the “what”, but elaborate on the
+“why”. Other useful notes to add to the end of the commit message are issue
+tracking IDs, pull request numbers, etc.
 
 There are style practices that help keeping a consistent and more readable log:
 
@@ -129,7 +135,7 @@ necessary. For example: “fix typo in README”. For these cases you can use th
 `--message=` flag (`-m` for short) to `git commit`, which allows writing the
 message right from the command line.
 
-When you need a longer explanation, instead of using that flag it’s better to
+When you need to leave a longer explanation, instead of using that flag it’s better to
 [hook your favorite text editor to git]. That way you’ll always have enough
 space and your regular toolset for writing what is as relevant as code itself:
 your commit message.

@@ -16,6 +16,11 @@ Sources that we reviewed while writing this book.
 * http://who-t.blogspot.de/2009/12/on-commit-messages.html
 * http://rakeroutes.com/blog/deliberate-git
 
+## Documentation
+
+* http://calebthompson.io/how-to-write-a-readme/
+* http://robots.thoughtbot.com/how-to-write-a-great-readme
+
 ## Licenses
 
 * https://en.wikipedia.org/wiki/Berkeley_Software_Distribution
@@ -43,15 +48,19 @@ Sources that we reviewed while writing this book.
 * http://www.kuro5hin.org/?op=displaystory;sid=2001/6/19/05641/7357
 * http://www.linuxjournal.com/article/5935
 
-## Documentation
+## Versioning
 
-* http://calebthompson.io/how-to-write-a-readme/
-* http://robots.thoughtbot.com/how-to-write-a-great-readme
-
-## Releasing
-
-* http://robots.thoughtbot.com/handling-security-issues-in-open-source-projects
+* http://2ndscale.com/rtomayko/2012/adopt-an-open-source-process-constraints
+* http://gilesbowkett.blogspot.com/2015/01/versioning-is-nuanced-social-fiction.html?m=1
+* http://jeremyckahn.github.io/blog/2013/12/29/the-fear-of-1-dot-0-0/
 * http://robots.thoughtbot.com/every-two-weeks
+* http://robots.thoughtbot.com/handling-security-issues-in-open-source-projects
+* https://en.wikipedia.org/wiki/Release_early,_release_often
+* https://en.wikipedia.org/wiki/Software_versioning
+* https://gist.github.com/jashkenas/cbd2b088e20279ae2c8e
+* https://github.com/RedHatProductSecurity/CVE-HOWTO
+* https://github.com/jashkenas/underscore/issues/1805
+* https://programmers.stackexchange.com/questions/255404/how-to-use-github-branches-and-automatic-releases-for-version-management
 
 ## Organization
 

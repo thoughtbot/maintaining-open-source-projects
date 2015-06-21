@@ -173,7 +173,7 @@ When you see more activity than usual in a discussion over a superficial matter
 call it resolved. You will be saving everyone’s time. Everyone’s time but the
 trolls’, that is.
 
-**Goldwin’s law** states that as an online discussion grows longer (regardless
+**Godwin’s law** states that as an online discussion grows longer (regardless
 of topic or scope), sooner or later someone will compare someone or something to
 Hitler or Nazism. You may find yourself in the unhappy need to quote it.
 

@@ -100,7 +100,7 @@ type of work as “gardening”]: you regularly pull out the weeds to keep it cl
 
 Precooked responses for everyday interactions is a time saver. Copy & paste a
 paragraph of text, press a button, and you took good care of an issue. Some
-examples I use:
+examples we use:
 
 > This question doesn’t belong in this issue tracker, as this is not a problem
 > with factory_girl itself. Please post it in
@@ -115,7 +115,7 @@ examples I use:
 
 Some issues get stale, with not even the requester chiming in it anymore. It’s
 impossible to solve a bug report when there is not enough information, or when there's nobody
-who has seen the problem to answer any question. An example response I use for these cases
+who has seen the problem to answer any question. An example response we use for these cases
 follows:
 
 > Since it’s been two months, I hope things are working well now for you. I’ll
@@ -186,7 +186,7 @@ article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun!
 
 ## On effective feedback
 
-I find awareness of cognitive biases to be most useful while giving and
+Awareness of cognitive biases to be most useful while giving and
 receiving feedback in a productive manner, for both the reviewer and the
 reviewed. A [cognitive bias] is a pattern of deviation in judgment from which
 inferences about other people and situations may be drawn in an illogical way.

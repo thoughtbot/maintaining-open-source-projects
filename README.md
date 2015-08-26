@@ -10,9 +10,10 @@ successful open source project.
 
 ### Thesis
 
-A successful open source project is not only one that is original, solves a
-particular problem well, or has pristine code quality. Those are but the tip of
-the iceberg, which we'll thoroughly dissect with this book.
+A successful open source project is original, solves a problem well and has
+pristine code quality. As one can surely already guess, however, this is much
+easier said than done and requires a large amount of work - something we'll
+thoroughly dissect in this book.
 
 
 ### Who is the target audience of this book?

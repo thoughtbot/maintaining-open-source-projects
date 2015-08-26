@@ -18,14 +18,13 @@ thoroughly dissect in this book.
 
 ### Who is the target audience of this book?
 
-Any person or company who finds themselves as maintainers (could be by chance!)
-of an open source project.
+Any person or company that is a maintainer of an open source project, or is
+considering becoming one, should read this book.
 
-If have any public repositories in GitHub, and someone you don't know is using
-your projects, this book is useful for you.
+For anyone with public repositories on GitHub, this book is useful.
 
-You may also find it interesting as a manager or company owner, as many
-companies successfully apply open source practices in their day-to-day work.
+Managers or company owners who apply open source practices in their day-to-day
+work will also find this book helpful.
 
 ### Why do they want to buy and read it?
 

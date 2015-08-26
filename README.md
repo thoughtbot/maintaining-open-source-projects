@@ -2,10 +2,10 @@
 
 ### Pitch
 
-There are many aspects to fostering an open source project: building community,
-promoting the library, maintaining good communication, among other factors. This
-book is our take on how to create, grow and maintain a successful open source
-project.
+There are many aspects to fostering an open source project. Building a
+community, promoting a repository and maintaining good communication, are just a
+few factors. This book is our take on how to create, grow and maintain a
+successful open source project.
 
 
 ### Thesis

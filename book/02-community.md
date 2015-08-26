@@ -1,15 +1,15 @@
 # Community
 
-An active community is the most valuable asset for an open source project, but,
+An active community is the most valuable asset for an open source project, but
 like code itself, it can also be its biggest liability. A community that grows
 quickly can get out of hand, making it harder for you to keep organized and keep
-up with. Questions and feature requests will start queueing up. While you
-participate in one thread, you lose track of what is being discussed in the other
-one, where soon they will begin demanding your attention.
+up with. Questions and feature requests may begin queueing up. While you
+participate in one thread, you might lose track of what is being discussed in
+another.  You may soon find it difficult to determine where you should be
+focusing your attention.
 
 In this chapter we describe practices that will help maintain a healthy
-signal-to-noise ratio across the wires, while keeping everyone’s expectations
-in check.
+signal-to-noise ratio, keeping everyone’s expectations in check.
 
 
 ## Communication channels

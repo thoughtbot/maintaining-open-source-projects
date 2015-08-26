@@ -26,21 +26,21 @@ For anyone with public repositories on GitHub, this book is useful.
 Managers or company owners who apply open source practices in their day-to-day
 work will also find this book helpful.
 
-### Why do they want to buy and read it?
+### What problems can this book help you solve?
 
 Your project may have a following and you don't know how to communicate with it,
-how to prioritize their requests, how to answer questions.
+prioritize their requests or efficiently manage/answer questions.
 
 You want to learn the communication patterns that make it possible for a large
-and popular Open Source projects to move forward, while your 5-people team can't
+and popular Open Source project to move forward, when your 5-people team can't
 come to agreement on things like how to name a variable.
 
 You want to make sure your bar is high enough for providing a reliable project
-for your following.
+to your following.
 
-You want to follow best practices but can't know them all. When to release new
-versions, how to decide version numbers, when to open source, when to add
-contributors, what to automate.
+You want to follow best practices but can't know them all. For example, when to
+release new versions, how to decide version numbers, when to open source, when
+to add contributors and what to automate.
 
 You want to get your project more attention and grow its user base.
 

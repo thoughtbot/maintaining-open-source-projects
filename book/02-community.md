@@ -1,12 +1,12 @@
 # Community
 
-An active community is the most valuable asset for an open source project, but
-like code itself, it can also be its biggest liability. A community that grows
-quickly can get out of hand, making it harder for you to keep organized and keep
-up with. Questions and feature requests may begin queueing up. While you
-participate in one thread, you might lose track of what is being discussed in
-another.  You may soon find it difficult to determine where you should be
-focusing your attention.
+An active community is the most valuable asset for an open source project. But
+like the code itself, it can also be one of its biggest liabilities. A community
+that grows quickly can get out of hand, making it harder for you to stay
+organized and keep up with. Questions and feature requests could begin queueing
+up. While participating in one thread, you could lose track of what's being
+discussed in another. When everything is combined you may find it very difficult
+to determine where you should be focusing your attention.
 
 In this chapter we describe practices that will help maintain a healthy
 signal-to-noise ratio, keeping everyone’s expectations in check.
@@ -15,22 +15,23 @@ signal-to-noise ratio, keeping everyone’s expectations in check.
 ## Communication channels
 
 Imagine an open source project where the most recent question remains unanswered
-for weeks in the issue tracker. You think of how else to contact people, but even
-a search for the maintainer’s public profiles finds no activity.
-You find yourself on a dead-end street: nothing is happening,
-and there is no indication that anything will happen soon. You would leave this
-place in search of greener pastures, trying to find another project that, even
-if not as useful for you as this one looks like, has an active community sustaining it.
+for weeks in the issue tracker. You think of how else to contact people, but
+even a search for the maintainer’s public profiles finds no activity.  You find
+yourself on a dead-end street: nothing is happening, and there is no indication
+that anything will happen soon. You would leave this place in search of greener
+pastures, trying to find another project that, even if not as useful for you as
+this one looks like, has an active community sustaining it.
 
 As maintainers, we want to avoid this feeling of abandonment. Communication is
-vital to keep the air fresh, even if to only say “I don’t have the time right now,
-hopefully next week.” It shows you keep the project in mind, you care about
+vital to keep the air fresh, even if to only say “I don’t have the time right
+now, hopefully next week.” It shows you keep the project in mind, you care about
 feedback, and you are honest about availability. Always keep the channel open,
 even when you can’t invest enough time to move forward any issue that’s being
 treated. It goes a long way into building a community that trusts you and your
 project.
 
-There are different communication channels for different needs:
+In your project, you may be utilizing several different communication
+channels for several different needs:
 
 * **Issue trackers** for concrete tasks that need to be done on the source,
   such as tracking software bugs, documenting desired features, and making
@@ -40,9 +41,10 @@ There are different communication channels for different needs:
   usage of the project.
 * **Mailing lists and chat rooms** for general talk.
 
-If any of these channels present little activity, they can seem like half empty
-restaurants, exposing a negative image. The project will be better off not
-having them when that is the case.
+If any of these channels present little activity, your project can come across
+like a half empty restaurant, exposing a negative image. If this is the case,
+your project will be better off not having one or more of these features enabled
+until your community has grown larger and is ready to fully leverage them.
 
 
 ## Answering questions

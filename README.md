@@ -43,12 +43,3 @@ release new versions, how to decide version numbers, when to open source, when
 to add contributors and what to automate.
 
 You want to get your project more attention and grow its user base.
-
-
-### Building a release
-
-Run `make release`. It will update the release branch with latest build from
-master.
-
-See latest releases in
-https://github.com/thoughtbot/maintaining-open-source-projects/tree/release/release.

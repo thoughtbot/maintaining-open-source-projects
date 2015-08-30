@@ -169,25 +169,27 @@ There are two rules to keep in mind during any discussion:
 
 **The bike shed effect** (also called “Parkinson’s law of triviality”) states
 that groups give disproportionate weight to trivial issues. For example, a
-committee whose job is to approve plans for a nuclear power plant spends the
-majority of its time on relatively unimportant but easy-to-grasp issues, such as
-what materials to use for the staff bike shed, while neglecting the less trivial
-proposed design of the nuclear power plant itself, which is far more important
-but also a far more difficult and involved task to criticize constructively.
+committee whose job is to approve plans for a nuclear power plant might spend
+the majority of its time on relatively unimportant but easy-to-grasp issues,
+such as what materials to use for the staff bike shed, while neglecting the less
+trivial proposed design of the nuclear power plant itself, which is far more
+important but also far more difficult and involved to criticize constructively.
 
 When you see more activity than usual in a discussion over a superficial matter
 (according to a threshold you define), take one decision (even if arbitrary) and
 call it resolved. You will be saving everyone’s time. Everyone’s time but the
-trolls’, that is.
+trolls’, that is - people that don't provide solutions and only devote their
+energy to arguing and pointing out problems.
 
-**Godwin’s law** states that as an online discussion grows longer (regardless
-of topic or scope), sooner or later someone will compare someone or something to
-Hitler or Nazism. You may find yourself in the unhappy need to quote it.
+**Godwin’s law** states that as an online discussion grows longer (regardless of
+topic or scope), sooner or later someone will compare someone or something to
+Hitler or Nazism. You may find yourself in the unhappy need to quote this at
+some point.
 
-When it happens, it’s a reliable red flag of a low signal-to-noise ratio. Such an out of the blue comparison
-is the miner’s canary of a conversation that went too far, a good moment to jump
-out. Call the thread finished and whoever mentioned the Nazis automatically
-loses the debate. Link to [the Wikipedia
+When this happens, it’s a reliable red flag of a low signal-to-noise ratio. Such
+an out of the blue comparison is the miner’s canary of a conversation that went
+too far, a good moment to jump out. Call the thread finished and whoever
+mentioned the Nazis automatically loses the debate. Link to [the Wikipedia
 article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun!
 
 

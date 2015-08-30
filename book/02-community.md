@@ -90,10 +90,10 @@ friendly helps avoid it.
 
 ## Issue tracker gardening
 
-A problem that results in clutter in the issue tracker is
+A common problem that results in clutter in the issue tracker is
 irreproducibility. Users may be trying to show a legit issue with your project,
-but with not enough information to reproduce it, or to even decide if it is
-indeed a problem with your project. In this case, ask them to provide more
+but without enough information to reproduce it, which makes it hard to decide if
+it is indeed a problem with your project. In this case, ask them to provide more
 information. You might link to
 [yourbugreportneedsmore.info](http://yourbugreportneedsmore.info) for a better
 explanation than what fits in a typical comment.
@@ -103,9 +103,9 @@ type of work as “gardening”]: you regularly pull out the weeds to keep it cl
 
 [refers to this type of work as “gardening”]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener
 
-Precooked responses for everyday interactions is a time saver. Copy & paste a
-paragraph of text, press a button, and you took good care of an issue. Some
-examples we use:
+Using canned responses for everyday interactions is a big time saver. Copy &
+paste a paragraph of text, press a button, and you took good care of an issue.
+Some examples we use:
 
 > This question doesn’t belong in this issue tracker, as this is not a problem
 > with factory_girl itself. Please post it in
@@ -118,10 +118,10 @@ examples we use:
 >
 > It will get attention from more people than in this issue tracker. Thanks!
 
-Some issues get stale, with not even the requester chiming in it anymore. It’s
-impossible to solve a bug report when there is not enough information, or when there's nobody
-who has seen the problem to answer any question. An example response we use for these cases
-follows:
+Some issues get stale, with not even the requester replying to your feedback
+regarding it, anymore. It’s impossible to solve a bug report when there is not
+enough information, or when there's nobody who has seen the problem to answer
+any question. An example response we use for these cases follows:
 
 > Since it’s been two months, I hope things are working well now for you. I’ll
 > close the issue until we can confirm it’s still happening. Happy to continue
@@ -138,27 +138,29 @@ projects, uses a browser extension to post pre-cooked answers into issues
 with the single press of a button. You can find the code in [GitHub: Jose vs.
 OSS](https://github.com/nashby/jose-vs-oss).
 
-To an issue with an unclear description you can ask for a spike. If the
-requester implements even part of the needed feature you can now discuss over a
-concrete implementation, description couldn’t get more precise, and you can even
-start working together. Another possibility is that while working on it the
-contributor might find that it’s not a great idea after all and close the issue
-as invalid.
+When an issue has an unclear description or solution, another sometimes helpful
+route to take is to ask for the requester to put together some quick code to
+further iterate on their issue - this is called a "spike." If the requester
+implements even part of the needed feature you can now have a much more valuable
+discussion over a possible implementation, with a description that is much more
+precise. You may even start working together. Another possibility is that while
+working on the spike, the contributor might find that it’s not a great idea
+after all and close the issue as invalid. This will save you valuable time.
 
-If you believe the issue doesn’t describe something good for the project, ask
-further questions and take the time to learn what is being proposed before
-asking for sample code. Otherwise, you run the risk of having to say “no” to
-work you have asked for, potentially wasting time for both parties.
+In other scenarios, if you believe an issue doesn’t describe something good for
+the project, ask further questions and take the time to learn what is being
+proposed before asking for sample code. Otherwise, you run the risk of having to
+say “no” to work you have asked for, potentially wasting time for both parties.
 
-Some questions appear over and over again in the issue tracker. That’s a good sign
-that there is something in your project that should be simpler. Better error
-messages could help, documentation might need more attention, code might need
-some refactoring. Before disregarding repeated questions with variations of RTFM
-(“read the fucking manual”), ask someone you trust for feedback. Try to take a
-step back and see the project with the eyes of a newcomer. Do you see anything
-that is not clear enough? What could change to lower the odds of a given problem
-from reappearing? Meanwhile, adding the question to an FAQ section you can link
-to later is a good band-aid.
+Some questions appear over and over again in the issue tracker. That’s a good
+sign that there is something in your project that should be simpler. Better
+error messages could help, documentation might need more attention or code might
+need some refactoring. Before disregarding repeated questions with variations of
+RTFM (“read the fucking manual”), ask someone you trust for feedback. Try to
+take a step back and see the project with the eyes of a newcomer. Do you see
+anything that is not clear enough? What could change to lower the odds of a
+given problem from reappearing? In the mean time, adding the question to an FAQ
+section you can link to later is a good band-aid.
 
 
 ## How much communication is enough?

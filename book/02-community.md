@@ -49,40 +49,43 @@ until your community has grown larger and is ready to fully leverage them.
 
 ## Answering questions
 
-Any participation is useful to a nascent project. Through users' questions you can see where
-people struggle, why they struggle, and how the software or documentation could
-improve to make the onboarding process smoother. In the early stages you should
-celebrate each interaction: the project is getting validated.
+Any participation is useful to a nascent project. Through users' questions you
+can see where people struggle, why they struggle, and how the software or
+documentation could improve to make the onboarding process smoother. In the
+early stages you should celebrate each interaction because it means the project
+is getting validated.
 
-To foster participation acknowledge contributors routinely. Thank them for the time they
-spend providing feedback and code. Thank them publicly and be explicit about
-how their contributions are useful to you, the project and the community. People
-like being appreciated, and are more likely to continue contributing if you show
-appreciation for their work.
+To foster participation you should acknowledge contributors routinely. Thank
+them for the time they spend providing feedback and code. Thank them publicly
+and be explicit about how their contributions are useful to you, the project and
+the community. People like being appreciated, and are more likely to continue
+contributing if you show appreciation for their work.
 
-When the project gets popular, participation starts to be more of a liability.
-Feature requests, help requests, bug reports, and patches all land in your
-email, and it gets tougher to manage. You might even feel guilty about not
-responding as timely as you used to. How do we respond
-when there is more input than we can go through in a timely fashion?
+When a project gets popular, however, participation starts to be more of a
+liability.  Feature requests, help requests, bug reports and patches all land in
+your email, which will make it tougher to manage. You might even feel guilty
+about not responding as timely as you used to. How should you respond when there
+is more input than you can go through in a timely fashion?
 
-One of the first causes of a quickly growing inbox is people using the issue
-tracker for questions around implementation details in their software or
-issues that don’t cut it as software bugs. You can avoid this by politely asking
-users to move their messages where they belong, for example to Q&A websites or
-mailing lists.
+One of the first causes of a quickly growing inbox is when people start using
+your issue tracker for questions around implementation details in their software
+or for things that aren't really software bugs. You can avoid this by politely
+asking users to move their messages where they belong, for example, to Q&A
+websites or mailing lists.
 
-It is not always better to move discussions out of the issue tracker though.
-StackOverflow won’t be helpful when you have a small audience. In that case, the
-issue tracker is the right place to ask. A good sign that the project is ready to grow onto
-other platforms is when members of your community organically start responding to issues.
-There’s a better chance that questions in other channels will get
-responses as well.
+It is not always better to move discussions out of the issue tracker, however.
+For example, StackOverflow won’t be helpful when you have a small audience. In
+this case, the issue tracker *would* be right place to ask. A good sign that the
+project is ready to grow onto other platforms is when members of your community
+organically start responding to issues. There’s a better chance that questions
+in other channels will get responses as well.
 
-By always interacting politely communication flows smoothly, and you increase the
-chance they follow your suggestions. Otherwise, users might feel you didn’t solve
-a problem you could have solved, and may insist you act. Arguing where a
-question belongs is not productive, and being friendly helps avoid it.
+It is important to note at this point, that by always interacting politely,
+communication tends to flow smoothly. This, in turn, increases the chance users
+will follow your suggestions. On the other hand, if you are short and terse,
+users might feel you didn’t solve a problem you could have solved, and may
+insist you act. Arguing where a question belongs is not productive, and being
+friendly helps avoid it.
 
 
 ## Issue tracker gardening

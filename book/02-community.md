@@ -315,13 +315,13 @@ In the open source world, nobody owes anything to anyone. If anything, users owe
 maintainers gratitude for publishing something that was and is useful to them.
 Your code is being run in who-knows how many computers and servers, more
 companies are using your software than you can even think of. A mistake today
-doesn’t undo your previous productivity gains, help, and successes. How to manage
-your emotions is indeed not a topic for this book, but it is important to be
-aware of the feelings that may sprout from leading an OSS project, as that in
+doesn’t undo your previous productivity gains, help, and successes. How to
+manage your emotions is indeed not a topic for this book, but it is important to
+be aware of the feelings that may sprout from leading an OSS project, as that in
 itself should help.
 
 People’s expectations and needs will be different than what you set for yourself
 and your project. You can try to channel them, and they may intersect. Yet
 sometimes it is best to accept differences, and agree to disagree. At the end of
-the day, we should not worry about things that are out of our control. And
+the day, we should not worry about things that are out of our control. We should
 instead feel good about having contributed valuable software to the world.

@@ -195,11 +195,12 @@ article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun!
 
 ## On effective feedback
 
-Awareness of cognitive biases to be most useful while giving and
-receiving feedback in a productive manner, for both the reviewer and the
-reviewed. A [cognitive bias] is a pattern of deviation in judgment from which
-inferences about other people and situations may be drawn in an illogical way.
-Some examples follow:
+It's important to have an awareness and understanding of cognitive biases in
+order to be most useful while giving and receiving feedback in your project.  A
+[cognitive bias] is a pattern of deviation in judgment from which inferences
+about other people and situations may be drawn in an illogical way.
+
+Here are some examples:
 
 [Fairness bias] describes our tendency to seek balance. If a
 supplier keeps an open line of communication with an unhappy customer about a
@@ -207,27 +208,28 @@ faulty product, the customer will respond more favorably regardless of the
 outcome. The need to be heard takes precedence over the need for the product
 working correctly.
 
-Fairness bias can be applied to code revision. Framing an idea as a question instead of
-as an assertion makes the contributor feel heard and valued. If we are the
-authors of the code being reviewed, we can harness this effect even before
-conversation starts, by explaining the rationale behind our work beforehand.
+A fairness bias can be applied to code revisions. Framing an idea as a question
+instead of as an assertion makes the contributor feel heard and valued. If we
+are the authors of the code being reviewed, we can harness this effect even
+before conversation starts, by explaining the rationale behind our work
+beforehand.
 
 [Loss aversion] describes people’s tendency to strongly prefer avoiding losses
 to acquiring gains. More concretely, giving you 5 dollars won’t make you extra
-happy but if I take $5 from you, you will get upset. Loss aversion relates with saying
-“no” on a patch. As a reviewer, giving a clear explanation of the reasons
-for your rejection helps avoiding a longer discussion on
-whether the patch should or should not be merged, helping authors see more
-objectively the value of their contributions. As a contributor, remember
-that if you were the reviewer or another external party, you would probably be a
-bit more skeptic than you currently are about the value of your patch.
+happy but if I take $5 from you, you will get upset. Loss aversion relates with
+saying “no” on a patch. As a reviewer, giving a clear explanation of the reasons
+for your rejection helps avoiding a longer discussion on whether the patch
+should or should not be merged, helping authors see more objectively the value
+of their contributions. As a contributor, remember that if you were the reviewer
+or another external party, you would probably be a bit more skeptical than you
+currently are about the value of your patch.
 
 Daniel Goleman, psychologist, author and science journalist, identifies an
-[online negative bias]: the positive message you wrote
-may be assumed to be neutral, and what seemed indifferent to you
-can be read as hostile. You can avoid this by using positive language instead of
-neutral. Written discussions have less bandwidth and need to include more context
-than conversations over the phone or in person.
+[online negative bias]: the positive message you wrote may be assumed to be
+neutral, and what seemed indifferent to you can be read as hostile. You can
+avoid this by using positive language instead of neutral. Written discussions
+have less bandwidth and need to include more context than conversations over the
+phone or in person.
 
 “The Cathedral and the Bazaar”, an essay by Eric Raymond on software engineering
 methods, states in its 10th lesson:
@@ -235,8 +237,8 @@ methods, states in its 10th lesson:
 > Treat all your contributors as if they are the most valuable resource, and
 > they will respond by becoming your most valuable resource.
 
-Raymond’s lesson illustrates the “[Chameleon Effect]” cognitive bias, also called
-“unintentional mirroring”, which describes our tendency to take on
+Raymond’s lesson illustrates the “[Chameleon Effect]” cognitive bias, also
+called “unintentional mirroring”, which describes our tendency to take on
 characteristics that have been arbitrarily assigned to us.
 
 [cognitive bias]: https://en.wikipedia.org/wiki/Cognitive_bias
@@ -268,7 +270,7 @@ Wrapping up, while giving feedback it’s good to:
 * Start with an appreciation of the work or comment.
 * Ask, don’t tell. Phrase ideas as questions when you are not sure that your
   feedback shows a step in the right direction.
-* Be explicit. Discussions over the wire have less bandwidth than in person and
+* Be explicit. Online discussions have less bandwidth than in person and
   need more context.
 * Try to respond to every question and comment.
 * If you disagree strongly, consider giving it a moment before responding.
@@ -276,9 +278,9 @@ Wrapping up, while giving feedback it’s good to:
   “basically”, “simply”, “clearly”, etc.
 * Review is of the code, not people. Keep this in mind as a contributor too.
 
-Remember: every person knows something you don’t yet know. It will help you treat
-everyone with care, making them feel valuable to your project and inspiring
-further contributions.
+Remember: every person knows something you don’t yet know. It will help you
+treat everyone with care, making them feel valuable to your project and
+inspiring further contributions.
 
 
 ## Expectations and guilt

@@ -67,20 +67,18 @@ Such a discovery! You were successful in finding the origin of the change, but
 that doesn’t get you any closer to understanding why that change (and this bug)
 exists.
 
-The author of that change is luckily in the same room as you. In fact, it is you!
-Having such a close relationship doesn’t help you understand why did the
-programmer find the need to change this past year, and what repercussions it
-has or could have. With such an irrelevant commit message, any reviewer (since the commit
-happened a year ago, and into the future) has to find out what the patch does
-and how it affects the software.
+The author of that change is luckily in the same room as you. In fact, it *is
+you*! Having such a close relationship, however, doesn’t help you understand why
+you made the change last year, or what repercussions your new change could have.
+Irrelevant commit messages make it difficult for you or any reviewer to find
+out what a patch does and how it affects the software.
 
-A more informative message spares that
-effort for *everyone*. Any commit message can be a potential time sink or serve
-as never-too-verbose documentation. An informative commit message lets anyone
-decide if the solution still applies, and if it’s a good solution to the
-problem at hand or we can find better alternatives.
-Understanding why something happened months or years ago becomes possible and
-efficient.
+A more informative message spares that effort for *everyone*. A commit message
+can be a potential time sink or serve as never-too-verbose documentation. An
+informative commit message lets anyone decide if the solution still applies and
+if it’s a good solution to the problem at hand. Also, it can help determine if
+it's possible to find better alternatives. Understanding why something happened
+months or years ago becomes possible and efficient.
 
 A good commit message answers three questions:
 
@@ -136,10 +134,10 @@ necessary. For example: “fix typo in README”. For these cases you can use th
 `--message=` flag (`-m` for short) to `git commit`, which allows writing the
 message right from the command line.
 
-When you need to leave a longer explanation, instead of using that flag it’s better to
-[hook your favorite text editor to git]. That way you’ll always have enough
-space and your regular toolset for writing what is as relevant as code itself:
-your commit message.
+When you need to leave a longer explanation, instead of using that flag it’s
+better to [hook your favorite text editor to git]. That way you’ll always have
+enough space and your regular toolset for writing what is as relevant as code
+itself: your commit message.
 
 [hook your favorite text editor to git]: http://stackoverflow.com/a/2596835/356060
 

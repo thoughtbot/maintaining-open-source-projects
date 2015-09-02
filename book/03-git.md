@@ -34,8 +34,8 @@ corresponding tests belong in the same commit.
 A small and cohesive commit is easier to review and grasp. Git’s `annotate` and
 `blame` commands will be more clear about the origin and reason of each line of
 the entire source code. If you find the need to revert the changeset, it is
-possible to `revert` that single commit. The same applies if you have to backport it
-(in git terms, `cherry-pick` it) to previous releases.
+possible to `revert` that single commit. The same applies if you have to
+backport it (in git terms, `cherry-pick` it) to previous releases.
 
 Always keep commits as small and cohesive as possible and ask your contributors
 to do the same, and you will stay on the right path.
@@ -67,20 +67,18 @@ Such a discovery! You were successful in finding the origin of the change, but
 that doesn’t get you any closer to understanding why that change (and this bug)
 exists.
 
-The author of that change is luckily in the same room as you. In fact, it is you!
-Having such a close relationship doesn’t help you understand why did the
-programmer find the need to change this past year, and what repercussions it
-has or could have. With such an irrelevant commit message, any reviewer (since the commit
-happened a year ago, and into the future) has to find out what the patch does
-and how it affects the software.
+The author of that change is luckily in the same room as you. In fact, it *is
+you*! Having such a close relationship, however, doesn’t help you understand why
+you made the change last year, or what repercussions your new change could have.
+Irrelevant commit messages make it difficult for you or any reviewer to find
+out what a patch does and how it affects the software.
 
-A more informative message spares that
-effort for *everyone*. Any commit message can be a potential time sink or serve
-as never-too-verbose documentation. An informative commit message lets anyone
-decide if the solution still applies, and if it’s a good solution to the
-problem at hand or we can find better alternatives.
-Understanding why something happened months or years ago becomes possible and
-efficient.
+A more informative message spares that effort for *everyone*. A commit message
+can be a potential time sink or serve as never-too-verbose documentation. An
+informative commit message lets anyone decide if the solution still applies and
+if it’s a good solution to the problem at hand. Also, it can help determine if
+it's possible to find better alternatives. Understanding why something happened
+months or years ago becomes possible and efficient.
 
 A good commit message answers three questions:
 
@@ -136,10 +134,10 @@ necessary. For example: “fix typo in README”. For these cases you can use th
 `--message=` flag (`-m` for short) to `git commit`, which allows writing the
 message right from the command line.
 
-When you need to leave a longer explanation, instead of using that flag it’s better to
-[hook your favorite text editor to git]. That way you’ll always have enough
-space and your regular toolset for writing what is as relevant as code itself:
-your commit message.
+When you need to leave a longer explanation, instead of using that flag it’s
+better to [hook your favorite text editor to git]. That way you’ll always have
+enough space and your regular toolset for writing what is as relevant as code
+itself: your commit message.
 
 [hook your favorite text editor to git]: http://stackoverflow.com/a/2596835/356060
 
@@ -216,12 +214,12 @@ questions:
 
 * Will you or your team want to maintain it?
 * Will the author be reachable for support, answer questions that the community
-    will have around that feature, fix related bugs?
+    will have around that feature and fix related bugs?
 * Will you like maintaining that piece of software?
 * Do you see it bringing in more value than cost?
 
 Say “no” when you believe the addition will not be helpful to the
-project, the team maintaining it, and by extension the users.
+project, the team maintaining it and by extension, the users.
 
 If you internally feel like saying “no” but you can’t find the way to do it,
 remember how leaders of popular open source projects and organizations work:
@@ -242,7 +240,7 @@ They don’t ignore what other people say, they have strong opinions and stand f
 them, and they are open to change those opinions provided relevant facts
 (mostly!).
 
-Creator of Ruby Yukihiro “Matz” Matsumoto is one of the nicest people in this
-planet. Ruby was unheard of until DHH published Rails. While I try
-to follow Matz’s style, I count with a few noteworthy sources of inspiration for
-when I want to say “no”.
+Creator of Ruby Yukihiro “Matz” Matsumoto is one of the nicest people on this
+planet. Ruby was unheard of until DHH published Rails. While I try to follow
+Matz’s style, I count with a few noteworthy sources of inspiration for when I
+want to say “no”.

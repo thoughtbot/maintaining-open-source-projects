@@ -34,8 +34,8 @@ corresponding tests belong in the same commit.
 A small and cohesive commit is easier to review and grasp. Git’s `annotate` and
 `blame` commands will be more clear about the origin and reason of each line of
 the entire source code. If you find the need to revert the changeset, it is
-possible to `revert` that single commit. The same applies if you have to backport it
-(in git terms, `cherry-pick` it) to previous releases.
+possible to `revert` that single commit. The same applies if you have to
+backport it (in git terms, `cherry-pick` it) to previous releases.
 
 Always keep commits as small and cohesive as possible and ask your contributors
 to do the same, and you will stay on the right path.

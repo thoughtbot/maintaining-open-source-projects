@@ -214,12 +214,12 @@ questions:
 
 * Will you or your team want to maintain it?
 * Will the author be reachable for support, answer questions that the community
-    will have around that feature, fix related bugs?
+    will have around that feature and fix related bugs?
 * Will you like maintaining that piece of software?
 * Do you see it bringing in more value than cost?
 
 Say “no” when you believe the addition will not be helpful to the
-project, the team maintaining it, and by extension the users.
+project, the team maintaining it and by extension, the users.
 
 If you internally feel like saying “no” but you can’t find the way to do it,
 remember how leaders of popular open source projects and organizations work:
@@ -240,7 +240,7 @@ They don’t ignore what other people say, they have strong opinions and stand f
 them, and they are open to change those opinions provided relevant facts
 (mostly!).
 
-Creator of Ruby Yukihiro “Matz” Matsumoto is one of the nicest people in this
-planet. Ruby was unheard of until DHH published Rails. While I try
-to follow Matz’s style, I count with a few noteworthy sources of inspiration for
-when I want to say “no”.
+Creator of Ruby Yukihiro “Matz” Matsumoto is one of the nicest people on this
+planet. Ruby was unheard of until DHH published Rails. While I try to follow
+Matz’s style, I count with a few noteworthy sources of inspiration for when I
+want to say “no”.

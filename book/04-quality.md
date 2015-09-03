@@ -103,37 +103,40 @@ when they don’t make sense any longer for you.
 ## Use static analysis tools
 
 The existence of a document that specifies a process is not enough for people to
-follow it. You might be surprised, take a moment to sink that in. You will
-continue receiving contributions in the most creative styles you have ever
-seen, and you might not be happiest about the originality contributors show.
+follow it. Take a moment to let this sink in, because no matter what you compose
+you will still continue receiving contributions in the most creative and bizarre
+styles you have ever seen. As such, you might not be happiest person at the end
+of the day sometimes after dealing with all of the "originality" contributors
+show.
 
-If you receive a contribution with guidelines violations that you’d rather see
+If you receive a contribution with guideline violations that you’d rather see
 followed, you are left with these options:
 
-1. Ignore the changes. Don’t merge, which is rude to the contributor(s). It also
-   doesn’t help the project if the code changes are functionally useful.
+1. Ignore the changes and don’t merge them. Unfortunately, however, this is rude
+   to the contributor(s). It also doesn’t help the project if the code changes
+   are functionally useful.
 
-2. Ignore the guidelines. Merge, which leads to sloppy looking code.
+2. Ignore the guidelines and merge anyway. Alas, this is still a negative choice
+   because it will lead to sloppy looking code.
 
 3. Merge and apply style changes yourself. This is time-consuming and will
-   clutter the git history with stylistic rather than functional changes.
+   clutter the git history with stylistic changes rather than functional ones.
 
 4. Comment on every violation, working with the author until the changeset is
-   good. This is time-consuming and can get socially awkward.
+   good. This is time-consuming and can also get socially awkward.
 
 5. Do nothing, and let a robot comment on every style violation in virtually no
    time, consistently, with no emotions.
 
 Ruby has a tool called rubocop that exposes style violations. Hound CI is a
-product that uses rubocop, and it comments in the changed lines of patches
-that do not conform to the style guides. Hound is consistently the
-first reviewer of any patch in the projects that set it up. It being
-a robot, it avoids the potentially awkward situation of nitpicking style
-violations over a contribution. People rarely get offended by a robot dog. It is
-indeed waiting to criticize your style, but it does so always, with the same
-speed, consistency and lack of passion each time. People can handle Hound items
-ahead of your review, leaving code that reads as if anyone on your team wrote
-it.
+product that uses rubocop, and it comments in the changed lines of patches that
+do not conform to the style guides. Hound is consistently the first reviewer of
+any patch in the projects that set it up. It being a robot, it avoids the
+potentially awkward situation of nitpicking style violations over a
+contribution. People rarely get offended by a robot dog. It is indeed waiting to
+criticize your style, but it does so always, with the same speed, consistency
+and lack of passion each time. People can handle Hound items ahead of your
+review, leaving code that reads as if anyone on your team wrote it.
 
 Other useful static analysis tools are:
 
@@ -153,9 +156,9 @@ Other useful static analysis tools are:
 [Flay]: http://ruby.sadi.st/Flay.html
 [Wikipedia list of static analysis tools]: https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
 
-Let machines do what they are good at, and humans do what machines can’t do: you
-can stop thinking about _how_ code is changing to focus better on _what_ is
-changing.
+Let machines do what they are good at and humans do what machines can’t do.
+Stop thinking about _how_ code is changing to focus better on _what_ is changing
+and you will save yourself a lot of time and headache.
 
 
 ## Request regression tests for every change

@@ -56,17 +56,17 @@ https://web.archive.org/web/20120313070806/http://users.jyu.fi/~koskinen/smcosts
 Programming style is a set of rules used while writing code. A style guide
 establishes and enforces style to improve communication, helping programmers
 read and understand source code. It ensures consistency within a file and across
-multiple files, and enforces best practices. When a group of people adheres to
-the same guidelines, all the files feel familiar to everyone.
+multiple files. It also enforces best practices. When a group of people adhere
+to the same guidelines, all the files feel familiar to everyone.
 
-You may write the coding standard for your project or adopt an existing one, and
-follow it. Any guideline will be useful, as any one of them will take a myriad
-of little decisions for you and your team so you don’t need to think about them
-too. It doesn’t matter what decisions these are; the point is to not have to
-discuss them frequently. Code can either conform or not with the guideline,
-there’s little room for opinions and bikeshed type of discussions. Guidelines save
-time for us to focus on the deeper concepts of a given changeset, the high-level
-overview of the code under review.
+You can write the coding standard for your project or adopt an existing one.
+Any guidelines are useful, as any one of them will handle a myriad of little
+decisions for you and your team so you don’t need to think about them in the
+future. It doesn’t matter what decisions these are; the point is avoiding having
+to discuss them frequently. Code should conform with the guidelines to ensure
+that there’s little room for opinions and "bike-shed" type discussions.
+Guidelines save time for you to focus on the deeper concepts of a given
+changeset and the high-level overview of the code under review.
 
 Here is a list of three sample style guides and coding standards:
 
@@ -79,25 +79,25 @@ Public discussions in pull requests shape these standards, deciding not only
 on superficial style but also fostering best practices
 whenever possible. For example, in Ruby it’s better to avoid rescuing the
 general `Exception` class, as it traps OS signals to exit a process, requiring
-to do a non-catchable `KILL` to end execution of the script. thoughtbot
-guidelines advise against that practice. People who follow a popular guideline
+one to do a non-catchable `KILL` to end execution of the script. thoughtbot
+guidelines advise against that practice. People who follow popular guidelines
 might avoid rough edges even when they are not conscious of them.
 
-If you are working on side projects though, you may throw
-away any conventions and ignore everything anyone has ever said. Because, as
-[Harrison Shoff delightfully answers in a critique of his guidelines], lack of process is
-what gets us to new discoveries. Not everything has to feel cookie cut,
-particularly for explorations.
+If you are working on side projects, however, you may throw away conventions and
+ignore everything anyone has ever said. Because, as [Harrison Shoff delightfully
+answers in a critique of his guidelines], lack of process is what gets us to new
+discoveries. Not everything has to feel cookie cut, particularly for
+explorations.
 
 [Harrison Shoff delightfully answers in a critique of his guidelines]:
 https://github.com/airbnb/javascript/issues/102#issuecomment-28157738
 
 Style guides can help polish reliability, performance, security, maintainability
-and size of your software. You can research the reasoning behind
-each rule, and analyze if they apply to you and your team. But even without the
-need of learning all this context you can achieve healthy results. Follow the
-rules that hundreds of people from your community have discussed and shaped, and
-break them when they don’t make sense any longer for you.
+and size of your software. You can research the reasoning behind each rule and
+analyze if they apply to you and your team. Even without the need of learning
+all the contexts you can still achieve healthy results! Follow the rules that
+hundreds of people from your community have discussed or shaped, and break them
+when they don’t make sense any longer for you.
 
 
 ## Use static analysis tools

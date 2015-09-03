@@ -1,7 +1,7 @@
 # Maintaining Quality
 
 As a maintainer, you spend a significant amount of your open source time doing
-code review. There are two types of feedback you provide:
+code review. There are two primary types of feedback you can provide:
 
 * High level: about software design, design patterns, anti-patterns,
     architecture, suggestion of alternative implementations.
@@ -9,23 +9,22 @@ code review. There are two types of feedback you provide:
     file or project, indentation, and naming conventions.
 
 A high-level plan is key to the success of the project. Weak foundations can
-complicate updating or extending the software, which as time goes by can stall
+complicate updating or extending the software, which in turn over time can stall
 development altogether.
 
-It might seem that style feedback on style is less relevant, as an unnecessary comma or a
-misspelled name won’t break any feature. But small discrepancies give the
-impression of individual developers working without purpose rather than a team
-working together towards a common goal. Lack of attention to detail conveys an
-attitude that might permeate other aspects like readability, dependency
-management, and testing. Inconsistent style is a superficial but notable sign
-that people don’t care much about quality.
+It might seem that style feedback on style is less relevant, as an unnecessary
+comma or a misspelled name won’t break any feature. But small discrepancies give
+the impression of individual developers working without purpose rather than a
+team working together toward a common goal. Lack of attention to detail conveys
+an attitude that might permeate other aspects of a project like readability,
+dependency management and testing. An inconsistent style is a superficial but
+notable sign that people don’t care much about quality.
 
 Kees Keizer and colleagues from the University of Groningen [conducted
 experiments] showing that if people observe a certain social norm or legitimate
 rule was violated, they are more likely to violate other norms or rules, causing
-disorder to spread. This effect is also known as “broken windows”:
-one broken window in a building is enough for increasing the chances that more
-will appear.
+disorder to spread. This effect is also known as “broken windows” - one broken
+window in a building is enough to increase the chances that more will appear.
 
 [conducted experiments]:
 http://www.sciencemag.org/content/322/5908/1681.abstract
@@ -35,15 +34,16 @@ suggests maintainers to set a precedent:
 
 > Write nice code. Use white space properly, use good names for methods, add
 > comments to explain anything that isn’t obvious, etc. If you write ugly code,
-> anyone who intends to fix a bug or add a feature will not enjoy his work and
-> likely avoid it next time.
+> anyone who intends to fix a bug or add a feature will not enjoy his [or her]
+> work and likely avoid it next time.
 
 One reason it’s good to take care of code quality at every level is that good
-software quality keeps maintenance costs low. Poor application structural
-quality in business applications results in cost and schedule overruns and
-creates waste in the form of rework. Jussi Koskinen, Engineering Researcher,
-cites studies in [_Software Maintenance Costs_] that show the relative cost of maintaining software and
-managing its evolution represents more than 50% of its total cost.
+software quality keeps maintenance costs low. Poor structural quality in
+business applications results in cost and schedule overruns. It also creates
+waste in the form of rework. Jussi Koskinen, an Engineering Researcher, cites
+studies in [_Software Maintenance Costs_] that show the relative cost of
+maintaining software and managing its evolution represents more than 50% of
+its total cost!
 
 Let’s see how we can control these costs.
 

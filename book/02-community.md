@@ -1,15 +1,14 @@
 # Community
 
-An active community is the most valuable asset for an open source project, but,
-like code itself, it can also be its biggest liability. A community that grows
-quickly can get out of hand, making it harder for you to keep organized and keep
-up with. Questions and feature requests will start queueing up. While you
-participate in one thread, you lose track of what is being discussed in the other
-one, where soon they will begin demanding your attention.
+An active community is the most valuable asset for an open source project. But
+like the code itself, it can also be one of its biggest liabilities. A community
+that grows quickly can get out of hand, making it harder for you to stay
+organized and keep up with. Questions and feature requests will begin queueing
+up. While participating in one thread, you could lose track of what's being
+discussed in another, where soon they will demand your attention.
 
 In this chapter we describe practices that will help maintain a healthy
-signal-to-noise ratio across the wires, while keeping everyone’s expectations
-in check.
+signal-to-noise ratio, while keeping everyone’s expectations in check.
 
 
 ## Communication channels
@@ -40,55 +39,56 @@ There are different communication channels for different needs:
   usage of the project.
 * **Mailing lists and chat rooms** for general talk.
 
-If any of these channels present little activity, they can seem like half empty
-restaurants, exposing a negative image. The project will be better off not
-having them when that is the case.
-
+If any of these channels present little activity, your project can come across
+like a half empty restaurant, exposing a negative image. If this is the case, it
+will be better off not having one or more of these features enabled until your
+community has grown larger and is ready to leverage them.
 
 ## Answering questions
 
 Any participation is useful to a nascent project. Through users' questions you can see where
 people struggle, why they struggle, and how the software or documentation could
 improve to make the onboarding process smoother. In the early stages you should
-celebrate each interaction: the project is getting validated.
+celebrate each interaction because they mean the project is getting validated.
 
-To foster participation acknowledge contributors routinely. Thank them for the time they
+To foster participation you should acknowledge contributors routinely. Thank them for the time they
 spend providing feedback and code. Thank them publicly and be explicit about
 how their contributions are useful to you, the project and the community. People
 like being appreciated, and are more likely to continue contributing if you show
 appreciation for their work.
 
-When the project gets popular, participation starts to be more of a liability.
+When the project gets popular, however, participation starts to be more of a liability.
 Feature requests, help requests, bug reports, and patches all land in your
-email, and it gets tougher to manage. You might even feel guilty about not
+email, which will make it tougher to manage. You might even feel guilty about not
 responding as timely as you used to. How do we respond
 when there is more input than we can go through in a timely fashion?
 
 One of the first causes of a quickly growing inbox is people using the issue
 tracker for questions around implementation details in their software or
-issues that don’t cut it as software bugs. You can avoid this by politely asking
+for things that aren’t software bugs. You can avoid this by politely asking
 users to move their messages where they belong, for example to Q&A websites or
 mailing lists.
 
-It is not always better to move discussions out of the issue tracker though.
-StackOverflow won’t be helpful when you have a small audience. In that case, the
+It is not always better to move discussions out of the issue tracker though. For example,
+StackOverflow won’t be helpful when you have a small audience. In this case, the
 issue tracker is the right place to ask. A good sign that the project is ready to grow onto
 other platforms is when members of your community organically start responding to issues.
 There’s a better chance that questions in other channels will get
 responses as well.
 
-By always interacting politely communication flows smoothly, and you increase the
-chance they follow your suggestions. Otherwise, users might feel you didn’t solve
-a problem you could have solved, and may insist you act. Arguing where a
-question belongs is not productive, and being friendly helps avoid it.
+By always interacting politely communication tends to flow smoothly. This, in
+turn, increases the chance users will follow your suggestions. On the other
+hand, if you are short and terse, users might feel you didn’t solve a problem
+you could have solved, and may insist you act. Arguing where a question belongs
+is not productive, and being friendly helps avoid it.
 
 
 ## Issue tracker gardening
 
-A problem that results in clutter in the issue tracker is
+A common problem that results in clutter in the issue tracker is
 irreproducibility. Users may be trying to show a legit issue with your project,
-but with not enough information to reproduce it, or to even decide if it is
-indeed a problem with your project. In this case, ask them to provide more
+but without enough information to reproduce it, which makes it hard to decide if
+it is indeed a problem with your project. In this case, ask them to provide more
 information. You might link to
 [yourbugreportneedsmore.info](http://yourbugreportneedsmore.info) for a better
 explanation than what fits in a typical comment.
@@ -98,7 +98,7 @@ type of work as “gardening”]: you regularly pull out the weeds to keep it cl
 
 [refers to this type of work as “gardening”]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener
 
-Precooked responses for everyday interactions is a time saver. Copy & paste a
+Using canned responses for everyday interactions is a time saver. Copy & paste a
 paragraph of text, press a button, and you took good care of an issue. Some
 examples we use:
 
@@ -113,7 +113,7 @@ examples we use:
 >
 > It will get attention from more people than in this issue tracker. Thanks!
 
-Some issues get stale, with not even the requester chiming in it anymore. It’s
+Some issues get stale, with not even the requester replying to your feedback anymore. It’s
 impossible to solve a bug report when there is not enough information, or when there's nobody
 who has seen the problem to answer any question. An example response we use for these cases
 follows:
@@ -133,27 +133,29 @@ projects, uses a browser extension to post pre-cooked answers into issues
 with the single press of a button. You can find the code in [GitHub: Jose vs.
 OSS](https://github.com/nashby/jose-vs-oss).
 
-To an issue with an unclear description you can ask for a spike. If the
-requester implements even part of the needed feature you can now discuss over a
-concrete implementation, description couldn’t get more precise, and you can even
-start working together. Another possibility is that while working on it the
-contributor might find that it’s not a great idea after all and close the issue
-as invalid.
+To an issue with an unclear description another sometimes helpful route to take
+is to ask the requester to put together some quick code to further iterate on
+their issue --this is called a "spike". If the requester implements even part of
+the needed feature you can now have a more valuable discussion over a possible
+implementation, with a description that is as precise as running code is. You
+may even start working together. Another possibility is that while working on
+the spike, the contributor might find that it’s not a great idea after all, and
+close the issue as invalid. This will save both of you valuable time.
 
-If you believe the issue doesn’t describe something good for the project, ask
-further questions and take the time to learn what is being proposed before
+But, if you believe an issue doesn’t describe something good for the project,
+ask further questions and take the time to learn what is being proposed before
 asking for sample code. Otherwise, you run the risk of having to say “no” to
 work you have asked for, potentially wasting time for both parties.
 
 Some questions appear over and over again in the issue tracker. That’s a good sign
 that there is something in your project that should be simpler. Better error
-messages could help, documentation might need more attention, code might need
+messages could help, documentation might need more attention or code might need
 some refactoring. Before disregarding repeated questions with variations of RTFM
 (“read the fucking manual”), ask someone you trust for feedback. Try to take a
 step back and see the project with the eyes of a newcomer. Do you see anything
 that is not clear enough? What could change to lower the odds of a given problem
-from reappearing? Meanwhile, adding the question to an FAQ section you can link
-to later is a good band-aid.
+from reappearing? In the mean time, adding the question to an FAQ section you
+can link to later is a good band-aid.
 
 
 ## How much communication is enough?
@@ -166,31 +168,34 @@ committee whose job is to approve plans for a nuclear power plant spends the
 majority of its time on relatively unimportant but easy-to-grasp issues, such as
 what materials to use for the staff bike shed, while neglecting the less trivial
 proposed design of the nuclear power plant itself, which is far more important
-but also a far more difficult and involved task to criticize constructively.
+but also far more difficult and involved to criticize constructively.
 
 When you see more activity than usual in a discussion over a superficial matter
 (according to a threshold you define), take one decision (even if arbitrary) and
 call it resolved. You will be saving everyone’s time. Everyone’s time but the
-trolls’, that is.
+[trolls]’, that is.
+
+[trolls]: https://en.wikipedia.org/wiki/Internet_troll
 
 **Godwin’s law** states that as an online discussion grows longer (regardless
 of topic or scope), sooner or later someone will compare someone or something to
 Hitler or Nazism. You may find yourself in the unhappy need to quote it.
 
-When it happens, it’s a reliable red flag of a low signal-to-noise ratio. Such an out of the blue comparison
-is the miner’s canary of a conversation that went too far, a good moment to jump
-out. Call the thread finished and whoever mentioned the Nazis automatically
-loses the debate. Link to [the Wikipedia
+When this happens, it’s a reliable red flag of a low signal-to-noise ratio. Such
+an out of the blue comparison is the miner’s canary of a conversation that went
+too far, a good moment to jump out. Call the thread finished and whoever
+mentioned the Nazis automatically loses the debate. Link to [the Wikipedia
 article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun!
 
 
 ## On effective feedback
 
-Awareness of cognitive biases to be most useful while giving and
-receiving feedback in a productive manner, for both the reviewer and the
-reviewed. A [cognitive bias] is a pattern of deviation in judgment from which
-inferences about other people and situations may be drawn in an illogical way.
-Some examples follow:
+Having awareness of our [cognitive biases] is most useful to give and receive
+feedback in a way that feels productive for both the reviewer and the reviewed.
+A cognitive bias is a pattern of deviation in judgment from which inferences
+about other people and situations may be drawn in an illogical way.
+
+Here are some examples:
 
 [Fairness bias] describes our tendency to seek balance. If a
 supplier keeps an open line of communication with an unhappy customer about a
@@ -198,7 +203,7 @@ faulty product, the customer will respond more favorably regardless of the
 outcome. The need to be heard takes precedence over the need for the product
 working correctly.
 
-Fairness bias can be applied to code revision. Framing an idea as a question instead of
+Fairness bias can be applied to code revisions. Framing an idea as a question instead of
 as an assertion makes the contributor feel heard and valued. If we are the
 authors of the code being reviewed, we can harness this effect even before
 conversation starts, by explaining the rationale behind our work beforehand.
@@ -211,7 +216,7 @@ for your rejection helps avoiding a longer discussion on
 whether the patch should or should not be merged, helping authors see more
 objectively the value of their contributions. As a contributor, remember
 that if you were the reviewer or another external party, you would probably be a
-bit more skeptic than you currently are about the value of your patch.
+bit more skeptical than you currently are about the value of your patch.
 
 Daniel Goleman, psychologist, author and science journalist, identifies an
 [online negative bias]: the positive message you wrote
@@ -230,7 +235,7 @@ Raymond’s lesson illustrates the “[Chameleon Effect]” cognitive bias, also
 “unintentional mirroring”, which describes our tendency to take on
 characteristics that have been arbitrarily assigned to us.
 
-[cognitive bias]: https://en.wikipedia.org/wiki/Cognitive_bias
+[cognitive biases]: https://en.wikipedia.org/wiki/Cognitive_bias
 [Fairness bias]: http://www.amazon.com/Sway-Irresistible-Pull-Irrational-Behavior/dp/0385530609
 [Loss aversion]: https://en.wikipedia.org/wiki/Loss_aversion
 [online negative bias]: https://www.youtube.com/watch?v=TBCiSAJ20Wc
@@ -259,7 +264,7 @@ Wrapping up, while giving feedback it’s good to:
 * Start with an appreciation of the work or comment.
 * Ask, don’t tell. Phrase ideas as questions when you are not sure that your
   feedback shows a step in the right direction.
-* Be explicit. Discussions over the wire have less bandwidth than in person and
+* Be explicit. Online discussions have less bandwidth than in person and
   need more context.
 * Try to respond to every question and comment.
 * If you disagree strongly, consider giving it a moment before responding.
@@ -312,5 +317,5 @@ itself should help.
 People’s expectations and needs will be different than what you set for yourself
 and your project. You can try to channel them, and they may intersect. Yet
 sometimes it is best to accept differences, and agree to disagree. At the end of
-the day, we should not worry about things that are out of our control. And
+the day, we should not worry about things that are out of our control. We should
 instead feel good about having contributed valuable software to the world.

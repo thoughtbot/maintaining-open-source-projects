@@ -5,7 +5,7 @@ project, this book is for you. Leading open source projects comes with
 non-technical responsibilities. A project maintainer should feel comfortable
 shaping the community, promoting the library, keeping good communication with
 different people, deciding when to release new versions, and prioritizing
-between all these tasks.
+all these tasks.
 
 Software companies can benefit from the practices that open source teams have
 been doing well for years: thorough code reviews, forthright communication,
@@ -18,9 +18,9 @@ Other kinds of collaborative projects, such as
 [government data](https://github.com/project-open-data),
 [geographical data](https://openmundi.github.io/),
 [media](http://search.creativecommons.org/),
-and others, will find the workflows described here useful as well.
+to name a few, will find the workflows described here useful as well.
 
-Whether you lead open source, agile or other forms of collaborative projects, in
-this book you will find guidelines to make your work more effective. This is
+Whether you lead open source initiatives, agile or other forms of collaborative projects,
+this book will help you make your work more effective. This is
 what we learned about creating, maintaining and growing our open source
 projects.

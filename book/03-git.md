@@ -67,18 +67,18 @@ Such a discovery! You were successful in finding the origin of the change, but
 that doesn’t get you any closer to understanding why that change (and this bug)
 exists.
 
-The author of that change is luckily in the same room as you. In fact, it is you!
+The author of that change is luckily in the same room as you. In fact, it *is you*!
 Having such a close relationship doesn’t help you understand why did the
-programmer find the need to change this past year, and what repercussions it
-has or could have. With such an irrelevant commit message, any reviewer (since the commit
-happened a year ago, and into the future) has to find out what the patch does
+programmer change this last year, or what repercussions it
+could have. With such an irrelevant commit message, any reviewer (since the commit
+has happened many months ago, and into the future) has to find out what the patch does
 and how it affects the software.
 
 A more informative message spares that
-effort for *everyone*. Any commit message can be a potential time sink or serve
+effort for *everyone*. Every commit message can be a potential time sink or serve
 as never-too-verbose documentation. An informative commit message lets anyone
 decide if the solution still applies, and if it’s a good solution to the
-problem at hand or we can find better alternatives.
+problem at hand. Also, it can help determine if it’s possible to find better alternatives.
 Understanding why something happened months or years ago becomes possible and
 efficient.
 
@@ -216,12 +216,12 @@ questions:
 
 * Will you or your team want to maintain it?
 * Will the author be reachable for support, answer questions that the community
-    will have around that feature, fix related bugs?
+    will have around that feature, or fix related bugs?
 * Will you like maintaining that piece of software?
 * Do you see it bringing in more value than cost?
 
 Say “no” when you believe the addition will not be helpful to the
-project, the team maintaining it, and by extension the users.
+project, the team maintaining it, and by extension, the users.
 
 If you internally feel like saying “no” but you can’t find the way to do it,
 remember how leaders of popular open source projects and organizations work:
@@ -242,7 +242,7 @@ They don’t ignore what other people say, they have strong opinions and stand f
 them, and they are open to change those opinions provided relevant facts
 (mostly!).
 
-Creator of Ruby Yukihiro “Matz” Matsumoto is one of the nicest people in this
+Creator of Ruby Yukihiro “Matz” Matsumoto is one of the nicest people on this
 planet. Ruby was unheard of until DHH published Rails. While I try
 to follow Matz’s style, I count with a few noteworthy sources of inspiration for
 when I want to say “no”.

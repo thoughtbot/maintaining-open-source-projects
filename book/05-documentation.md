@@ -131,9 +131,9 @@ software for users and for contributors.
 
 ## News
 
-Imagine a user upgrading your project’s version in their software. They need
-to know what is new. What is changed from version X to Y? What are new
-APIs? How did existing APIs change? What was removed?
+Imagine a user upgrading your project’s version in their software. They need to
+know what is new. What is changed from version X to Y? What are new APIs? How
+did existing APIs change? What was removed?
 
 A NEWS or HISTORY file in the root path for the project lists user-visible
 changes that have been happening and you consider worth mentioning. This is not
@@ -143,8 +143,8 @@ addressed. User facing changes are enough.
 
 [GNU coding standards] suggest adding the relevant changes for each release to
 the top of the file, detailing the version they pertain to, and the date of each
-release. They also advise not to discard old items, so that a user upgrading
-can see what has changed since any previous version.
+release. They also advise not to discard old items, so that a user upgrading can
+see what has changed since any previous version.
 
 [GNU coding standards]: https://www.gnu.org/prep/standards/html_node/NEWS-File.html
 

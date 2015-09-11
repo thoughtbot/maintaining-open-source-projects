@@ -187,29 +187,29 @@ software as a whole more predictable.
 
 ## Run tests on every commit
 
-Running tests before committing to master helps avoid one developer’s work
-breaking another copy of the software. Continuous Integration originally described a
-workflow in which every developer would run all unit tests in their local
-environment and verify they passed before sharing changes.
+Running tests before committing to master helps prevent a developer’s work from
+breaking software. Continuous Integration (CI) is a methodology that originally
+described a workflow in which every developer would run all unit tests in their
+local environment and verify they passed before sharing changes.
 
-Nowadays build servers automatically run all tests after every commit, and
-report results to the authors closing a tight feedback loop. In addition to automated
-tests, CI environments can implement continuous processes for general quality
-control. Such processes run additional static and dynamic tests, measure and
-profile performance, extract and format documentation from the source code, and
-facilitate manual QA processes. This continuous application of quality control
-aims to improve visibility over the project’s quality.
+Nowadays build servers automatically run all tests after every commit and report
+results to the authors, thus in turn closing a tight feedback loop. In addition
+to automated tests, CI environments can implement continuous processes for
+general quality control. Such processes run additional static and dynamic tests,
+measure and profile performance, extract and format documentation from the
+source code, and facilitate manual QA processes. This continuous application of
+quality control aims to improve visibility over the project’s quality.
 
 [Travis CI] is an open-source continuous integration service for projects hosted
-on GitHub. It’s free for open source projects. As other similar services, it
+on GitHub. It’s free for open source projects. Like other similar services, it
 automatically detects new commits in any branch, tries to build the project and
-run its tests. It notifies the developer about the success or failure of the run
-upon completion.
+run tests. It notifies the developer about the success or failure of the these
+tests upon completion.
 
 [Travis CI]: https://travis-ci.com/
 
-Travis CI will test all combinations you specify of runtimes to test against,
-dependency versions, and environment variables.
+Travis CI will test all combinations of runtimes you specify to test against,
+including dependency versions and environment variables.
 
 An example configuration file for a ruby library might be:
 
@@ -234,11 +234,11 @@ gemfile:
 ```
 
 This results in a 3×3×4 build matrix that will validate your project runs in the
-many combinations of rails and ruby version, and database your users may have.
+many combinations of rails and ruby versions, and databases your users may have.
 
 By automating as many quality controls as possible in a CI environment, you will
-make sure there is visibility into the project’s different quality measurements,
-helping your team and community take care of them.
+make sure there is visibility into the project’s different quality measurements.
+This will help your team and community maintain them more efficiently.
 
 
 ## Choose your own priorities

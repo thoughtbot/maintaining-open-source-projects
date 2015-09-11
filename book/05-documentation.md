@@ -3,18 +3,18 @@
 ## Landing page (website or README)
 
 The first interaction new users have with your project is the website or README
-file for your project. Either document acts as the “landing page”, and serve as
-onboarding ramp for users and contributors alike.
+file for your project. Either document acts as the “landing page”, and serves as
+an onboarding ramp for users and contributors alike.
 
 People discovering your software need to learn essential information. In this
-chapter I suggest the creation of many different documents with specific
-pieces of knowledge. Sometimes it makes sense to condense certain documents into the
-README file, sometimes it’s better to keep them separate and link to them from
-your landing page.
+chapter many different documents are covered with specific pieces of knowledge.
+For example, sometimes it makes sense to condense certain documents into the
+README file, while in other instances it’s better to keep them separate and link
+to them from your landing page.
 
-The README file should have content or links for:
+The README file should have content and links for:
 
-* Name and brief description
+* Project name and brief description
 * Mission statement
 * Communication channels
 * Installation instructions
@@ -25,18 +25,20 @@ The README file should have content or links for:
 * License
 * Contributing
 
-The mission statement should be short and precise. You can assume a minimally
-informed reader, given that someone who doesn’t know what key concepts used by your
-project mean probably won’t understand the rest of the document anyway.
-After reading your mission statement users of the library should be well
-informed about how useful will the project be to their problem, helping them take
-the decision of learning more about it or looking for better suited
-alternatives.
+While the Project name is obviously self-explanatory, the subsequent description
+and mission statement should be short and precise. You can assume a minimally
+informed reader (someone who doesn’t know what key concepts used by your project
+mean) probably won’t understand the rest of the document anyway.  After reading
+your mission statement users of the library should be well informed about how
+useful the project might be to their problem, helping them take the decision of
+learning more about it or looking for better suited alternatives.
 
-“README” is a deliberately capitalized filename to make it easy to identify,
-drawing users who might not know where to find documentation to read it. The
-`ls` command lists files according to their ASCII order by default, giving
-relevance to the README over the lowercase filenames in the same directory.
+The reason “README” is a deliberately capitalized filename is to make it easy to
+identify, to draw in users who might not know where to find documentation to
+read it. Also, in Linux/Unix based environments (often found in many development
+environments), the `ls` command lists files according to their ASCII order by
+default, giving relevance to the README over the lowercase filenames in the same
+directory, furthermore making it easier to find.
 
 Three examples of excellent README files to draw inspiration from are:
 
@@ -51,11 +53,11 @@ Three examples of excellent README files to draw inspiration from are:
 [FactoryGirl’s]: https://github.com/thoughtbot/factory_girl
 
 Be aware that sometimes the reason someone is visiting your project’s page is
-that they have a problem. If you know about persistent issues,
-call that out in a section of its own and provide a solution or
-workaround. A great example of one such issue is [capybara-webkit’s]
-dependency upon Qt. Because a rubygem cannot satisfy this dependency, thoughtbot
-have [added a notice] about installation issues to the README.
+that they have a problem. If you know about persistent issues, call that out in
+a section of its own and provide a solution or workaround. A great example of
+one such issue is [capybara-webkit’s] dependency upon Qt. Because a rubygem
+cannot satisfy this dependency, thoughtbot has [added a notice] about
+installation issues to the README.
 
 [capybara-webkit’s]: https://github.com/thoughtbot/capybara-webkit
 [added a notice]: https://github.com/thoughtbot/capybara-webkit#qt-dependency-and-installation-issues

@@ -68,33 +68,31 @@ informative landing page.
 
 ## Overview
 
-Imagine you have found a project that seems good for your goals, and want to see
-in more specific detail if you can make it work, and make some configuration adjustments.
-You will have questions like: “what are the bigger modules for this software?”,
-“how do these pieces interact with each other?”, and “how does this one
-submodule exactly work?”. You don’t yet want to dig deep into the code but
-instead get a more general view of the architecture. These are the type of
-questions the Overview document answers.
+Imagine you've found a project that seems good for your goals, and want to see
+in more specific detail if you can make it work. You decide to make some
+configuration adjustments. You may have questions like: “what are the bigger
+modules for this software?”, “how do these pieces interact with each other?”,
+and “how does this one submodule exactly work?”. You don’t yet want to dig deep
+into the code but instead get a more general view of the architecture. These are
+the type of questions the Overview document answers.
 
 The overview doesn’t need to show every file or subdirectory of your project,
-only the most important concepts.
-Never assume that what one script does,
-or how the files in a directory interact with each other,
-or where to find a piece of code is always clear to a newcomer.
-Making such assumptions makes _you_ the onboarding
-bottleneck, as you will personally need to answer questions, and you will not
-always be as readily available as documents published on the internet.
+only the most important concepts. Never assume that what one script does, how
+the files in a directory interact with each other, or where to find a piece of
+code is always clear to a newcomer. Making such assumptions makes _you_ the
+onboarding bottleneck, as you will personally need to answer questions and you
+will not always be as readily available as documents published on the Internet.
 
-The Overview could start off with a “top level” explanation of the project’s
+An Overview might start off with a “top level” explanation of the project’s
 structure, and nothing more. You can go into detail as you have more
 availability, but a handful of questions that are more frequently asked should
 be enough to start with. As you answer questions in issue trackers or mailing
 lists, you can fill in gaps in your Overview document. The concrete questions
-will motivate you to write this piece of documentation, and they will also guide
+will motivate you to write this piece of documentation and they will also guide
 you through the paths that are in need of more clarification.
 
 If you use other libraries, the Overview document is a good place to link to
-their documentation.
+their documentation as well.
 
 Two good examples of Overview documents:
 

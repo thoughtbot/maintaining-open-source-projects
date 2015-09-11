@@ -174,15 +174,15 @@ that the project:
 * Can be installed and run in its intended environments
 
 Testing cannot establish that a product functions well under any condition, but
-can determine that it does not function properly under specific conditions. A
+it can determine when it doesn't function properly under specific conditions. A
 failing test is the most specific description of an issue a project can get. In
 an ideal world, we would have a failing test accompanying the natural language
 description of every issue.
 
-These tests will in turn serve as regression tests. A regression happens if a
-change has unintended consequences over other parts of the project. Having tests
-covering each bug fix protect us in an automated way from reappearing bugs,
-making the software more predictable.
+These tests serve as regression tests. A regression happens if a change has
+unintended consequences over other parts of the project. Having tests covering
+each bug fix protects us in an automated way from reappearing bugs, making the
+software as a whole more predictable.
 
 
 ## Run tests on every commit

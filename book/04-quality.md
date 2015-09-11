@@ -259,22 +259,22 @@ An (incomplete) list of values one might prioritize are:
 * Performance
 * Cleverness
 
-A prioritization of values you might like in your community can be:
+A prioritization of values you might want in your community could be:
 
 * Collaboration
 * Friendliness
 * Experience
 * Low barrier of entry
 * Stability
-* Numbers (lines of code, commits, etc)
+* Numbers (lines of code, commits, etc.)
 
 <!--
 As a maintainer, each decision you take and each interaction you have with the
 community sets a tone. You might show happiness about certain things, anger or
-indifference about others. Each issue you close, each patch you merge,
-each thread you participate in shows your values, and that will probably grow a
-following of people who share them. See examples of how maintainers set the
-priorities of their projects in these threads:
+indifference about others. Each issue you close, each patch you merge, and each
+thread you participate in shows your values. This in turn attracts a following
+of people who share them. See examples of how maintainers set the priorities of
+their projects in these threads:
 
 * TODO: A Rails thread speaking about conventions
 * TODO: A reactive.js thread speaking about performance

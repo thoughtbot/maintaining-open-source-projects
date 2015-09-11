@@ -217,18 +217,18 @@ brought up in public channels but on private ones, to prevent malicious hackers
 speak more about security considerations in the “Releasing” chapter of this
 book.
 
-GitHub acknowledges the existence of a CONTRIBUTING.md file in
-the root path of the repository, and adds a link to it when a contributor visits
-the form to fill an issue or send a new pull request.
+GitHub acknowledges the existence of a CONTRIBUTING.md file in the root path of
+the repository, and adds a link to it when a contributor visits the form to fill
+an issue or send a new pull request.
 
 You may add whatever you find useful to tell people thinking of contributing to
 your project, before or while they are doing so. For example, the [devise “Bug
 reports” wiki page][devise-bug-reports] goes into great detail on what
-constitutes a bug in their project, and how should it be reported. By asking
-people to be extra sure of the malfunction before they submit the report and
-that they have enough information for maintainers to take action on it, they
-keep the large amounts of issues that get reported routinely better curated,
-helping them keep focus on the most important issues to be addressed.
+constitutes a bug in their project, and how it should be reported. By asking
+people to follow a standard operating procedure before they submit a report,
+they in turn keep the large amounts of issues that they receive better
+organized. This helps them keep focus on the most important issues that they
+need to address.
 
 [devise-bug-reports]: https://github.com/plataformatec/devise/wiki/Bug-reports
 

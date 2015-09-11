@@ -260,35 +260,35 @@ For a great example of a “Releasing” document check the [Rails release docum
 
 ## Wiki
 
-The wiki is a perfect place for an FAQ section for the software. You can start
-it with a mostly blank FAQ template with a few questions and answers, so there
-will be an obvious place for people to contribute questions and answers after
-the project is under way.
+The wiki is a perfect place for a FAQ section for the software. You can start it
+with a mostly blank FAQ template with a few questions and answers, so there will
+be an obvious place for people to contribute questions and answers after the
+project is under way.
 
 As the maintainer you don’t _need_ this documentation, because you already
 understand most of your project, if not every corner of it. It can be difficult
-to see things from a newcomer’s point of view, and describe steps that seem so
-obvious that you might deem unworthy of mention. You will need the users coming
-up with questions, and updating the documentation freely as they see fit. A
-wiki is the perfect implementation of such a protocol.
+to see things from a newcomer’s point of view and describe steps that seem
+obvious and unworthy of mention. When you notice users coming up with questions,
+consider updating the documentation and encouraging other users to do so. One
+answer might help many other users. A wiki is the perfect implementation of this
+protocol.
 
 As a result of its independence and complete freedom to change, it will have
-many different style and ways of writing. Its absolutely open nature leaves room
-for potential vandalism that won’t be immediately visible. It will also probably
-go out of date as you release new versions of the project, because it’s not
-versioned and tested as code is. Make sure the intended audience is clear at all
-times to all editors. Document the wiki guidelines in the wiki itself and point
-people to them.
+many different style and ways of writing. Also, it's worth noting that its
+absolutely open nature leaves room for potential vandalism that won’t be
+immediately visible. It will also probably go out of date as you release new
+versions of the project, because it’s not versioned and tested as code is. Make
+sure the intended audience is clear at all times to all editors. Document the
+wiki guidelines in the wiki itself and point people to them.
 
-You will want to curate it as much as you do
-the code and its documentation, with the frequency that makes the most sense to
-you and your community. Make sure to set the right expectations of relevance for
-the wiki, so users know how much to rely on it, and feel comfortable editing it
-when they know it is not up to date.
+You will want to curate it as much as you do the code and its documentation with
+a frequency that makes the most sense to you and your community. Make sure to
+set the right expectations of relevance for the wiki, so users know how much to
+rely on it, and feel comfortable editing it when they know it isn't up to date.
 
 ---
 
-Technical writing is still writing. As if you were writing an essay or blog
-post, you should strive to grab the attention of your reader early. Don’t make
-your users think more than they need, onboard them instead with a great landing
-page.
+Documentation, a form of technical writing, is still writing. Just as if you
+were writing an essay or blog post, you should strive to grab the attention of
+your reader early on. Don’t make your users think more than they need, onboard
+them instead with a great landing page and subsequent documentation.

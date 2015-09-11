@@ -109,8 +109,8 @@ Two good examples of Overview documents:
 ## Installing
 
 The Installing document details every step needed for the project to run on a
-new computer. It details how to find, install, compile, require,
-import and export its dependencies in the supported environments.
+new computer. It details how to find, install, compile, require, import and
+export its dependencies in the supported environments.
 
 The repository should also contain a scripted version of these details, which
 automates required steps for newcomers. A `Makefile` or a `bin/setup` script
@@ -119,11 +119,11 @@ worked on. Specify right at the beginning how to run this script, so that in no
 time a new user can interact with the software.
 
 Installation instructions are an essential component of documentation for a
-software project, because even people with the intentions, skills and curiosity to
-participate will struggle setting up a project’s dependencies. No matter how
+software project, because even people with the intentions, skills and curiosity
+to participate will struggle setting up a project’s dependencies. No matter how
 much stamina they have to work through technical problems, if they can’t install
-the software, they will be impeded from running, using and applying changes to
-the project.
+the software, they will be blocked from ever running, using and applying changes
+to the project.
 
 Make the setup as easy as you can, lowering the barrier of entry to your
 software for users and for contributors.

@@ -240,7 +240,7 @@ if you would like to ease the onboarding process for newcomers.
 
 Like the “Installing” document, this natural language description of
 the release process for a new version of the project should have an
-accompanying script that executes the steps description.
+accompanying script that executes a stepwise description.
 
 Example steps for releasing a new version for an open source project are:
 

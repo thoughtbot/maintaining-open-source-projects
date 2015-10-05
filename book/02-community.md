@@ -203,10 +203,10 @@ faulty product, the customer will respond more favorably regardless of the
 outcome. The need to be heard takes precedence over the need for the product
 working correctly.
 
-Fairness bias can be applied to code revisions. Framing an idea as a question instead of
+Fairness bias can be applied to code reviews. Framing an idea as a question instead of
 as an assertion makes the contributor feel heard and valued. If we are the
-authors of the code being reviewed, we can harness this effect even before
-conversation starts, by explaining the rationale behind our work beforehand.
+authors of the code being reviewed, we can harness this effect before the
+conversation is even started, by explaining the rationale behind our work beforehand.
 
 [Loss aversion] describes people’s tendency to strongly prefer avoiding losses
 to acquiring gains. More concretely, giving you 5 dollars won’t make you extra

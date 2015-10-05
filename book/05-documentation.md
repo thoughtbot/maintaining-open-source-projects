@@ -3,18 +3,18 @@
 ## Landing page (website or README)
 
 The first interaction new users have with your project is the website or README
-file for your project. Either document acts as the “landing page”, and serve as
-onboarding ramp for users and contributors alike.
+file for your project. Either document acts as the “landing page”, and serves as
+an onboarding ramp for users and contributors alike.
 
 People discovering your software need to learn essential information. In this
-chapter I suggest the creation of many different documents with specific
-pieces of knowledge. Sometimes it makes sense to condense certain documents into the
-README file, sometimes it’s better to keep them separate and link to them from
+chapter many different documents are covered with specific pieces of knowledge.
+Sometimes it makes sense to condense certain documents into the README file,
+while in other cases it’s better to keep them separate and link to them from
 your landing page.
 
 The README file should have content or links for:
 
-* Name and brief description
+* Project name and brief description
 * Mission statement
 * Communication channels
 * Installation instructions
@@ -25,18 +25,19 @@ The README file should have content or links for:
 * License
 * Contributing
 
-The mission statement should be short and precise. You can assume a minimally
-informed reader, given that someone who doesn’t know what key concepts used by your
-project mean probably won’t understand the rest of the document anyway.
-After reading your mission statement users of the library should be well
-informed about how useful will the project be to their problem, helping them take
-the decision of learning more about it or looking for better suited
-alternatives.
+The project name is self-explanatory. The mission statement should be short and
+precise. You can assume a minimally informed reader, because someone who doesn’t
+know what key concepts used by your project mean probably won’t understand the
+rest of the document anyway. After reading your mission statement users of the
+library should be well informed about how useful the project might be to their
+needs, helping them take the decision of learning more about it or looking for
+better suited alternatives.
 
 “README” is a deliberately capitalized filename to make it easy to identify,
-drawing users who might not know where to find documentation to read it. The
-`ls` command lists files according to their ASCII order by default, giving
-relevance to the README over the lowercase filenames in the same directory.
+drawing users who might not know where to find documentation to read it. Also,
+in Linux/Unix based environments, the `ls` command lists files according to
+their ASCII order by default, giving relevance to the README over the lowercase
+names in the same directory.
 
 Three examples of excellent README files to draw inspiration from are:
 
@@ -55,7 +56,7 @@ that they have a problem. If you know about persistent issues,
 call that out in a section of its own and provide a solution or
 workaround. A great example of one such issue is [capybara-webkit’s]
 dependency upon Qt. Because a rubygem cannot satisfy this dependency, thoughtbot
-have [added a notice] about installation issues to the README.
+has [added a notice] about installation issues to the README.
 
 [capybara-webkit’s]: https://github.com/thoughtbot/capybara-webkit
 [added a notice]: https://github.com/thoughtbot/capybara-webkit#qt-dependency-and-installation-issues
@@ -67,32 +68,30 @@ informative landing page.
 ## Overview
 
 Imagine you have found a project that seems good for your goals, and want to see
-in more specific detail if you can make it work, and make some configuration adjustments.
-You will have questions like: “what are the bigger modules for this software?”,
-“how do these pieces interact with each other?”, and “how does this one
-submodule exactly work?”. You don’t yet want to dig deep into the code but
+in more specific detail if you can make it work, and make some configuration
+adjustments. You may have questions like: “what are the bigger modules for this
+software?”, “how do these pieces interact with each other?”, and “how does this
+one submodule exactly work?”. You don’t yet want to dig deep into the code but
 instead get a more general view of the architecture. These are the type of
 questions the Overview document answers.
 
 The overview doesn’t need to show every file or subdirectory of your project,
-only the most important concepts.
-Never assume that what one script does,
-or how the files in a directory interact with each other,
-or where to find a piece of code is always clear to a newcomer.
-Making such assumptions makes _you_ the onboarding
-bottleneck, as you will personally need to answer questions, and you will not
-always be as readily available as documents published on the internet.
+only the most important concepts. Never assume that what one script does, how
+the files in a directory interact with each other, or where to find a piece of
+code is always clear to a newcomer. Making such assumptions makes _you_ the
+onboarding bottleneck, as you will personally need to answer questions, and you
+will not always be as readily available as documents published on the internet.
 
-The Overview could start off with a “top level” explanation of the project’s
-structure, and nothing more. You can go into detail as you have more
+The overview could start off explaining a “top level” explanation of the
+project’s structure, and nothing more. You can go into detail as you have more
 availability, but a handful of questions that are more frequently asked should
 be enough to start with. As you answer questions in issue trackers or mailing
 lists, you can fill in gaps in your Overview document. The concrete questions
 will motivate you to write this piece of documentation, and they will also guide
 you through the paths that are in need of more clarification.
 
-If you use other libraries, the Overview document is a good place to link to
-their documentation.
+If you use other libraries, the overview is a good place to link to their
+documentation as well.
 
 Two good examples of Overview documents:
 
@@ -224,11 +223,11 @@ the form to fill an issue or send a new pull request.
 You may add whatever you find useful to tell people thinking of contributing to
 your project, before or while they are doing so. For example, the [devise “Bug
 reports” wiki page][devise-bug-reports] goes into great detail on what
-constitutes a bug in their project, and how should it be reported. By asking
-people to be extra sure of the malfunction before they submit the report and
-that they have enough information for maintainers to take action on it, they
-keep the large amounts of issues that get reported routinely better curated,
-helping them keep focus on the most important issues to be addressed.
+constitutes a bug in their project, and how it should be reported. By asking
+people to double check it is a malfunction before submitting a report, and that
+they have enough information for maintainers to take action on it, they keep the
+large amounts of issues better curated. This helps them focus on the most
+important issues to be addressed.
 
 [devise-bug-reports]: https://github.com/plataformatec/devise/wiki/Bug-reports
 
@@ -260,17 +259,17 @@ For a great example of a “Releasing” document check the [Rails release docum
 
 ## Wiki
 
-The wiki is a perfect place for an FAQ section for the software. You can start
+The wiki is a perfect place for a FAQ section for the software. You can start
 it with a mostly blank FAQ template with a few questions and answers, so there
 will be an obvious place for people to contribute questions and answers after
 the project is under way.
 
 As the maintainer you don’t _need_ this documentation, because you already
 understand most of your project, if not every corner of it. It can be difficult
-to see things from a newcomer’s point of view, and describe steps that seem so
-obvious that you might deem unworthy of mention. You will need the users coming
-up with questions, and updating the documentation freely as they see fit. A
-wiki is the perfect implementation of such a protocol.
+to see things from a newcomer’s point of view, and describe steps that seem
+obvious and unworthy of mention. You will need the users coming up with their
+questions, and freely updating the documentation as they see fit. A wiki is the
+perfect implementation of such a protocol.
 
 As a result of its independence and complete freedom to change, it will have
 many different style and ways of writing. Its absolutely open nature leaves room
@@ -280,15 +279,15 @@ versioned and tested as code is. Make sure the intended audience is clear at all
 times to all editors. Document the wiki guidelines in the wiki itself and point
 people to them.
 
-You will want to curate it as much as you do
-the code and its documentation, with the frequency that makes the most sense to
-you and your community. Make sure to set the right expectations of relevance for
-the wiki, so users know how much to rely on it, and feel comfortable editing it
-when they know it is not up to date.
+You will want to curate it as much as you do the code and its documentation,
+with a frequency that makes the most sense to you and your community. Make sure
+to set the right expectations of relevance for the wiki, so users know how much
+to rely on it, and feel comfortable editing it when they know it is not up to
+date.
 
 ---
 
 Technical writing is still writing. As if you were writing an essay or blog
-post, you should strive to grab the attention of your reader early. Don’t make
-your users think more than they need, onboard them instead with a great landing
-page.
+post, you should strive to grab the attention of your reader early on. Don’t
+make your users think more than they need, onboard them instead with a great
+landing page and subsequent documentation.

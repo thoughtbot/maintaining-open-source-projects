@@ -1,6 +1,5 @@
 rebuild:
-	clear
-	paperback build
+	docker run --volume $(PWD):/src thoughtbot/paperback build
 
 proof:
 	echo "weasel words: "

@@ -47,6 +47,8 @@ You want to get your project more attention and grow its user base.
 
 ### Building a release
 
+Building requires `paperback` gem, which is not free software yet.
+
 Run `make release`. It will update the release branch with latest build from
 master.
 

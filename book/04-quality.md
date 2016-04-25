@@ -1,4 +1,4 @@
-# Maintaining Quality
+# Maintaining quality
 
 As a maintainer, you spend a significant amount of your open source time doing
 code review. There are two types of feedback you can provide:

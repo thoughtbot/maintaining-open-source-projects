@@ -13,13 +13,13 @@ signal-to-noise ratio, while keeping everyone’s expectations in check.
 
 ## Communication channels
 
-Imagine an open source project where the most recent question remains unanswered
-for weeks in the issue tracker. You think of how else to contact people, but even
-a search for the maintainer’s public profiles finds no activity.
-You find yourself on a dead-end street: nothing is happening,
-and there is no indication that anything will happen soon. You would leave this
-place in search of greener pastures, trying to find another project that, even
-if not as useful for you as this one looks like, has an active community sustaining it.
+Imagine an open source project where the most recent question in the issue
+tracker remains unanswered for weeks. You think of how else to contact people,
+but even a search for the maintainer’s public profiles finds no activity. You
+find yourself on a dead-end street: nothing is happening, and there is no
+indication that anything will happen soon. You would leave this place in search
+of greener pastures, trying to find another project that, even if not as useful
+for you as this one looks like, has an active community sustaining it.
 
 As maintainers, we want to avoid this feeling of abandonment. Communication is
 vital to keep the air fresh, even if to only say “I don’t have the time right now,
@@ -36,7 +36,7 @@ There are different communication channels for different needs:
   concrete improvements to the code.
 * **Wikis** for community-maintained documentation and how-to guides.
 * **Forums and Q&A websites** for answering specific questions users have about
-  usage of the project.
+  the project.
 * **Mailing lists and chat rooms** for general talk.
 
 If any of these channels present little activity, your project can come across
@@ -64,17 +64,16 @@ responding as timely as you used to. How do we respond
 when there is more input than we can go through in a timely fashion?
 
 One of the first causes of a quickly growing inbox is people using the issue
-tracker for questions around implementation details in their software or
-for things that aren’t software bugs. You can avoid this by politely asking
-users to move their messages where they belong, for example to Q&A websites or
-mailing lists.
+tracker for questions around implementation details in their software or for
+things that aren’t software bugs. You can avoid this by politely asking users to
+move their messages, for example to Q&A websites or mailing lists.
 
-It is not always better to move discussions out of the issue tracker though. For example,
-StackOverflow won’t be helpful when you have a small audience. In this case, the
-issue tracker is the right place to ask. A good sign that the project is ready to grow onto
-other platforms is when members of your community organically start responding to issues.
-There’s a better chance that questions in other channels will get
-responses as well.
+It is not always better to move discussions out of the issue tracker though. For
+example, a Q&A website like StackOverflow won’t be helpful when you have a small
+audience. In this case, the issue tracker is the right place to ask. A good sign
+that the project is ready to grow onto other platforms is when members of your
+community organically start responding to issues. There’s a better chance that
+questions in other channels will get responses as well.
 
 By always interacting politely communication tends to flow smoothly. This, in
 turn, increases the chance users will follow your suggestions. On the other
@@ -89,38 +88,35 @@ A common problem that results in clutter in the issue tracker is
 irreproducibility. Users may be trying to show a legit issue with your project,
 but without enough information to reproduce it, which makes it hard to decide if
 it is indeed a problem with your project. In this case, ask them to provide more
-information. You might link to
-[yourbugreportneedsmore.info](http://yourbugreportneedsmore.info) for a better
-explanation than what fits in a typical comment.
+information. You might link to [yourbugreportneedsmore.info] for a curated,
+external explanation around reproducibility.
 
-Steve Klabnik, who helps tend to the Ruby on Rails issue tracker, [refers to this
+[yourbugreportneedsmore.info]: http://yourbugreportneedsmore.info
+
+Steve Klabnik, who helped tend the Ruby on Rails issue tracker, [refers to this
 type of work as “gardening”]: you regularly pull out the weeds to keep it clean.
 
 [refers to this type of work as “gardening”]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener
 
 Using canned responses for everyday interactions is a time saver. Copy & paste a
-paragraph of text, press a button, and you took good care of an issue. Some
-examples we use:
+paragraph of text, press a button, and you took good care of an issue. An
+example we use:
 
-> This question doesn’t belong in this issue tracker, as this is not a problem
-> with factory_girl itself. Please post it in
-> stackoverflow.com/questions/tagged/factory-girl. Closing this issue for now.
-
-> This issue seems specific to your application rather than with
-> factory_girl itself. I suggest you ask about it in:
+> This issue seems specific to your application rather than with factory_girl
+> itself. I suggest you ask about it in:
 >
-> stackoverflow.com/questions/tagged/factory-girl
+> https://stackoverflow.com/questions/tagged/factory-girl
 >
 > It will get attention from more people than in this issue tracker. Thanks!
 
-Some issues get stale, with not even the requester replying to your feedback anymore. It’s
-impossible to solve a bug report when there is not enough information, or when there's nobody
-who has seen the problem to answer any question. An example response we use for these cases
-follows:
+Some issues get stale, with not even the requester replying to your feedback
+anymore. It’s impossible to solve a bug report with not enough information, or
+which has nobody who has seen the problem to answer your questions. In these
+cases we use an example response like:
 
-> Since it’s been two months, I hope things are working well now for you. I’ll
-> close the issue until we can confirm it’s still happening. Happy to continue
-> further discussion.
+> Since it’s been two months, I hope things are working well for you now. I’ll
+> close the issue until we can confirm it’s still happening. I’m happy to
+> continue further discussion whenever needed.
 
 Many people submit very detailed issues. They need only a little encouragement
 to convert their work into a patch.
@@ -128,41 +124,45 @@ to convert their work into a patch.
 > Thanks for reporting. That would be a useful addition to the docs indeed. Can
 > you please send a pull request with your proposed changes? Thanks!
 
-José Valim, maintainer of Devise and Elixir among other successful open source
-projects, uses a browser extension to post pre-cooked answers into issues
-with the single press of a button. You can find the code in [GitHub: Jose vs.
-OSS](https://github.com/nashby/jose-vs-oss).
-
 To an issue with an unclear description another sometimes helpful route to take
 is to ask the requester to put together some quick code to further iterate on
-their issue --this is called a "spike". If the requester implements even part of
-the needed feature you can now have a more valuable discussion over a possible
-implementation, with a description that is as precise as running code is. You
-may even start working together. Another possibility is that while working on
-the spike, the contributor might find that it’s not a great idea after all, and
-close the issue as invalid. This will save both of you valuable time.
+their issue (a [spike]). If the requester implements even part of the needed
+feature you can now have a more valuable discussion over a possible
+implementation, with a description that is as precise as running code is.
+Another possibility is that while working on the spike, the contributor finds
+that it’s not a great idea after all, and closes the issue as invalid. This can
+save you both valuable time.
+
+[spike]: https://en.wikipedia.org/wiki/Spike_(software_development)
 
 But, if you believe an issue doesn’t describe something good for the project,
 ask further questions and take the time to learn what is being proposed before
-asking for sample code. Otherwise, you run the risk of having to say “no” to
-work you have asked for, potentially wasting time for both parties.
+asking for sample code. Otherwise, you run the risk of having to reject work you
+have asked for.
 
-Some questions appear over and over again in the issue tracker. That’s a good sign
-that there is something in your project that should be simpler. Better error
-messages could help, documentation might need more attention or code might need
-some refactoring. Before disregarding repeated questions with variations of RTFM
-(“read the fucking manual”), ask someone you trust for feedback. Try to take a
-step back and see the project with the eyes of a newcomer. Do you see anything
-that is not clear enough? What could change to lower the odds of a given problem
-from reappearing? In the mean time, adding the question to an FAQ section you
-can link to later is a good band-aid.
+A middle ground between no code and a running spike is to ask for a natural
+language test case:
+
+> If you had to describe the kind of test you’d write for this scenario (even
+> in natural language), what would it be?
+
+Another source of clutter in the issue tracker are questions that are asked
+repeatedly. This is a good sign that there is something in your project that
+should be simpler. Better error messages could help, documentation might need
+more attention or code might need some refactoring. Before disregarding repeated
+questions with variations of RTFM (“read the fucking manual”), ask someone you
+trust for feedback. Try to take a step back and see the project as a newcomer
+would. Do you see anything that is not clear enough? What could change to lower
+the odds of a given problem from reappearing? In the mean time, adding the
+question to an FAQ section is a good band-aid, and you can link to it when the
+question is asked again.
 
 
 ## How much communication is enough?
 
 There are two rules to keep in mind during any discussion:
 
-**The bike shed effect** (also called “Parkinson’s law of triviality”) states
+The **bike shed effect** (also called “[Parkinson’s law of triviality]”) states
 that groups give disproportionate weight to trivial issues. For example, a
 committee whose job is to approve plans for a nuclear power plant spends the
 majority of its time on relatively unimportant but easy-to-grasp issues, such as
@@ -170,22 +170,23 @@ what materials to use for the staff bike shed, while neglecting the less trivial
 proposed design of the nuclear power plant itself, which is far more important
 but also far more difficult and involved to criticize constructively.
 
+[Parkinson’s law of triviality]: https://en.wikipedia.org/wiki/Law_of_triviality
+
 When you see more activity than usual in a discussion over a superficial matter
 (according to a threshold you define), take one decision (even if arbitrary) and
-call it resolved. You will be saving everyone’s time. Everyone’s time but the
-[trolls]’, that is.
+call it resolved. You will save everybody’s time.
 
-[trolls]: https://en.wikipedia.org/wiki/Internet_troll
+**Godwin’s law** states that as an online discussion grows longer (regardless of
+topic or scope), sooner or later someone will compare someone or something to
+Hitler or Nazism. You would find yourself in the unhappy need to quote this law
+when this happens.
 
-**Godwin’s law** states that as an online discussion grows longer (regardless
-of topic or scope), sooner or later someone will compare someone or something to
-Hitler or Nazism. You may find yourself in the unhappy need to quote it.
+The miner’s canary of a conversation that went too far and has a low
+signal-to-noise ratio is an out of the blue mention of Nazism. When it happens,
+call the thread finished and whoever mentioned the Nazis automatically loses the
+debate. You can link to [the Wikipedia article] for extra fun!
 
-When this happens, it’s a reliable red flag of a low signal-to-noise ratio. Such
-an out of the blue comparison is the miner’s canary of a conversation that went
-too far, a good moment to jump out. Call the thread finished and whoever
-mentioned the Nazis automatically loses the debate. Link to [the Wikipedia
-article](https://en.wikipedia.org/wiki/Godwin%27s_law) for extra fun!
+[the Wikipedia article]: https://en.wikipedia.org/wiki/Godwin%27s_law
 
 
 ## On effective feedback
@@ -210,13 +211,13 @@ conversation is even started, by explaining the rationale behind our work before
 
 [Loss aversion] describes people’s tendency to strongly prefer avoiding losses
 to acquiring gains. More concretely, giving you 5 dollars won’t make you extra
-happy but if I take $5 from you, you will get upset. Loss aversion relates with saying
-“no” on a patch. As a reviewer, giving a clear explanation of the reasons
-for your rejection helps avoiding a longer discussion on
-whether the patch should or should not be merged, helping authors see more
-objectively the value of their contributions. As a contributor, remember
-that if you were the reviewer or another external party, you would probably be a
-bit more skeptical than you currently are about the value of your patch.
+happy but if $5 are taken from you, you will get upset. Loss aversion relates
+with saying “no” to a patch. As a reviewer, giving a clear explanation of the
+reasons for your rejection helps avoiding a longer discussion on whether the
+patch should or should not be merged, helping authors see more objectively the
+value of their contributions. As a contributor, remember that if you were the
+reviewer or another external party, you would probably be a bit more skeptical
+than you currently are about the value of your patch.
 
 Daniel Goleman, psychologist, author and science journalist, identifies an
 [online negative bias]: the positive message you wrote
@@ -231,9 +232,9 @@ methods, states in its 10th lesson:
 > Treat all your contributors as if they are the most valuable resource, and
 > they will respond by becoming your most valuable resource.
 
-Raymond’s lesson illustrates the “[Chameleon Effect]” cognitive bias, also called
-“unintentional mirroring”, which describes our tendency to take on
-characteristics that have been arbitrarily assigned to us.
+Raymond’s lesson illustrates the “[Chameleon Effect]” cognitive bias, also known
+as “The Pygmalion Effect” and “unintentional mirroring”, which describes our
+tendency to take on characteristics that have been arbitrarily assigned to us.
 
 [cognitive biases]: https://en.wikipedia.org/wiki/Cognitive_bias
 [Fairness bias]: http://www.amazon.com/Sway-Irresistible-Pull-Irrational-Behavior/dp/0385530609
@@ -262,8 +263,8 @@ they are not already.
 Wrapping up, while giving feedback it’s good to:
 
 * Start with an appreciation of the work or comment.
-* Ask, don’t tell. Phrase ideas as questions when you are not sure that your
-  feedback shows a step in the right direction.
+* Phrase ideas as questions when you are not sure that your feedback shows a
+  clear step forward.
 * Be explicit. Online discussions have less bandwidth than in person and
   need more context.
 * Try to respond to every question and comment.
@@ -295,6 +296,8 @@ to burnout and ultimately the abandonment of the project. Some examples:
     People](https://www.youtube.com/watch?v=Q52kFL8zVoM)
 * [Phillip Roberts's blog post: Creation and
     Vulnerability](http://latentflip.com/creation-and-vulnerability/)
+* [Babel.js author describes his
+    burnout](https://medium.com/@sebmck/2015-in-review-51ac7035e272)
 * [Basecamp blog post: Open Source Guilt and
     Passion](https://signalvnoise.com/posts/3349-open-source-guilt-passion)
 
@@ -303,19 +306,18 @@ it. They ultimately rely on you, the project owner. If you put in three more
 hours of work you may save ten people three hours each today, compounding into
 the future, and that potentially makes you feel responsible. An unintended
 regression could directly affect tens of people (or hundreds, or thousands, or
-millions!). People can complain about errors or lack of features in a curt way.
+millions). People can complain about errors or lack of features in a curt way.
 
-In the open source world, nobody owes anything to anyone. If anything, users owe
+In open source nobody owes anything to anyone. If anything, users owe
 maintainers gratitude for publishing something that was and is useful to them.
-Your code is being run in who-knows how many computers and servers, more
-companies are using your software than you can even think of. A mistake today
-doesn’t undo your previous productivity gains, help, and successes. How to manage
-your emotions is indeed not a topic for this book, but it is important to be
+Your code is being run in who-knows how many computers and servers. A mistake
+today doesn’t undo your previous productivity gains, help, and successes. How to
+control emotions is indeed not a topic for this book, but it is important to be
 aware of the feelings that may sprout from leading an OSS project, as that in
 itself should help.
 
 People’s expectations and needs will be different than what you set for yourself
 and your project. You can try to channel them, and they may intersect. Yet
-sometimes it is best to accept differences, and agree to disagree. At the end of
-the day, we should not worry about things that are out of our control. We should
-instead feel good about having contributed valuable software to the world.
+sometimes it is best to accept differences. At the end of the day, we should try
+not worry about things that are out of our control, while keeping in mind that
+we contributed valuable work to fellow humans.

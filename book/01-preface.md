@@ -20,7 +20,10 @@ Other kinds of collaborative projects, such as
 [media](http://search.creativecommons.org/),
 to name a few, will find the workflows described here useful as well.
 
-Whether you lead open source initiatives, agile or other forms of collaborative projects,
-this book will help you make your work more effective. This is
-what we learned about creating, maintaining and growing our open source
-projects.
+Whether you lead open source initiatives, agile or other forms of collaborative
+projects, this book will help you make your work more effective. This is what we
+learned about creating, maintaining and growing our open source projects.
+
+You can find the source of this book in [GitHub].
+
+[GitHub]: https://github.com/thoughtbot/maintaining-open-source-projects

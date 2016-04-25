@@ -24,3 +24,4 @@ release:
 	git push origin release -f
 	zip maintaining-open-source-projects.zip release/*
 	git checkout master
+	echo "Update Gumroad with generated maintaining-open-source-projects.zip"

@@ -19,6 +19,4 @@
 
 <<[07-versioning.md]
 
-<<[08-organization.md]
-
 <<[09-marketing.md]

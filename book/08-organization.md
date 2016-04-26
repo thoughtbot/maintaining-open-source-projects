@@ -1,3 +1,0 @@
-# Team organization
-
-(Upcoming.)

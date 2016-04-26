@@ -28,8 +28,8 @@ will appear.
 
 [conducted experiments]: http://www.sciencemag.org/content/322/5908/1681.abstract
 
-Bram Moolenaar, author and maintainer of the popular text editor called Vim,
-suggests maintainers to set a precedent:
+Bram Moolenaar, author and maintainer of the Vim text editor, suggests
+maintainers to set a precedent:
 
 > Write nice code. Use white space properly, use good names for methods, add
 > comments to explain anything that isn’t obvious, etc. If you write ugly code,
@@ -195,7 +195,7 @@ and profile performance, extract and format documentation from the source code,
 and facilitate manual QA processes. This continuous application of quality
 control aims to improve visibility over the project’s quality.
 
-[Travis CI] is an open-source continuous integration service for projects hosted
+[Travis CI] is an open source continuous integration service for projects hosted
 on GitHub. It’s free for open source projects. Like similar services, it
 automatically detects new commits in any branch, builds the project and runs its
 tests. It notifies the developer about the success or failure of the run upon

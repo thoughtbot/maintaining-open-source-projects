@@ -7,10 +7,10 @@ new developments in the project.
 In systems with many dependencies, releasing new package versions can be
 challenging. When dependency specifications are too tight, version lock might
 happen, the inability to upgrade a package without having to release new
-versions of dependent packages. When dependencies are too loose, more future
-versions might be assumed to be compatible than desired. “Dependency hell”
-happens when version lock or promiscuity prevents a project from moving forward
-safely.
+versions of dependent packages. When dependency specifications are too loose,
+more future versions might be assumed to be compatible than desired. “Dependency
+hell” happens when version lock or promiscuity prevents a project from safely
+moving forward.
 
 Software is often tracked using two different software versioning schemes: an
 internal version number that increments many times in a single day, such as a
@@ -22,17 +22,19 @@ often, such as [Semantic Versioning] or a project code name.
 ## Semantic Versioning
 
 Semantic Versioning (SemVer) is a standard that defines rules for changing
-software version numbers. These rules are intended to minimize the pitfalls of
-version lock and promiscuity. Under this scheme, version numbers and the way
-they change convey meaning about the underlying code and what was modified from
-one version to the next.
+software version numbers, intended to minimize the pitfalls of version lock and
+promiscuity. Under this scheme, version numbers and the way they change convey
+meaning about the underlying code and what was modified from one version to the
+next.
 
 Semantic Versioning uses a three-part number, `MAJOR.MINOR.PATCH`. They are
-incremented according to:
+incremented according to the following rules:
 
-* `MAJOR`, when a change is API incompatible with previous releases
-* `MINOR`, when new functionality is added in a backwards-compatible manner
-* `PATCH`, when changes are backwards-compatible changes and bug fixes
+* `MAJOR` for breaking changes (backward incompatible changes)
+* `MINOR` for new features (backward compatible additions)
+* `PATCH` for bugfixes (backward compatible changes)
+
+A change is backward compatible if it’s API compatible with the last release.
 
 Additional labels for pre-release and build metadata can be used after the
 `PATCH` number.
@@ -63,7 +65,7 @@ problem:
 
 For end user programs, versioning rules don’t matter as much. You might have
 lost track of what version your web browser is. [MAME] doesn't intend to release
-a version 1.0 of their emulator. The argument is that it will never be truly
+a version 1.0 of their emulator, with the argument that it will never be truly
 “finished” because there will always be more arcade games. Version 0.99 was
 followed by version 0.100. After eight years of development, eMule reached
 version 0.50a.
@@ -83,17 +85,17 @@ code itself, so that it can be read by running software. This way, a developer
 using the library can access it dynamically, and write software compatible with
 different versions of your project.
 
-## Preparing a release
+## Publishing a new release
 
 1. Checkout the branch you want to make a release of (typically `master`)
 1. Update the project’s version in the source code and documentation accordingly
 1. Update `NEWS.md` to reflect the changes since the previous release
 1. Commit the changes
-1. Tag the release commit (`git tag -a -s vVERSION`)
+1. Tag the release commit and cryptographically sign the tag (`git tag -a -s vVERSION`)
 1. Publish the release commit and tag (`git push && git push --tags`)
-1. Build a package and publish it
-1. Announce it. Make sure to say "thank you" to all the contributors who have
-   helped with this release.
+1. Build and publish the package (`make build`)
+1. Announce the new release, making sure to say a big “thank you” to
+   contributors who helped with this version.
 
 There is no technical requirement to tag releases, but if you need to refer to
 version 2.2.7 any time from now, it’s easier to use the version number than to
@@ -130,7 +132,7 @@ needed to solve successfully, you might call it ready when you complete such
 steps.
 
 In his [Producing Open Source Software book][producing-oss], Karl Fogel states
-we shouldn’t be afraid of the public scrutiny that comes with an official stable
+we shouldn’t be afraid of the public scrutiny that comes with an official
 release:
 
 [producing-oss]: http://producingoss.com/
@@ -150,27 +152,27 @@ If it’s not so clear for you, a way to gauge when a project is stable is by
 monitoring how others use the code. If you are lucky, users will ask you
 questions about the project, or blog about it. You can do GitHub code searches
 to see real projects using the library, gaining insight into potential API
-changes to better suit your users’ needs.
+changes to better suit users’ needs.
 
 SemVer states that when a library is in major version zero (0.y.z) it’s under
 initial development, and anything may change at any time. The public API is not
-yet stable. If you’re changing the API every day, you should either still be in
+yet stable. If you’re changing the API frequently, you should either still be in
 version 0.y.z or on a separate development branch working on the next major
 release.
 
 Version 1.0.0 denotes a stable public API, and users may write programs that
 depend on that contract. SemVer describes situations in which a project should
-probably reach version 1.0:
+probably be at least on version 1.0:
 
 * Project is used in production
 * Project reached a stable API
 * Maintainers worry about backward compatibility
 
-Documentation should exist for a 1.0 project, but it doesn’t need to be perfect
-quality. You may put off improved documentation, better tests, sample code, a
-logo, and any other nice-to-haves that open source projects often provide until
-whenever you get around to doing it. 1.0 is a statement about the stability of
-the API.
+While 1.0 is a statement about the stability of the API and according to SemVer
+it doesn’t have to do with documentation, good documentation should exist for a
+1.0 project. Strictly speaking you may put off improved documentation, better
+tests, sample code, a logo, and any other features that open source projects
+often provide; those are not required by SemVer for v1.0.
 
 Whatever you are working on, let it see the daylight as soon as you can. Define
 and communicate a concrete goal, and when you achieve it, call it 1.0 and
@@ -183,16 +185,16 @@ when it’s immediately relevant.
 
 The first version of iPhone didn’t have copy and paste functionality. That flow
 wasn’t polished, so Apple didn’t release it: the first iPhone didn’t allow you
-to copy and paste, making sure that everything that went out in that release was
-as good as they could make it.
+to copy and paste. Everything that went out in that release was as good as they
+could make it.
 
 On the other hand, the first Rails version lacked quality in many aspects, but
-it was very relevant. If David Heinemeier Hansson had waited more, we probably
-wouldn’t have Rails as we know it today.
+it was very relevant. If David Heinemeier Hansson had waited for perfection, we
+probably wouldn’t have Rails as we know it today.
 
 Your project might not need to release with any periodicity whatsoever, staying
-mostly stable instead. For example, OpenSSL sees most releases when a security
-vulnerability is fixed.
+mostly stable instead. OpenSSL for example publishes most releases when a
+security vulnerability is fixed.
 
 If you don’t release often though, you might encounter inertia before preparing
 new releases. If this is the case, you might consider [doing it more
@@ -205,10 +207,10 @@ feedback loop between developers and testers or users. With a periodic release
 schedule, contributions are regularly made public.
 
 Pick a reasonable time frame for your project, so that you get a good compromise
-between releasing very often and very slowly (every time you merge a Pull
-Request versus every year, for instance). If you release too often you might
-annoy people when they upgrade; if you do it too infrequently, fixed bugs won’t
-reach the majority of your users.
+between releasing very often and very slowly (every time you add a commit versus
+every year, for instance). If you release too often you might annoy people when
+they upgrade; if you do it too infrequently, fixed bugs won’t reach the majority
+of your users.
 
 Security fixes or bugs that block most people from using the project should be
 released as soon as possible, regardless of schedule.
@@ -218,15 +220,15 @@ a period finishes there is no need to release.
 
 ## Security releases
 
-When you become aware of a vulnerability in a project you maintain, keep it
-private. A vulnerability shouldn't be published until its fix has been released.
+A vulnerability report shouldn't be published until its fix has been released.
+When you get a new report, keep it private.
 
-Before you start fixing the bug, you should request a CVE identifier. You can
-request an id from any of the [CVE Numbering
-Authorities](https://cve.mitre.org/cve/cna.html). CVE stands for "Common
-Vulnerabilities and Exposures". CVE identifiers allow us to talk sanely about
-security issues ("issue CVE-2009-3555" instead of "the OpenSSL vulnerability,
-from like 2009, the DoS one. No, not that one.")
+Before you start fixing the bug, you should request a CVE identifier. CVE stands
+for "Common Vulnerabilities and Exposures". You can request an id from any of
+the [CVE Numbering Authorities](https://cve.mitre.org/cve/cna.html). CVE
+identifiers allow us to more easily talk about security issues: "issue CVE-2009-3555"
+instead of "the OpenSSL vulnerability, from like 2009, the DoS one. No, not that
+one."
 
 CVE allows multiple vendors, products, and customers to track accurately
 security vulnerabilities and make sure they are dealt with. CVE Identifiers are
@@ -301,65 +303,75 @@ granted](https://github.com/RedHatProductSecurity/CVE-HOWTO#distrosvsopenwallorg
 minimizing this period of potentially unknown vulnerability.
 
 After you get the CVE identifier and report, the fix and releases ready,
-publish this information to security lists and users of your library, as
-widely as you’re able to, using any communication channels available to you.
+publish this information to security lists and users of your library as
+widely as you’re able to.
 
 Some examples for Ruby projects:
 
-* oss-security@lists.openwall.com Mailing list.
-* [ruby-security-ann Google Group](https://groups.google.com/forum/#!forum/ruby-security-ann).
+* oss-security@lists.openwall.com mailing list.
+* [ruby-security-ann Google group](https://groups.google.com/forum/#!forum/ruby-security-ann).
 * [ruby-advisory-db GitHub project](https://github.com/rubysec/ruby-advisory-db).
 
 ## Deprecation cycles
 
 Deprecating existing functionality is a normal part of software development and
-is often required to make forward progress. When deprecating part of your
-public API, you should do two things:
+is often required to make forward progress.
 
-1. update your documentation to let users know about the change
-2. publish a new minor release with the deprecation notice in place
-
-Before you completely remove the functionality in a new major version, there
+Before you completely remove the functionality in the next major version, there
 should be at least one minor release that contains the deprecation notice so
 that users can smoothly transition to the new API. Then you can safely change
 the API, and release new versions, numbered as detailed in [Semantic
-Versioning], and avoiding unpleasant surprises to your users.
+Versioning].
+
+When deprecating part of your public API consider:
+
+1. updating your documentation to let users know about the change
+2. publish a new minor release with the deprecation notice in place
 
 ## Quitting as a maintainer
 
 It is natural for the founder of an open-source project to move on to other
-interests. Abandoning the project can be very damaging to the community;
-therefore, if at all possible, the owner should leave the project to new
-maintainers.
+interests. Abandoning the project can be very damaging to the community.
+Whenever possible, the owner should leave the project to new maintainers.
 
-Abandoning an open-source project should be done similarly to how your company
-handles the end of life of any product, to minimally affect its customers.
+Abandoning an open source project should be done similarly to how a company
+handles the end of life of any product, minimally affecting its customers.
 
 When you’d like to let go of a project you maintain, look after someone
 competent in the community who may be willing to take it over. If you
 find someone, it will be beneficial for current users, for your reputation and
 the organization behind the project, and also for the new maintainer.
 
-This step sounds hard, but it comes for free if you create a welcoming
+This step may sound hard, but it comes for free if you create a welcoming
 environment, where new contributors are added to the team as they express
-interest and show sufficient skills, and you are lucky to have found such
-volunteers. Involving outside developers in the running of your project early on
-is healthy for the project and creates a pool of people that you can turn the
-project over to when needed.
+interest and show sufficient skills. Involving outside developers in the running
+of your project early on is healthy for the project and creates a pool of people
+that you can turn the project over to when needed.
 
-In this example, Joe Ferris announced he was looking for new maintainers in the
-form of a [Pull Request to the project](https://github.com/thoughtbot/backbone-support/pull/27).
-Eduardo was watching activity in that project, so he saw the Pull Request and
-stepped up as the new maintainer.
+The [lottery factor] (more dramatically known as the bus factor) of a project is
+the number of team members that can be lost from a project before it collapses
+due to lack of competent people. Bram Moolenaar, maintainer of the Vim text
+editor since 1991, [stated 23 years later] that the community should “keep him
+alive” for the Vim project to succeed in the foreseeable future.
+
+[lottery factor]: https://en.wikipedia.org/wiki/Bus_factor
+[stated 23 years later]: http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/
+
+A better outcome for the health of the project was set in a different example,
+when Joe Ferris announced he was looking for new maintainers for
+`backbone-support` in the form of a [Pull Request to the
+project](https://github.com/thoughtbot/backbone-support/pull/27). Eduardo
+Gutierrez saw the Pull Request and stepped up as new maintainer.
 
 Sometimes you might stop development on a project because it is not relevant
 anymore, for example, because new better tools are available that solve the
-problem for which the project existed. In that case, you can announce the
-reasons it is not maintained anymore in the documentation.
+problem for which your project existed. In that case, you can announce the
+reasons it is not maintained anymore in the documentation, with relevant links
+for current users.
 
-When you find new maintainers, grant them commit access to the repository,
-transfer it to their account, transfer the issue tracker, websites, social media
-accounts, email accounts, package manager credentials so they can release new
-versions, etc. Announce the transfer to your community, leave the community
+When you find new maintainers, give them access to the repository or transfer it
+to their account, and do the same for related websites and services, social
+media and email accounts, grant package manager permissions so they can release
+new versions, etc. Announce the transfer to your community, leave the community
 happily intact, be proud of the work you have been doing and just done, and
-enjoy your time spent in new ventures!
+enjoy the time you will spend on new ventures.

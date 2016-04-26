@@ -221,13 +221,14 @@ commands.
 
 Example steps for releasing a new version for an open source project are:
 
-1. Update version number in the `lib/version` file
-2. Update `NEWS.md` to reflect the changes since last release
-3. Commit changes
-4. Tag the release and cryptographically sign the tag: `git tag -s vVERSION`
-5. Push changes: `git push && git push --tags`
-6. Build and publish the package: `make build`
-7. Announce the new release, making sure to say a big “thank you” to
+1. Checkout the branch you want to make a release of (typically `master`)
+1. Update the project’s version in the source code and documentation accordingly
+1. Update `NEWS.md` to reflect the changes since the previous release
+1. Commit the changes
+1. Tag the release commit and cryptographically sign the tag (`git tag -a -s vVERSION`)
+1. Publish the release commit and tag (`git push && git push --tags`)
+1. Build and publish the package (`make build`)
+1. Announce the new release, making sure to say a big “thank you” to
    contributors who helped with this version.
 
 Ruby on Rails has a great example of a [releasing document].

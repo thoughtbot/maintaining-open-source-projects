@@ -2,11 +2,9 @@
 
 When we produce work, the country’s law gives us rights over our creation. We
 are granted exclusive rights to its use and distribution so that we can receive
-compensation for our “intellectual property”.
-
-Some developers think that code with no license is automatically in the public
-domain. That is not true: under the Berne Convention, which most countries have
-signed, anything written down is automatically copyrighted, including programs.
+compensation for our “intellectual property”. Under the Berne Convention, which
+most countries have signed, anything written down is automatically copyrighted,
+including programs.
 
 Before copyright laws existed, whoever created non-material economic wealth had
 to protect their creations to be able to seize value from them. For example,
@@ -19,13 +17,12 @@ With copyright in place, authors, photographers, programmers, and other
 intellectual workers can publish their creations immediately and wait for
 licensing requests from people who want to use or re-publish their works.
 
-If a piece of software does not carry a license, it is not free software unless
-it has been explicitly and validly placed in the public domain. Free software
+A piece of software that doesn't carry a license is not free software until it
+has been explicitly and validly placed in the public domain. Free software
 developers prefer to explicitly allow the use, modification and redistribution
 of their work so that they benefit from peer review, testing and extensions that
 the emerging community provide. By default, copyright law doesn't allow that,
-and we need to use those very same laws to guarantee this collaborative way of
-development.
+and we need to use those very same laws to guarantee collaborative workflows.
 
 In this chapter we explore the different ways we can allow that.
 
@@ -72,10 +69,10 @@ writings.
 law to offer the right to distribute copies and modified versions of a creation,
 and requiring that the same rights be preserved in modified versions of the
 work. It makes the work freely available to be modified, requiring all modified
-and extended versions to stay free as well.
+and extended versions to remain free as well.
 
 The Free Software Foundation (FSF) quotes four freedoms that a software license
-should respect to be considered “free”:
+should follow to be considered “free”:
 
 * freedom to use the work
 * freedom to study the work
@@ -89,9 +86,9 @@ recipients from reproducing, adapting, or distributing copies of the work. In
 contrast, an author may give every person who receives a copy of some work
 permission to reproduce, adapt or distribute it and require that any resulting
 copies or adaptations are also bound by the same licensing. Using the copyright
-laws to ensure the freedoms are kept is called “Copyleft”.
+laws to ensure these freedoms are kept is called “Copyleft”.
 
-Supporters of Copyleft licenses don’t want to see software they write with the
+Supporters of Copyleft licenses don’t want software they write with the
 intention for its users to be able to study, modify and share it become closed.
 Instead of relying on intrinsic motivation or good will for keeping work and its
 derivatives free, by the use of Copyleft licenses a project retains the right to
@@ -182,7 +179,7 @@ release of the networking code, which had been developed entirely outside AT&T
 and would not be subject to the licensing requirement. This led to Networking
 Release 1 (Net/1), which was made available to non-licensees of AT&T code and
 was freely redistributable under the terms of the original BSD free software
-License. It was released in June 1989.
+license. It was released in June 1989.
 
 A user could release the code modified or unmodified in source or binary form
 with no accounting to Berkeley. The only requirements were that the copyright
@@ -259,8 +256,8 @@ endorsement of a derived work without specific permission.
 
 [advertising clause]: https://www.gnu.org/philosophy/bsd.en.html
 
-This and the following permissive licenses we’ll mention are short enough to be
-quoted verbatim, without the need of our interpretation:
+This and the following permissive licenses we’ll mention are short and clear
+enough to be quoted verbatim:
 
 ```
 Copyright (c) YEAR(S) COPYRIGHT-HOLDERS NAME AND EMAIL ADDRESS
@@ -289,6 +286,10 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
+
+The last paragraph is the warranty disclaimer clause, which repudiates all
+warranties not expressly provided. The software is provided "as-is" with any
+faults, so that licensors are not liable.
 
 
 ### MIT License (X11)
@@ -349,9 +350,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 ## Dual Licensing
 
-Copyleft licenses like GPL are also sometimes used as part of a dual licensing
-business model, whereby owners release the code under a copyleft license, but
-can also sell per-copy exclusive licenses to organizations that want to use or
+Copyleft licenses like GPL can be used as part of a dual licensed business
+model, whereby owners release the code under a copyleft license, but can also
+sell per-copy exclusive licenses to organizations that want to use or
 redistribute the software under proprietary terms.
 
 For software released under a copyleft open source license, such terms would
@@ -363,7 +364,7 @@ incompatible with its open source license.
 
 When implementing dual-licensing, owners should incorporate code contributions
 only from contributors who have signed a [sufficiently strong contributor
-agreement] as to allow them to relicense that contributor’s code.
+agreement] as to be allowed to relicense that contributor’s code.
 
 [sufficiently strong contributor agreement]: http://wiki.civiccommons.org/Contributor_Agreements
 
@@ -377,7 +378,7 @@ other countries have a more rigid approach to copyright licenses. There is no
 telling what courts in those countries might decide an informal statement means,
 or if it is a license at all.
 
-Two examples that state the same with opposing language:
+An example follows:
 
 ### [Do What the Fuck You Want to Public License](http://www.wtfpl.net/about/)
 
@@ -397,23 +398,7 @@ Two examples that state the same with opposing language:
   0. You just DO WHAT THE FUCK YOU WANT TO.
 ```
 
+There is suggested copy in the [FAQ] for a no warranty clause that should be
+added for software.
 
-### [THE HUGWARE LICENSE](http://hugware.org/)
-
-```
-THE HUGWARE LICENSE
-
-LICENSE
-
-If there is no other license you can do whatever you want with this while you
-retain the attribution to the author.
-
-HUGS
-
-The author spent time to make this software so please show some gratitude,
-in any
-form. A hug, a tweet, a beer on a conference or just a plain old email. Your
-choice.
-
-Less hate, more hugs.
-```
+[FAQ]: http://www.wtfpl.net/faq/

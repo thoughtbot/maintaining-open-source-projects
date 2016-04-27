@@ -223,12 +223,11 @@ a period finishes there is no need to release.
 A vulnerability report shouldn't be published until its fix has been released.
 When you get a new report, keep it private.
 
-Before you start fixing the bug, you should request a CVE identifier. CVE stands
-for "Common Vulnerabilities and Exposures". You can request an id from any of
-the [CVE Numbering Authorities](https://cve.mitre.org/cve/cna.html). CVE
-identifiers allow us to more easily talk about security issues: "issue CVE-2009-3555"
-instead of "the OpenSSL vulnerability, from like 2009, the DoS one. No, not that
-one."
+Before you start fixing the bug, you should request a Common Vulnerabilities and
+Exposures (CVE) identifier. You can request an id from any of the [CVE Numbering
+Authorities](https://cve.mitre.org/cve/cna.html). CVE identifiers allow us to
+more easily talk about security issues: "issue CVE-2009-3555" instead of "the
+OpenSSL vulnerability, from like 2009, the DoS one. No, not that one."
 
 CVE allows multiple vendors, products, and customers to track accurately
 security vulnerabilities and make sure they are dealt with. CVE Identifiers are

@@ -266,6 +266,13 @@ date.
 
 ---
 
+In any piece of documentation in your project there shouldn’t be words like
+obviously, basically, simply, easy, etc. In the case where it’s not obvious they
+might trigger feelings of vulnerability (“why didn’t I already know this?”). And
+in the case where it was indeed a known fact, the word doesn’t add any
+information, and we can use less words to convey the same message, resulting in
+a stronger sentence.
+
 Technical writing is still writing. As if you were writing an essay or blog
 post, you should strive to grab the attention of your reader early on. Don’t
 make your users think more than they need, onboard them instead with a great

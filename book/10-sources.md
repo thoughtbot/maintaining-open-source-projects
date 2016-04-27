@@ -7,6 +7,7 @@ Sources that we reviewed while writing this book.
 * http://robots.thoughtbot.com/inbox-zero-github-issues-edition
 * http://robots.thoughtbot.com/moving-open-source-project-mailing-lists-to-stack-overflow
 * http://srawlins.ruhoh.com/checklist-for-the-benevolent-open-source-maintainer/
+* http://www.codesimplicity.com/post/open-source-community-simplified/
 * Avoiding Burnout, and Other Essentials of Open Source Self-Care — Kathleen
     Danielson https://vimeo.com/106232256
 
@@ -20,6 +21,7 @@ Sources that we reviewed while writing this book.
 
 * http://calebthompson.io/how-to-write-a-readme/
 * http://robots.thoughtbot.com/how-to-write-a-great-readme
+* http://css-tricks.com/words-avoid-educational-writing/
 
 ## Licenses
 
@@ -64,14 +66,12 @@ Sources that we reviewed while writing this book.
 
 ## General
 
-* http://css-tricks.com/words-avoid-educational-writing/
+* https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code/
 
 ## TODO: To review
 
 ### Blog posts
 
-* http://www.codesimplicity.com/post/open-source-community-simplified/
-* https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code/
 * http://www.drdobbs.com/open-source/building-and-maintaining-an-open-source/240168415
 * See references in https://speakerdeck.com/bf4/maintaining-open-source-projects-1
 * http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/

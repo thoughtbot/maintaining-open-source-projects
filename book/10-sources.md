@@ -62,11 +62,6 @@ Sources that we reviewed while writing this book.
 * https://github.com/jashkenas/underscore/issues/1805
 * https://programmers.stackexchange.com/questions/255404/how-to-use-github-branches-and-automatic-releases-for-version-management
 
-## Organization
-
-* http://www.confreaks.com/videos/3383-railsconf-building-an-oss-centric-company-and-why-you-want-to
-* http://confreaks.com/videos/4823-RubyConf2014-the-social-coding-contract
-
 ## General
 
 * http://css-tricks.com/words-avoid-educational-writing/

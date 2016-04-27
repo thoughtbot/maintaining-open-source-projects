@@ -18,3 +18,5 @@
 <<[06-licenses.md]
 
 <<[07-versioning.md]
+
+<<[10-sources.md]

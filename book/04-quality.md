@@ -261,15 +261,17 @@ A prioritization of values you might want for your community can be:
 * Numbers (lines of written code, commits added, etc.)
 
 <!--
+TODO: On culture
+
 Each issue you close, each patch you merge, each thread you participate in shows
 your values, and that will probably grow a following of people who share them.
 See example threads in which maintainers set priorities for their projects:
 
-* TODO: A Rails thread speaking about conventions
-* TODO: A reactive.js thread speaking about performance
-* TODO: A GNU thread speaking about licenses
-* TODO: A FreeBSD thread enforcing code correctness or simplicity
-* TODO: An OpenBSD thread on security of different implementations
+* A Rails thread speaking about conventions
+* A reactive.js thread speaking about performance
+* A GNU thread speaking about licenses
+* A FreeBSD thread enforcing code correctness or simplicity
+* An OpenBSD thread on security of different implementations
 -->
 
 A developer will like it if the object model is close to real world domain

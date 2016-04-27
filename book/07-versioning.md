@@ -108,7 +108,7 @@ in GitHub][releasing].
 
 [releasing]: https://github.com/thoughtbot/templates/blob/master/RELEASING.md
 
-### Maintenance releases
+## Maintenance releases
 
 You can maintain diverging major versions of your project and release them
 independently by keeping as many release branches as versions you need to keep

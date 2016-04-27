@@ -1,6 +1,6 @@
 # Resources
 
-## Community
+**Community**
 
 * http://ben.balter.com/2015/03/17/open-source-best-practices-external-engagement/
 * http://robots.thoughtbot.com/inbox-zero-github-issues-edition
@@ -13,19 +13,19 @@
     Danielson https://vimeo.com/106232256
 * IO.js (ex Node.js), and on being a dictator vs GNU-open: http://thechangelog.com/139/
 
-## Git
+**Git**
 
 * http://rakeroutes.com/blog/deliberate-git
 * http://who-t.blogspot.de/2009/12/on-commit-messages.html
 * https://stackoverflow.com/questions/6543913/git-commit-best-practices
 
-## Documentation
+**Documentation**
 
 * http://calebthompson.io/how-to-write-a-readme/
 * http://css-tricks.com/words-avoid-educational-writing/
 * http://robots.thoughtbot.com/how-to-write-a-great-readme
 
-## Licenses
+**Licenses**
 
 * https://en.wikipedia.org/wiki/Berkeley_Software_Distribution
 * https://en.wikipedia.org/wiki/Copyleft
@@ -52,7 +52,7 @@
 * http://www.kuro5hin.org/?op=displaystory;sid=2001/6/19/05641/7357
 * http://www.linuxjournal.com/article/5935
 
-## Versioning
+**Versioning**
 
 * http://2ndscale.com/rtomayko/2012/adopt-an-open-source-process-constraints
 * http://gilesbowkett.blogspot.com/2015/01/versioning-is-nuanced-social-fiction.html?m=1
@@ -67,7 +67,7 @@
 * https://github.com/jashkenas/underscore/issues/1805
 * https://programmers.stackexchange.com/questions/255404/how-to-use-github-branches-and-automatic-releases-for-version-management
 
-## Others
+**Others**
 
 * http://confreaks.tv/videos/rubyconf2013-maintaining-sanity
 * https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code/

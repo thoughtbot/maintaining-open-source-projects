@@ -19,4 +19,6 @@
 
 <<[07-versioning.md]
 
+<<[08-conclusion.md]
+
 <<[10-sources.md]

@@ -18,5 +18,3 @@
 <<[06-licenses.md]
 
 <<[07-versioning.md]
-
-<<[09-marketing.md]

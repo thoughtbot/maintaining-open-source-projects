@@ -1,6 +1,6 @@
 # Community
 
-An active community is the most valuable asset for an open source project. But
+An diverse community is the most valuable asset for an open source project. But
 like the code itself, it can also be one of its biggest liabilities. A community
 that grows quickly can get out of hand, making it harder for you to stay
 organized and keep up with. Questions and feature requests will begin queueing
@@ -156,7 +156,7 @@ would. Do you see anything that is not clear enough? What could change to lower
 the odds of a given problem from reappearing? In the mean time, adding the
 question to an FAQ section is a good band-aid, and you can link to it when the
 question is asked again.
-
+COMMENT: horseshhit
 
 ## How much communication is enough?
 

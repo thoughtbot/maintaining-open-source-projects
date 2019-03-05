@@ -20,7 +20,7 @@ the iceberg, which we'll thoroughly dissect with this book.
 Any person or company that is a maintainer of an open source project, or is
 considering becoming one, should read this book.
 
-If have a public repository, and someone you don't know is using it, you will
+If you have a public repository, and someone you don't know is using it, you will
 find this book useful.
 
 Managers or company owners who apply or want to apply open source practices in
@@ -32,8 +32,8 @@ Your project may have a following and you don't know how to communicate with it,
 prioritize their requests, how and when to answer questions.
 
 You want to learn the communication patterns that make it possible for large
-and popular Open Source projects to move forward, while your 5-people team can't
-come to agreement on things like how to name a variable.
+and popular Open Source projects to move forward, while your 5-person team can't
+come to agree on things like how to name a variable.
 
 You want to make sure your bar is high enough for providing a reliable project
 to your following.

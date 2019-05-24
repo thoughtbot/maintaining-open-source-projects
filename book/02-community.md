@@ -88,10 +88,10 @@ A common problem that results in clutter in the issue tracker is
 irreproducibility. Users may be trying to show a legit issue with your project,
 but without enough information to reproduce it, which makes it hard to decide if
 it is indeed a problem with your project. In this case, ask them to provide more
-information. You might link to [yourbugreportneedsmore.info] for a curated,
+information. You might link to [bug report writing guidelines] for a curated,
 external explanation around reproducibility.
 
-[yourbugreportneedsmore.info]: http://yourbugreportneedsmore.info
+[bug report writing guidelines]: https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines
 
 Steve Klabnik, who helped tend the Ruby on Rails issue tracker, [refers to this
 type of work as “gardening”]: you regularly pull out the weeds to keep it clean.
